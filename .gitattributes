@@ -1,0 +1,5 @@
+*.md linguist-language=Go
+
+*.html linguist-vendored
+*.py linguist-vendored
+CommitAndPush linguist-vendored
