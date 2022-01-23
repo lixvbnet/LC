@@ -1,0 +1,32 @@
+#!/bin/bash
+cd "$(dirname ${BASH_SOURCE[0]})"
+
+echo Pulling updates from remote
+git pull
+echo
+
+read -p "Press Enter to continue, any other input to abort: " input
+if [ ! -z $input ]; then
+	echo "Aborted"
+	exit
+fi
+
+python3 generateMenu.py
+echo
+
+git status
+echo
+
+# Continue?
+read -p "Commit & Push? [Y/n] " input
+case $input in
+    ""|[yY][eE][sS]|[yY])
+		git add .
+		git commit -m "-"
+		git push
+		;;
+
+    *)
+		echo "Cancelled"
+       		;;
+esac

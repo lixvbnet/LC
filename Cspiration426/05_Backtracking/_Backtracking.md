@@ -1,0 +1,20 @@
+# Backtracking (19)
+- [ ] 78 [Subsets](https://leetcode.com/problems/subsets/description/)
+- [ ] 90 [Subsets II](https://leetcode.com/problems/subsets-ii/description/)
+- [ ] 77 [Combinations](https://leetcode.com/problems/combinations/description/)
+- [ ] 39 [Combination Sum](https://leetcode.com/problems/combination-sum/description/)
+- [ ] 40 [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+- [ ] 216 [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
+- [ ] 377 [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)	【Dynamic Programming】
+- [ ] 254 [Factor Combinations](https://leetcode.com/problems/factor-combinations/description/)
+- [ ] 46 [Permutations](https://leetcode.com/problems/permutations/description/)
+- [ ] 47 [Permutations II](https://leetcode.com/problems/permutations-ii/description/)
+- [ ] 31 [Next Permutation](https://leetcode.com/problems/next-permutation/description/)	【String】
+- [ ] 60 [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)	【String】
+- [ ] 291 [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/description/)
+- [ ] 17 [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
+- [ ] 320 [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/description/)
+- [ ] 93 [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)	【很少考】
+- [ ] 282 [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)
+- [ ] 140 [Word Break II](https://leetcode.com/problems/word-break-ii/description/)
+- [ ] 351 [Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/description/)

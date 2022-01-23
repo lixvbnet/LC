@@ -1,0 +1,47 @@
+# Math (43)
+
+## 基础
+- [ ] 7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+- [ ] 165 [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)
+- [ ] 66 [Plus One](https://leetcode.com/problems/plus-one/description/)
+- [ ] 8 [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
+- [ ] 258 [Add Digits](https://leetcode.com/problems/add-digits/description/)
+- [ ] 67 [Add Binary](https://leetcode.com/problems/add-binary/description/)
+- [ ] 43 [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
+- [ ] 29 [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)
+- [ ] 69 [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
+- [ ] 50 [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
+- [ ] 367 [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)
+- [ ] 365 [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)
+- [ ] 204 [Count Primes](https://leetcode.com/problems/count-primes/description/)
+
+## Sum
+- [ ] 1 [Two Sum](https://leetcode.com/problems/two-sum/description/)
+- [ ] 167 [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+- [ ] 15 [3Sum](https://leetcode.com/problems/3sum/description/)
+- [ ] 16 [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)	【很少考】
+- [ ] 259 [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/)	【很少考】
+- [ ] 18 [4Sum](https://leetcode.com/problems/4sum/description/)
+
+## 很少考
+- [ ] 231 [Power of Two](https://leetcode.com/problems/power-of-two/description/)
+- [ ] 326 [Power of Three](https://leetcode.com/problems/power-of-three/description/)
+- [ ] 342 [Power of Four](https://leetcode.com/problems/power-of-four/description/)
+- [ ] 372 [Super Pow](https://leetcode.com/problems/super-pow/description/)
+- [ ] 233 [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/description/)
+- [ ] 319 [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)
+- [ ] 292 [Nim Game](https://leetcode.com/problems/nim-game/description/)
+- [ ] 202 [Happy Number](https://leetcode.com/problems/happy-number/description/)
+- [ ] 400 [Nth Digit](https://leetcode.com/problems/nth-digit/description/)
+- [ ] 263 [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
+- [ ] 264 [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)
+- [ ] 306 [Additive Number](https://leetcode.com/problems/additive-number/description/)
+- [ ] 172 [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
+- [ ] 343 [Integer Break](https://leetcode.com/problems/integer-break/description/)
+- [ ] 396 [Rotate Function](https://leetcode.com/problems/rotate-function/description/)
+- [ ] 390 [Elimination Game](https://leetcode.com/problems/elimination-game/description/)
+- [ ] 386 [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)
+- [ ] 357 [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
+- [ ] 360 [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/description/)
+- [ ] 397 [Integer Replacement](https://leetcode.com/problems/integer-replacement/description/)
+- [ ] 368 [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)

@@ -1,0 +1,3 @@
+# LC
+
+LeetCode Practice.
