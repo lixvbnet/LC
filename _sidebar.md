@@ -1,64 +1,68 @@
 * [**Home**](/)
 
-* Blind75
-    - [_LC75](./Blind75/_LC75.md)
+* Checklists
 
-* Cspiration426
+    * Blind75
+        - [_BlindLC75](./Checklists/Blind75/_BlindLC75.md)
 
-    * 01_Array
-        - [_Array](./Cspiration426/01_Array/_Array.md)
+    * Cspiration426
 
-    * 02_String
-        - [_String](./Cspiration426/02_String/_String.md)
+        * 01_Array
+            - [_Array](./Checklists/Cspiration426/01_Array/_Array.md)
 
-    * 03_Math
-        - [_Math](./Cspiration426/03_Math/_Math.md)
+        * 02_String
+            - [_String](./Checklists/Cspiration426/02_String/_String.md)
 
-    * 04_Tree
-        - [_Tree](./Cspiration426/04_Tree/_Tree.md)
+        * 03_Math
+            - [_Math](./Checklists/Cspiration426/03_Math/_Math.md)
 
-    * 05_Backtracking
-        - [_Backtracking](./Cspiration426/05_Backtracking/_Backtracking.md)
+        * 04_Tree
+            - [_Tree](./Checklists/Cspiration426/04_Tree/_Tree.md)
 
-    * 06_DynamicProgramming
-        - [_DynamicProgramming](./Cspiration426/06_DynamicProgramming/_DynamicProgramming.md)
+        * 05_Backtracking
+            - [_Backtracking](./Checklists/Cspiration426/05_Backtracking/_Backtracking.md)
 
-    * 07_LinkedList
-        - [_LinkedList](./Cspiration426/07_LinkedList/_LinkedList.md)
+        * 06_DynamicProgramming
+            - [_DynamicProgramming](./Checklists/Cspiration426/06_DynamicProgramming/_DynamicProgramming.md)
 
-    * 08_BinarySearch
-        - [_BinarySearch](./Cspiration426/08_BinarySearch/_BinarySearch.md)
+        * 07_LinkedList
+            - [_LinkedList](./Checklists/Cspiration426/07_LinkedList/_LinkedList.md)
 
-    * 09_Matrix
-        - [_Matrix](./Cspiration426/09_Matrix/_Matrix.md)
+        * 08_BinarySearch
+            - [_BinarySearch](./Checklists/Cspiration426/08_BinarySearch/_BinarySearch.md)
 
-    * 10_DFSBFS
-        - [_DFSBFS](./Cspiration426/10_DFSBFS/_DFSBFS.md)
+        * 09_Matrix
+            - [_Matrix](./Checklists/Cspiration426/09_Matrix/_Matrix.md)
 
-    * 11_StackPriorityQueue
-        - [_StackPriorityQueue](./Cspiration426/11_StackPriorityQueue/_StackPriorityQueue.md)
+        * 10_DFSBFS
+            - [_DFSBFS](./Checklists/Cspiration426/10_DFSBFS/_DFSBFS.md)
 
-    * 12_BitManipulation
-        - [_BitManipulation](./Cspiration426/12_BitManipulation/_BitManipulation.md)
+        * 11_StackPriorityQueue
+            - [_StackPriorityQueue](./Checklists/Cspiration426/11_StackPriorityQueue/_StackPriorityQueue.md)
 
-    * 13_TopologicalSort
-        - [_TopologicalSort](./Cspiration426/13_TopologicalSort/_TopologicalSort.md)
+        * 12_BitManipulation
+            - [_BitManipulation](./Checklists/Cspiration426/12_BitManipulation/_BitManipulation.md)
 
-    * 14_Random
-        - [_Random](./Cspiration426/14_Random/_Random.md)
+        * 13_TopologicalSort
+            - [_TopologicalSort](./Checklists/Cspiration426/13_TopologicalSort/_TopologicalSort.md)
 
-    * 15_Graph
-        - [_Graph](./Cspiration426/15_Graph/_Graph.md)
+        * 14_Random
+            - [_Random](./Checklists/Cspiration426/14_Random/_Random.md)
 
-    * 16_UnionFind
-        - [_UnionFind](./Cspiration426/16_UnionFind/_UnionFind.md)
+        * 15_Graph
+            - [_Graph](./Checklists/Cspiration426/15_Graph/_Graph.md)
 
-    * 17_Trie
-        - [_Trie](./Cspiration426/17_Trie/_Trie.md)
+        * 16_UnionFind
+            - [_UnionFind](./Checklists/Cspiration426/16_UnionFind/_UnionFind.md)
 
-    * 18_Design
-        - [_Design](./Cspiration426/18_Design/_Design.md)
-    - [_Cspiration](./Cspiration426/_Cspiration.md)
+        * 17_Trie
+            - [_Trie](./Checklists/Cspiration426/17_Trie/_Trie.md)
+
+        * 18_Design
+            - [_Design](./Checklists/Cspiration426/18_Design/_Design.md)
+        - [_Cspiration](./Checklists/Cspiration426/_Cspiration.md)
+
+* LeetCode
 
 * Playground
     - [StackAndQueue](./Playground/StackAndQueue.md)
