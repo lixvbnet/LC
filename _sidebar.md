@@ -63,6 +63,7 @@
         - [_Cspiration](./Checklists/Cspiration426/_Cspiration.md)
 
 * LeetCode
+    - [1.TwoSum](./LeetCode/1.TwoSum.md)
 
 * Playground
     - [StackAndQueue](./Playground/StackAndQueue.md)
