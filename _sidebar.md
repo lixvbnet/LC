@@ -64,6 +64,7 @@
 
 * LeetCode
     - [1.TwoSum](./LeetCode/1.TwoSum.md)
+    - [167.TwoSumII-InputArrayIsSorted](./LeetCode/167.TwoSumII-InputArrayIsSorted.md)
 
 * Playground
     - [StackAndQueue](./Playground/StackAndQueue.md)
