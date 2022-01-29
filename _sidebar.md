@@ -69,6 +69,7 @@
     - [123.BestTimetoBuyandSellStockIII](./LeetCode/123.BestTimetoBuyandSellStockIII.md)
     - [15.3Sum](./LeetCode/15.3Sum.md)
     - [167.TwoSumII-InputArrayIsSorted](./LeetCode/167.TwoSumII-InputArrayIsSorted.md)
+    - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
 
 * Playground
     - [StackAndQueue](./Playground/StackAndQueue.md)
