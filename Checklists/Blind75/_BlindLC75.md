@@ -28,13 +28,11 @@
 
 ## Binary Search
 
-**Basics** 
-
 - [x] [704. Binary Search](https://leetcode.com/problems/binary-search/) 
 
 **Template 1** 
 
-- [ ] [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
+- [x] [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
 - [ ] [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 
 - [ ] [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) 
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
