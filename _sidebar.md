@@ -74,6 +74,7 @@
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
+    - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
 
 * Playground
