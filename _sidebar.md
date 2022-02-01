@@ -69,6 +69,7 @@
     - [123.BestTimetoBuyandSellStockIII](./LeetCode/123.BestTimetoBuyandSellStockIII.md)
     - [15.3Sum](./LeetCode/15.3Sum.md)
     - [152.MaximumProductSubarray](./LeetCode/152.MaximumProductSubarray.md)
+    - [153.FindMinimuminRotatedSortedArray](./LeetCode/153.FindMinimuminRotatedSortedArray.md)
     - [167.TwoSumII-InputArrayIsSorted](./LeetCode/167.TwoSumII-InputArrayIsSorted.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
