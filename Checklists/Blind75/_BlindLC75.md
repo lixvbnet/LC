@@ -23,14 +23,37 @@
 - [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
+- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+
+## Binary Search
+
+**Basics** 
+
+- [x] [704. Binary Search](https://leetcode.com/problems/binary-search/) 
+
+**Template 1** 
+
+- [ ] [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
+- [ ] [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 
+- [ ] [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) 
+- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+
+**Template 2** 
+
+- [ ] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) 
+- [ ] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) 
+- [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
+
+**Template 3** 
+
+- [ ] [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) 
+- [ ] [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) 
+- [ ] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) 
 
 ---
 
-## Binary
+## Bit Manipulation
 
 - [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 - [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
