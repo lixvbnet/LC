@@ -73,6 +73,7 @@
     - [167.TwoSumII-InputArrayIsSorted](./LeetCode/167.TwoSumII-InputArrayIsSorted.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
+    - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)

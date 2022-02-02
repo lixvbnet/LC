@@ -34,7 +34,7 @@
 
 - [x] [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
 - [x] [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 
-- [ ] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+- [x] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
 
 **Template 2** 
 
