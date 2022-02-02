@@ -17,7 +17,8 @@
 
 **Distinguishing Syntax:** 
 
-> - Initial Condition:` left = 0, right = n-1`
+> - Initial Condition: ` left = 0, right = n-1` 
+> - Loop Condition: `left <= right` 
 > - Termination: `left > right`
 > - Searching Left: `right = mid-1`
 > - Searching Right: `left = mid+1`
@@ -28,11 +29,13 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{-1, 2, 5, 8, 10, 12, 15}
+	nums := []int{2, 3, 5, 8, 10, 12, 15}
 	for _, v := range nums {
 		fmt.Printf("index of %2d: %2d\n", v, binarySearch(nums, v))
 	}
-	fmt.Printf("index of %2d: %2d\n", 9, binarySearch(nums, 9))
+	for _, v := range []int{-2, 9, 20} {
+		fmt.Printf("index of %2d: %2d\n", v, binarySearch(nums, v))
+	}
 }
 
 func binarySearch(nums []int, target int) int {
@@ -56,14 +59,16 @@ func binarySearch(nums []int, target int) int {
 Output
 
 ```
-index of -1:  0
-index of  2:  1
+index of  2:  0
+index of  3:  1
 index of  5:  2
 index of  8:  3
 index of 10:  4
 index of 12:  5
 index of 15:  6
+index of -2: -1
 index of  9: -1
+index of 20: -1
 ```
 
 
@@ -78,11 +83,33 @@ index of  9: -1
 > - Search Condition needs to access the element's immediate right neighbor
 > - Use the element's right neighbor to determine if the condition is met and decide whether to go left or right
 > - Guarantees Search Space is at least 2 in size at each step
-> - Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
+> - Correct the cited page: ==Post-processing is **unnecessary!**== (Because the `target` would have been returned before it reaches the end condition `left == right`. i.e., reaching end condition <=> target not found.)
 
 **Distinguishing Syntax:** 
 
-> - Initial Condition: `left = 0, right = length`
+> - Initial Condition: `left = 0, right = length` 
+> - Loop Condition: `left < right` 
 > - Termination: `left == right`
 > - Searching Left: `right = mid`
-> - Searching Right: `left = mid+1`
+> - Searching Right: `left = mid+1` 
+
+```go
+func binarySearch(nums []int, target int) int {
+	l, r := 0, len(nums)
+	for l < r {
+		// Prevent (l + r) overflow
+		m := l + (r - l) / 2
+		if nums[m] == target {
+			return m
+		} else if nums[m] < target {
+			l = m + 1
+		} else {
+			r = m
+		}
+	}
+	// End Condition: l == r
+	return -1
+}
+```
+
+> ⚠️ Notice the initial value of `r` is `len(nums)` and the searching left operation is `r = m`, then the loop condition must be `l < r`. (Consider case: `A=[5], target=3` )
