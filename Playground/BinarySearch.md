@@ -1,6 +1,6 @@
 # Binary Search
 
-> [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) 
+> [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) ***updated here.*** 
 
 
 
@@ -113,3 +113,6 @@ func binarySearch(nums []int, target int) int {
 ```
 
 > ⚠️ Notice the initial value of `r` is `len(nums)` and the searching left operation is `r = m`, then the loop condition must be `l < r`. (Consider case: `A=[5], target=3` )
+>
+> - setting `r = len(nums)-1` would leave last element untested in some cases.
+> - setting `l <= r` would cause infinite loop in some cases.
