@@ -167,3 +167,40 @@ func binarySearch(nums []int, target int) int {
 }
 ```
 
+
+
+## FindFirstPosition / FindInsertPosition
+
+```go
+func findFirstPosition(nums []int, target int) int {
+	l, r := 0, len(nums)-1
+	for l <= r {
+		m := l + (r - l) / 2
+		if nums[m] >= target {
+			r = m - 1
+		} else {
+			l = m + 1
+		}
+	}
+	return l
+}
+```
+
+It can also be written as:
+
+```go
+func findFirstPosition(nums []int, target int) int {
+	l, r := 0, len(nums)
+	for l < r {
+		m := l + (r - l) / 2
+		if nums[m] >= target {
+			r = m
+		} else {
+			l = m + 1
+		}
+	}
+	return l
+}
+```
+
+And it is also available in Go standard library: `sort.SearchInts(nums []int, target int) int`.
