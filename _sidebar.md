@@ -76,6 +76,7 @@
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
+    - [34.FindFirstandLastPositionofElementinSortedArray](./LeetCode/34.FindFirstandLastPositionofElementinSortedArray.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
