@@ -46,10 +46,10 @@ func binarySearch(nums []int, target int) int {
 		m := l + (r - l) / 2
 		if nums[m] == target {
 			return m
-		} else if nums[m] < target {
-			l = m + 1
+		} else if nums[m] > target {
+            r = m - 1
 		} else {
-			r = m - 1
+			l = m + 1
 		}
 	}
 	// End Condition: l > r
@@ -103,10 +103,10 @@ func binarySearch(nums []int, target int) int {
 		m := l + (r - l) / 2
 		if nums[m] == target {
 			return m
-		} else if nums[m] < target {
-			l = m + 1
+		} else if nums[m] > target {
+            r = m
 		} else {
-			r = m
+			l = m + 1
 		}
 	}
 	// Post-processing:
@@ -149,10 +149,10 @@ func binarySearch(nums []int, target int) int {
 		m := l + (r - l) / 2
 		if nums[m] == target {
 			return m
-		} else if nums[m] < target {
-			l = m
-		} else {
+		} else if nums[m] > target {
 			r = m
+		} else {
+            l = m
 		}
 	}
 	// Post-processing:
@@ -170,6 +170,8 @@ func binarySearch(nums []int, target int) int {
 
 
 ## FindFirstPosition / FindInsertPosition
+
+The following function searches sorted array `nums` and returns first position (leftmost) of `target` (or insert position if not found).
 
 ```go
 func findFirstPosition(nums []int, target int) int {
