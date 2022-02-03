@@ -1,6 +1,6 @@
 # Binary Search
 
-> [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) ***updated here.*** 
+> [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) ***modified here.***
 
 
 
@@ -21,7 +21,8 @@
 > - Loop Condition: `left <= right` 
 > - Termination: `left > right`
 > - Searching Left: `right = mid-1`
-> - Searching Right: `left = mid+1`
+> - Searching Right: `left = mid+1` 
+> - Post-processing: Not required
 
 ```go
 package main
@@ -73,9 +74,9 @@ index of 20: -1
 
 
 
-## Template #2
+## Template #2 (Find first XXX)
 
-> Template #2 is an advanced form of Binary Search. It is used to search for an element or condition which requires *accessing the current index and its immediate right neighbor's index* in the array.
+> Template #2 is an advanced form of Binary Search. It is used to search for an element or condition which requires *accessing the current index and its immediate right neighbor's index* in the array. ( such as comparing `A[m]` with `A[m+1]` )
 
 **Key Attributes:** 
 
@@ -83,19 +84,20 @@ index of 20: -1
 > - Search Condition needs to access the element's immediate right neighbor
 > - Use the element's right neighbor to determine if the condition is met and decide whether to go left or right
 > - Guarantees Search Space is at least 2 in size at each step
-> - Correct the cited page: ==Post-processing is **unnecessary!**== (Because the `target` would have been returned before it reaches the end condition `left == right`. i.e., reaching end condition <=> target not found.)
+> - Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
 
 **Distinguishing Syntax:** 
 
-> - Initial Condition: `left = 0, right = length` 
+> - Initial Condition: `left = 0, right = n-1` 
 > - Loop Condition: `left < right` 
 > - Termination: `left == right`
 > - Searching Left: `right = mid`
 > - Searching Right: `left = mid+1` 
+> - Post-processing: **Required** 
 
 ```go
 func binarySearch(nums []int, target int) int {
-	l, r := 0, len(nums)
+	l, r := 0, len(nums)-1
 	for l < r {
 		// Prevent (l + r) overflow
 		m := l + (r - l) / 2
@@ -107,12 +109,12 @@ func binarySearch(nums []int, target int) int {
 			r = m
 		}
 	}
+	// Post-processing:
 	// End Condition: l == r
+	if nums[l] == target {
+		return l
+	}
 	return -1
 }
 ```
 
-> ⚠️ Notice the initial value of `r` is `len(nums)` and the searching left operation is `r = m`, then the loop condition must be `l < r`. (Consider case: `A=[5], target=3` )
->
-> - setting `r = len(nums)-1` would leave last element untested in some cases.
-> - setting `l <= r` would cause infinite loop in some cases.
