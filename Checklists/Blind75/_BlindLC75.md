@@ -38,7 +38,7 @@
 
 **Template 2** 
 
-- [ ] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) 
+- [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) 
 - [ ] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) 
 - [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
 
