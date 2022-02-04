@@ -205,4 +205,20 @@ func findFirstPosition(nums []int, target int) int {
 }
 ```
 
-And it is also available in Go standard library: `sort.SearchInts(nums []int, target int) int`.
+And we can also use Go standard library:
+
+```go
+// sort.SearchInts(nums, target)
+func findFirstPosition(nums []int, target int) int {
+	return sort.SearchInts(nums, target)
+}
+// OR
+// sort.Search(nums, f)
+func findFirstPosition(nums []int, target int) int {
+	return sort.Search(len(nums), func(i int) bool {
+		return nums[i] >= target
+	})
+}
+```
+
+> `Search` uses binary search to find and return the smallest index i in [0, n) at which f(i) is true, assuming that on the range [0, n), f(i) == true implies f(i+1) == true. That is, `Search` requires that `f` is false for some (possibly empty) prefix of the input range [0, n) and then true for the (possibly empty) remainder; **Search returns the first true index**. If there is no such index, `Search` returns n.
