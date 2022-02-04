@@ -2,6 +2,8 @@
 
 > [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) ***modified here.***
 
+Note: The "🍺 Final Template - Search" covers almost ALL binary search problems.
+
 
 
 ## Template #1
@@ -175,11 +177,11 @@ The following function searches sorted array `nums` and returns first position (
 
 ```go
 func findFirstPosition(nums []int, target int) int {
-	l, r := 0, len(nums)-1
-	for l <= r {
+	l, r := 0, len(nums)
+	for l < r {
 		m := l + (r - l) / 2
 		if nums[m] >= target {
-			r = m - 1
+			r = m
 		} else {
 			l = m + 1
 		}
@@ -192,11 +194,11 @@ It can also be written as:
 
 ```go
 func findFirstPosition(nums []int, target int) int {
-	l, r := 0, len(nums)
-	for l < r {
+	l, r := 0, len(nums)-1
+	for l <= r {
 		m := l + (r - l) / 2
 		if nums[m] >= target {
-			r = m
+			r = m - 1
 		} else {
 			l = m + 1
 		}
@@ -221,4 +223,61 @@ func findFirstPosition(nums []int, target int) int {
 }
 ```
 
+
+
+## 🍺 Final Template - Search
+
+==This abstraction covers almost ALL binary search problems==.
+
+> - `func Search(n int, f func(int) bool) int` 
+>
 > `Search` uses binary search to find and return the smallest index i in [0, n) at which f(i) is true, assuming that on the range [0, n), f(i) == true implies f(i+1) == true. That is, `Search` requires that `f` is false for some (possibly empty) prefix of the input range [0, n) and then true for the (possibly empty) remainder; **Search returns the first true index**. If there is no such index, `Search` returns n.
+>
+> - `func SearchInts(a []int, x int) int` 
+>
+> ```go
+> func SearchInts(nums []int, target int) int {
+> 	return Search(len(nums), func(i int) bool { return nums[i] >= target })
+> }
+> ```
+>
+> `SearchInts` searches for `target` in a sorted slice of ints and returns the index as specified by Search. The return value is the index to insert `target` if it is not present (it could be len(nums)). The slice must be sorted in ascending order.
+
+Apart from using `sort.Search` from the standard library, we can also write our own search function:
+
+```go
+func search(n int, f func(int) bool) int {
+	l, r := 0, n
+	for l < r {
+		m := l + (r - l) / 2
+		if f(m) {
+			r = m
+		} else {
+			l = m + 1
+		}
+	}
+	return l
+}
+```
+
+It can also be written as:
+
+```go
+func search(n int, f func(int) bool) int {
+	l, r := 0, n-1
+	for l <= r {
+		m := l + (r - l) / 2
+		if f(m) {
+			r = m - 1
+		} else {
+			l = m + 1
+		}
+	}
+	return l
+}
+```
+
+
+
+
+
