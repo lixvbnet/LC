@@ -35,7 +35,7 @@
 - [x] [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
 - [x] [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 
 - [x] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
-- [ ] [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) 
+- [x] [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) 
 - [x] [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) 
 - [ ] [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) 
 
