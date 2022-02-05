@@ -78,6 +78,7 @@
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [34.FindFirstandLastPositionofElementinSortedArray](./LeetCode/34.FindFirstandLastPositionofElementinSortedArray.md)
     - [35.SearchInsertPosition](./LeetCode/35.SearchInsertPosition.md)
+    - [371.SumofTwoIntegers](./LeetCode/371.SumofTwoIntegers.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
