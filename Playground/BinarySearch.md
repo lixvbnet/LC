@@ -2,11 +2,9 @@
 
 > [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) ***modified here.***
 
-Note: The "🍺 Final Template - Search" covers almost ALL binary search problems.
 
 
-
-## Template #1
+## Basic Template
 
 > Template #1 is used to search for an element or condition which can be determined by *==accessing a single index==* in the array.
 
@@ -76,158 +74,14 @@ index of 20: -1
 
 
 
-## Template #2
+## 🍺 Search Template - Find first xxx
 
-> Template #2 is an advanced form of Binary Search. It is used to search for an element or condition which requires *==accessing the current index and its immediate right neighbor's index==* in the array. ( such as comparing `A[m]` with `A[m+1]` )
+==This abstraction covers almost ALL binary search problems==. Search result is 5 in following example.
 
-**Key Attributes:** 
-
-> - An advanced way to implement Binary Search.
-> - Search Condition needs to access the element's immediate right neighbor
-> - Use the element's right neighbor to determine if the condition is met and decide whether to go left or right
-> - ==Guarantees Search Space is at least 2 in size at each step==
-> - Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
-
-**Distinguishing Syntax:** 
-
-> - Initial Condition: `left = 0, right = n-1` 
-> - Loop Condition: `left < right` 
-> - Termination: `left == right`
-> - Searching Left: `right = mid`
-> - Searching Right: `left = mid+1` 
-> - Post-processing: **Required** 
-
-```go
-func binarySearch(nums []int, target int) int {
-	l, r := 0, len(nums)-1
-	for l < r {
-		// Prevent (l + r) overflow
-		m := l + (r - l) / 2
-		if nums[m] == target {
-			return m
-		} else if nums[m] > target {
-            r = m
-		} else {
-			l = m + 1
-		}
-	}
-	// Post-processing:
-	// End Condition: l == r
-	if nums[l] == target {
-		return l
-	}
-	return -1
-}
-```
-
-
-
-## Template #3
-
-> Template #3 is another unique form of Binary Search. It is used to search for an element or condition which requires *==accessing the current index and its immediate left and right neighbor's index==* in the array.
-
-**Key Attributes:** 
-
-- An alternative way to implement Binary Search
-- Search Condition needs to access element's immediate left and right neighbors
-- Use element's neighbors to determine if condition is met and decide whether to go left or right
-- ==Gurantees Search Space is at least 3 in size at each step==
-- Post-processing required. Loop/Recursion ends when you have 2 elements left. Need to assess if the remaining elements meet the condition.
-
-**Distinguishing Syntax:** 
-
-- Initial Condition:` left = 0, right = n-1` 
-- Loop Condition: `left + 1 < right` 
-- Termination: `left + 1 == right`
-- Searching Left: `right = mid`
-- Searching Right: `left = mid` 
-- Post-processing: **Required** 
-
-```go
-func binarySearch(nums []int, target int) int {
-	l, r := 0, len(nums)-1
-	for l + 1 < r {
-		// Prevent (l + r) overflow
-		m := l + (r - l) / 2
-		if nums[m] == target {
-			return m
-		} else if nums[m] > target {
-			r = m
-		} else {
-            l = m
-		}
-	}
-	// Post-processing:
-	// End Condition: l + 1 == r
-	if nums[l] == target {
-		return l
-	}
-	if nums[r] == target {
-		return r
-	}
-	return -1
-}
-```
-
-
-
-## FindFirstPosition / FindInsertPosition
-
-The following function searches sorted array `nums` and returns first position (leftmost) of `target` (or insert position if not found).
-
-```go
-func findFirstPosition(nums []int, target int) int {
-	l, r := 0, len(nums)
-	for l < r {
-		m := l + (r - l) / 2
-		if nums[m] >= target {
-			r = m
-		} else {
-			l = m + 1
-		}
-	}
-	return l
-}
-```
-
-It can also be written as:
-
-```go
-func findFirstPosition(nums []int, target int) int {
-	l, r := 0, len(nums)-1
-	for l <= r {
-		m := l + (r - l) / 2
-		if nums[m] >= target {
-			r = m - 1
-		} else {
-			l = m + 1
-		}
-	}
-	return l
-}
-```
-
-And we can also use Go standard library:
-
-```go
-// sort.SearchInts(nums, target)
-func findFirstPosition(nums []int, target int) int {
-	return sort.SearchInts(nums, target)
-}
-// OR
-// sort.Search(nums, f)
-func findFirstPosition(nums []int, target int) int {
-	return sort.Search(len(nums), func(i int) bool {
-		return nums[i] >= target
-	})
-}
-```
-
-
-
-## 🍺 Final Template - Search
-
-==This abstraction covers almost ALL binary search problems==.
+| `i`               | 0    | 1    | 2    | 3    | 4    | ==5== | 6     | 7     | 8     |
+| ----------------- | ---- | ---- | ---- | ---- | ---- | ----- | ----- | ----- | ----- |
+| `nums[i]`         | 2    | 2    | 3    | 5    | 8    | 10    | 10    | 12    | 15    |
+| `f(i)`: num >= 10 | *F*  | *F*  | *F*  | *F*  | *F*  | ==T== | ==T== | ==T== | ==T== |
 
 > - `func Search(n int, f func(int) bool) int` 
 >
@@ -260,15 +114,54 @@ func search(n int, f func(int) bool) int {
 }
 ```
 
-It can also be written as:
+> It can also be written as following code. It also works but can hardly make sense in problem logic.
+>
+> ```go
+> func search(n int, f func(int) bool) int {
+> 	l, r := 0, n-1
+> 	for l <= r {
+> 		m := l + (r - l) / 2
+> 		if f(m) {
+> 			r = m - 1
+> 		} else {
+> 			l = m + 1
+> 		}
+> 	}
+> 	return l
+> }
+> ```
+
+
+
+## FindFirstPosition / FindInsertPosition
+
+The following function searches sorted array `nums` and returns first position (leftmost) of `target` (or insert position if not found).
+
+- Use Standard Library
 
 ```go
-func search(n int, f func(int) bool) int {
-	l, r := 0, n-1
-	for l <= r {
+// sort.SearchInts(nums, target)
+func findFirstPosition(nums []int, target int) int {
+	return sort.SearchInts(nums, target)
+}
+// OR
+// sort.Search(n, f)
+func findFirstPosition(nums []int, target int) int {
+	return sort.Search(len(nums), func(i int) bool {
+		return nums[i] >= target
+	})
+}
+```
+
+- Write on our own
+
+```go
+func findFirstPosition(nums []int, target int) int {
+	l, r := 0, len(nums)
+	for l < r {
 		m := l + (r - l) / 2
-		if f(m) {
-			r = m - 1
+		if nums[m] >= target {
+			r = m
 		} else {
 			l = m + 1
 		}
@@ -276,6 +169,23 @@ func search(n int, f func(int) bool) int {
 	return l
 }
 ```
+
+> It can also be written as following code. It also works but can hardly make sense in problem logic.
+>
+> ```go
+> func findFirstPosition(nums []int, target int) int {
+> 	l, r := 0, len(nums)-1
+> 	for l <= r {
+> 		m := l + (r - l) / 2
+> 		if nums[m] >= target {
+> 			r = m - 1
+> 		} else {
+> 			l = m + 1
+> 		}
+> 	}
+> 	return l
+> }
+> ```
 
 
 
