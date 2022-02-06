@@ -72,6 +72,7 @@
     - [153.FindMinimuminRotatedSortedArray](./LeetCode/153.FindMinimuminRotatedSortedArray.md)
     - [162.FindPeakElement](./LeetCode/162.FindPeakElement.md)
     - [167.TwoSumII-InputArrayIsSorted](./LeetCode/167.TwoSumII-InputArrayIsSorted.md)
+    - [191.Numberof1Bits](./LeetCode/191.Numberof1Bits.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
