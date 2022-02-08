@@ -24,7 +24,9 @@
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+- [ ] [Skip for now] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
+- [ ] [Skip for now] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) 
 
 ## Binary Search
 
