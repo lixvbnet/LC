@@ -77,6 +77,7 @@
     - [191.Numberof1Bits](./LeetCode/191.Numberof1Bits.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
+    - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [338.CountingBits](./LeetCode/338.CountingBits.md)
