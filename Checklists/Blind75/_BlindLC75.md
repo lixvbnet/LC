@@ -50,7 +50,7 @@
 - [x] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [x] [Missing Number](https://leetcode.com/problems/missing-number/)
 - [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
-- [ ] [2166. Design Bitset](https://leetcode.com/problems/design-bitset/) 
+- [x] [2166. Design Bitset](https://leetcode.com/problems/design-bitset/) 
 
 ---
 

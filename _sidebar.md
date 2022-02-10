@@ -75,6 +75,7 @@
     - [167.TwoSumII-InputArrayIsSorted](./LeetCode/167.TwoSumII-InputArrayIsSorted.md)
     - [190.ReverseBits](./LeetCode/190.ReverseBits.md)
     - [191.Numberof1Bits](./LeetCode/191.Numberof1Bits.md)
+    - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
