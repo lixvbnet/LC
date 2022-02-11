@@ -58,7 +58,7 @@
 
 - [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [x] [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
-- [ ] [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) 
+- [x] [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) 
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
