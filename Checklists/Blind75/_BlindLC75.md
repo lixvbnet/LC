@@ -60,7 +60,7 @@
 - [x] [141. Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [x] [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) 
 - [x] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) 
-- [ ] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) 
+- [x] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) 
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
