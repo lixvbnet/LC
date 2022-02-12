@@ -1,4 +1,5 @@
 import os
+from natsort import natsorted
 
 MD_EXTENSIONS = ['.md', '.markdown']
 BASE_DIR = '.'
@@ -42,7 +43,8 @@ def walk(root, level):
         generateMenuItem(root, level)
         # sort and walk every file in this folder
         fileList = os.listdir(root)
-        fileList.sort()
+        # fileList.sort()
+        fileList = natsorted(fileList)
         for file in fileList:
             filepath = os.path.join(root, file)
             walk(filepath, level+1)
@@ -57,7 +59,8 @@ def walk(root, level):
 
 def walkSubdirs(root, level):
     fileList = os.listdir(root)
-    fileList.sort()
+    # fileList.sort()
+    fileList = natsorted(fileList)
     for file in fileList:
         filepath = os.path.join(root, file)
         if os.path.isdir(filepath):
