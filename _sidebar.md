@@ -74,6 +74,7 @@
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [34.FindFirstandLastPositionofElementinSortedArray](./LeetCode/34.FindFirstandLastPositionofElementinSortedArray.md)
     - [35.SearchInsertPosition](./LeetCode/35.SearchInsertPosition.md)
+    - [41.FirstMissingPositive](./LeetCode/41.FirstMissingPositive.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [121.BestTimetoBuyandSellStock](./LeetCode/121.BestTimetoBuyandSellStock.md)
