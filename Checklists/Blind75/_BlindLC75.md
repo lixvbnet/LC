@@ -63,7 +63,7 @@
 - [x] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) 
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 ---
@@ -91,6 +91,7 @@
 
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
 ---
