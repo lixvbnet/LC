@@ -77,6 +77,7 @@
     - [41.FirstMissingPositive](./LeetCode/41.FirstMissingPositive.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
+    - [104.MaximumDepthofBinaryTree](./LeetCode/104.MaximumDepthofBinaryTree.md)
     - [121.BestTimetoBuyandSellStock](./LeetCode/121.BestTimetoBuyandSellStock.md)
     - [122.BestTimetoBuyandSellStockII](./LeetCode/122.BestTimetoBuyandSellStockII.md)
     - [123.BestTimetoBuyandSellStockIII](./LeetCode/123.BestTimetoBuyandSellStockIII.md)
