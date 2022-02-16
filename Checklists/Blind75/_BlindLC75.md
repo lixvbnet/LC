@@ -67,6 +67,7 @@
 - [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) 
 - [x] [143. Reorder List](https://leetcode.com/problems/reorder-list/) 
+- [ ] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
 - [ ] [148. Sort List](https://leetcode.com/problems/sort-list/) 
 
 ---
@@ -76,8 +77,12 @@
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/)
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [ ] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
+- [ ] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
+- [ ] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
+- [ ] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
