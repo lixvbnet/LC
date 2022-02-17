@@ -69,6 +69,7 @@
 - [x] [143. Reorder List](https://leetcode.com/problems/reorder-list/) 
 - [x] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
 - [x] [148. Sort List](https://leetcode.com/problems/sort-list/) 
+- [x] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) 
 
 ---
 

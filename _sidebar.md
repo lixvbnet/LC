@@ -71,6 +71,7 @@
     - [21.MergeTwoSortedLists](./LeetCode/21.MergeTwoSortedLists.md)
     - [23.MergekSortedLists](./LeetCode/23.MergekSortedLists.md)
     - [24.SwapNodesinPairs](./LeetCode/24.SwapNodesinPairs.md)
+    - [25.ReverseNodesink-Group](./LeetCode/25.ReverseNodesink-Group.md)
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [34.FindFirstandLastPositionofElementinSortedArray](./LeetCode/34.FindFirstandLastPositionofElementinSortedArray.md)
     - [35.SearchInsertPosition](./LeetCode/35.SearchInsertPosition.md)
