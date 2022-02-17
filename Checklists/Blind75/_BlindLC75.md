@@ -67,7 +67,7 @@
 - [x] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) 
 - [x] [143. Reorder List](https://leetcode.com/problems/reorder-list/) 
-- [ ] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
+- [x] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
 - [x] [148. Sort List](https://leetcode.com/problems/sort-list/) 
 
 ---
