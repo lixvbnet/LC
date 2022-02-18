@@ -78,6 +78,7 @@
     - [41.FirstMissingPositive](./LeetCode/41.FirstMissingPositive.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
+    - [94.BinaryTreeInorderTraversal](./LeetCode/94.BinaryTreeInorderTraversal.md)
     - [100.SameTree](./LeetCode/100.SameTree.md)
     - [104.MaximumDepthofBinaryTree](./LeetCode/104.MaximumDepthofBinaryTree.md)
     - [110.BalancedBinaryTree](./LeetCode/110.BalancedBinaryTree.md)
