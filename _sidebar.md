@@ -88,6 +88,8 @@
     - [141.LinkedListCycle](./LeetCode/141.LinkedListCycle.md)
     - [142.LinkedListCycleII](./LeetCode/142.LinkedListCycleII.md)
     - [143.ReorderList](./LeetCode/143.ReorderList.md)
+    - [144.BinaryTreePreorderTraversal](./LeetCode/144.BinaryTreePreorderTraversal.md)
+    - [145.BinaryTreePostorderTraversal](./LeetCode/145.BinaryTreePostorderTraversal.md)
     - [147.InsertionSortList](./LeetCode/147.InsertionSortList.md)
     - [148.SortList](./LeetCode/148.SortList.md)
     - [152.MaximumProductSubarray](./LeetCode/152.MaximumProductSubarray.md)
