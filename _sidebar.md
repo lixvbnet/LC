@@ -115,4 +115,5 @@
 
 * Playground
     - [BinarySearch](./Playground/BinarySearch.md)
+    - [BinaryTreeTraversal](./Playground/BinaryTreeTraversal.md)
     - [StackAndQueue](./Playground/StackAndQueue.md)
