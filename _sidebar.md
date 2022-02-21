@@ -106,6 +106,7 @@
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
+    - [297.SerializeandDeserializeBinaryTree](./LeetCode/297.SerializeandDeserializeBinaryTree.md)
     - [338.CountingBits](./LeetCode/338.CountingBits.md)
     - [371.SumofTwoIntegers](./LeetCode/371.SumofTwoIntegers.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)
