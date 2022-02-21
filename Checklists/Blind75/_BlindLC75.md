@@ -25,7 +25,7 @@
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
 - [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-- [ ] [Skip for now] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
 - [ ] [Skip for now] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) 
 - [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
