@@ -80,6 +80,7 @@
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [94.BinaryTreeInorderTraversal](./LeetCode/94.BinaryTreeInorderTraversal.md)
+    - [98.ValidateBinarySearchTree](./LeetCode/98.ValidateBinarySearchTree.md)
     - [100.SameTree](./LeetCode/100.SameTree.md)
     - [102.BinaryTreeLevelOrderTraversal](./LeetCode/102.BinaryTreeLevelOrderTraversal.md)
     - [104.MaximumDepthofBinaryTree](./LeetCode/104.MaximumDepthofBinaryTree.md)
