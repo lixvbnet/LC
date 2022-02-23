@@ -1,38 +1,14 @@
 # Binary Tree Traversal
 
-Two traversal methods: **Depth-First Search (DFS)** and **Breadth-First Search (BFS)** . And Depth-First Search includes `Inorder` Traversal, `Preorder` Traversal, and `Postorder` Traversal.
-
-
-
-## [Inorder](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
-
-> Let `p` start from `root`, if `p` is not nil, push to stack and move to `p.Left` ; otherwise pop a `node` from stack, add it to result, and move to `node.Right` .
-
-```go
-func inorderTraversal(root *TreeNode) []int {
-    var result []int
-    var stack []*TreeNode
-    p := root
-    for p != nil || len(stack) > 0 {
-        if p != nil {
-            // push
-            stack = append(stack, p)
-            p = p.Left
-        } else {
-            // pop
-            node := stack[len(stack)-1]
-            stack = stack[:len(stack)-1]
-            p = node.Right
-            result = append(result, node.Val)	// Add after all left children
-        }
-    }
-    return result
-}
-```
+Two traversal methods: **Depth-First Search (DFS)** and **Breadth-First Search (BFS)** . And Depth-First Search includes `Preorder` Traversal, `Inorder` Traversal, and `Postorder` Traversal.
 
 
 
 ## [Preorder](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
+
+> Let `p` start from `root`, if `p` is not nil, push to stack and move to `p.Left` ; otherwise pop a `node` from stack and move to `node.Right`.
+>
+> The only difference between `Preorder` and `Inorder` Traversal is when do we add node value to result.
 
 ```go
 func preorderTraversal(root *TreeNode) []int {
@@ -50,6 +26,32 @@ func preorderTraversal(root *TreeNode) []int {
             node := stack[len(stack)-1]
             stack = stack[:len(stack)-1]
             p = node.Right
+        }
+    }
+    return result
+}
+```
+
+
+
+## [Inorder](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
+
+```go
+func inorderTraversal(root *TreeNode) []int {
+    var result []int
+    var stack []*TreeNode
+    p := root
+    for p != nil || len(stack) > 0 {
+        if p != nil {
+            // push
+            stack = append(stack, p)
+            p = p.Left
+        } else {
+            // pop
+            node := stack[len(stack)-1]
+            stack = stack[:len(stack)-1]
+            p = node.Right
+            result = append(result, node.Val)	// Add after all left children
         }
     }
     return result
