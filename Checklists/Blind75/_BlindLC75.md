@@ -84,7 +84,7 @@
 - [x] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
 - [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
 - [x] [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-- [ ] [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) 
+- [x] [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) 
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [ ] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
 - [ ] [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 
