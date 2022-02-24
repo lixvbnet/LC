@@ -84,6 +84,7 @@
     - [100.SameTree](./LeetCode/100.SameTree.md)
     - [102.BinaryTreeLevelOrderTraversal](./LeetCode/102.BinaryTreeLevelOrderTraversal.md)
     - [104.MaximumDepthofBinaryTree](./LeetCode/104.MaximumDepthofBinaryTree.md)
+    - [105.ConstructBinaryTreefromPreorderandInorderTraversal](./LeetCode/105.ConstructBinaryTreefromPreorderandInorderTraversal.md)
     - [110.BalancedBinaryTree](./LeetCode/110.BalancedBinaryTree.md)
     - [121.BestTimetoBuyandSellStock](./LeetCode/121.BestTimetoBuyandSellStock.md)
     - [122.BestTimetoBuyandSellStockII](./LeetCode/122.BestTimetoBuyandSellStockII.md)
