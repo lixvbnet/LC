@@ -126,6 +126,7 @@
 
 ## Dynamic Programming
 
+- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
