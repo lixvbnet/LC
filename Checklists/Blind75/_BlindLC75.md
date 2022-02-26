@@ -91,7 +91,7 @@
 - [x] [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) 
 - [x] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 - [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
-- [ ] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
+- [x] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
 - [ ] [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) 
 - [ ] [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) 
 - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
