@@ -126,7 +126,6 @@
 
 ## Dynamic Programming
 
-- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
@@ -137,6 +136,7 @@
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 
 ---
