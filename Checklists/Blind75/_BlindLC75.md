@@ -92,7 +92,7 @@
 - [x] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 - [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
 - [x] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
-- [ ] [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) 
+- [x] [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) 
 - [ ] [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) 
 - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
