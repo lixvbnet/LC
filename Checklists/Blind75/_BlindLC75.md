@@ -124,6 +124,33 @@
 
 ---
 
+## Stack
+
+- [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
+- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
+- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) 
+- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) 
+
+---
+
+## String
+
+- [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [ ] [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) 
+- [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) 
+- [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) 
+- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) 
+
+---
+
 ## Dynamic Programming
 
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
@@ -138,21 +165,7 @@
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
-
----
-
-## String
-
-- [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
-- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-- [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-- [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)
+- [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
 
 ---
 
