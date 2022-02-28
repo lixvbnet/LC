@@ -126,11 +126,11 @@
 
 ## Stack
 
-- [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
+- [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 - [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
 - [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
 - [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
+- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
 
 ---
 

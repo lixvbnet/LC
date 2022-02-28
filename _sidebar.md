@@ -100,6 +100,7 @@
     - [145.BinaryTreePostorderTraversal](./LeetCode/145.BinaryTreePostorderTraversal.md)
     - [147.InsertionSortList](./LeetCode/147.InsertionSortList.md)
     - [148.SortList](./LeetCode/148.SortList.md)
+    - [150.EvaluateReversePolishNotation](./LeetCode/150.EvaluateReversePolishNotation.md)
     - [152.MaximumProductSubarray](./LeetCode/152.MaximumProductSubarray.md)
     - [153.FindMinimuminRotatedSortedArray](./LeetCode/153.FindMinimuminRotatedSortedArray.md)
     - [162.FindPeakElement](./LeetCode/162.FindPeakElement.md)
