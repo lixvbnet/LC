@@ -83,6 +83,7 @@
     - [95.UniqueBinarySearchTreesII](./LeetCode/95.UniqueBinarySearchTreesII.md)
     - [96.UniqueBinarySearchTrees](./LeetCode/96.UniqueBinarySearchTrees.md)
     - [98.ValidateBinarySearchTree](./LeetCode/98.ValidateBinarySearchTree.md)
+    - [99.RecoverBinarySearchTree](./LeetCode/99.RecoverBinarySearchTree.md)
     - [100.SameTree](./LeetCode/100.SameTree.md)
     - [102.BinaryTreeLevelOrderTraversal](./LeetCode/102.BinaryTreeLevelOrderTraversal.md)
     - [104.MaximumDepthofBinaryTree](./LeetCode/104.MaximumDepthofBinaryTree.md)
