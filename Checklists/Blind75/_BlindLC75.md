@@ -70,10 +70,12 @@
 - [x] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
 - [x] [148. Sort List](https://leetcode.com/problems/sort-list/) 
 - [x] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) 
+- [ ] [Skip for now] [146. LRU Cache](https://leetcode.com/problems/lru-cache/) 
+- [ ] [Skip for now] [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) 
 
 ---
 
-## Tree / Trie
+## Tree
 
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/)
@@ -94,8 +96,15 @@
 - [x] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
 - [x] [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) 
 - [x] [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) 
-- [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+- [x] [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
+- [ ] [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) 
+- [ ] [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) 
 - [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+---
+
+## Trie
+
 - [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [ ] [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
 - [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)

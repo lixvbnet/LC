@@ -17,8 +17,8 @@ func preorderTraversal(root *TreeNode) []int {
     p := root
     for p != nil || len(stack) > 0 {
         if p != nil {
+            // visit and push
             result = append(result, p.Val)	// Add before going to children
-            // push
             stack = append(stack, p)
             p = p.Left
         } else {
@@ -47,7 +47,7 @@ func inorderTraversal(root *TreeNode) []int {
             stack = append(stack, p)
             p = p.Left
         } else {
-            // pop
+            // pop and visit
             node := stack[len(stack)-1]
             stack = stack[:len(stack)-1]
             p = node.Right

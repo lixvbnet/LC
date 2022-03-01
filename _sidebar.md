@@ -111,6 +111,7 @@
     - [206.ReverseLinkedList](./LeetCode/206.ReverseLinkedList.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [226.InvertBinaryTree](./LeetCode/226.InvertBinaryTree.md)
+    - [230.KthSmallestElementinaBST](./LeetCode/230.KthSmallestElementinaBST.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
