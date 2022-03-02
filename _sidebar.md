@@ -113,6 +113,7 @@
     - [226.InvertBinaryTree](./LeetCode/226.InvertBinaryTree.md)
     - [230.KthSmallestElementinaBST](./LeetCode/230.KthSmallestElementinaBST.md)
     - [235.LowestCommonAncestorofaBinarySearchTree](./LeetCode/235.LowestCommonAncestorofaBinarySearchTree.md)
+    - [236.LowestCommonAncestorofaBinaryTree](./LeetCode/236.LowestCommonAncestorofaBinaryTree.md)
     - [238.ProductofArrayExceptSelf](./LeetCode/238.ProductofArrayExceptSelf.md)
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
