@@ -136,16 +136,6 @@
 
 ---
 
-## Stack
-
-- [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
-- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
-- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
-- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
-
----
-
 ## String
 
 - [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
@@ -160,7 +150,18 @@
 - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) 
+- [ ] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) 
 - [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) 
+
+---
+
+## Stack
+
+- [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
+- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
+- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
+- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
+- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
 
 ---
 
