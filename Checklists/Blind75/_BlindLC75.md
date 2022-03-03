@@ -78,9 +78,10 @@
 ## Tree
 
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [x] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) 
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/)
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-- [ ] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
+- [x] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
 - [x] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
 - [x] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
 - [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
