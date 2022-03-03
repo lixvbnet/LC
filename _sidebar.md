@@ -123,6 +123,7 @@
     - [371.SumofTwoIntegers](./LeetCode/371.SumofTwoIntegers.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)
     - [449.SerializeandDeserializeBST](./LeetCode/449.SerializeandDeserializeBST.md)
+    - [450.DeleteNodeinaBST](./LeetCode/450.DeleteNodeinaBST.md)
     - [543.DiameterofBinaryTree](./LeetCode/543.DiameterofBinaryTree.md)
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)

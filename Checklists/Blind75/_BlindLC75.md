@@ -100,7 +100,7 @@
 - [x] [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) 
 - [x] [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
 - [x] [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) 
-- [ ] [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) 
+- [x] [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) 
 - [x] [235. Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [x] [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) 
 
