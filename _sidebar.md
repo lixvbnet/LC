@@ -126,6 +126,7 @@
     - [543.DiameterofBinaryTree](./LeetCode/543.DiameterofBinaryTree.md)
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
+    - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
     - [876.MiddleoftheLinkedList](./LeetCode/876.MiddleoftheLinkedList.md)
     - [889.ConstructBinaryTreefromPreorderandPostorderTraversal](./LeetCode/889.ConstructBinaryTreefromPreorderandPostorderTraversal.md)
