@@ -150,7 +150,7 @@
 - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) 
-- [ ] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) 
+- [x] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) 
 - [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) 
 - [x] [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) (KMP Algorithm)
 - [ ] [1392. Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) 
