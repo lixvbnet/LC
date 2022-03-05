@@ -108,7 +108,7 @@
 
 ## Trie
 
-- [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [x] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [ ] [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
 - [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
