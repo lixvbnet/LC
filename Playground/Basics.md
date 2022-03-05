@@ -25,3 +25,17 @@ func change(result *int) {
 }
 ```
 
+
+
+## Check Int32 Overflow
+
+```go
+// complicated way to write this:
+if result > math.MaxInt32 / 10 || (result == math.MaxInt32 / 10 && digit > math.MaxInt32 % 10)
+
+// it can be simplified to
+if result > (math.MaxInt32 - digit) / 10
+// want to check if result * 10 + digit > math.MaxInt32,
+// but since *10 and +digit both could overflow, so move them to right side
+```
+
