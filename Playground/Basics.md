@@ -37,5 +37,7 @@ if result > math.MaxInt32 / 10 || (result == math.MaxInt32 / 10 && digit > math.
 if result > (math.MaxInt32 - digit) / 10
 // want to check if result * 10 + digit > math.MaxInt32,
 // but since *10 and +digit both could overflow, so move them to right side
-```
 
+// to check underflow, just change it to
+if result < (math.MinInt32 - digit) / 10	// here digit is negative (num % 10)
+```

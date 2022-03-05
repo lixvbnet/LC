@@ -185,6 +185,12 @@
 
 ---
 
+## Math
+
+- [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+
+---
+
 ## Matrix
 
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)

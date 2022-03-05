@@ -65,6 +65,7 @@
 * LeetCode
     - [1.TwoSum](./LeetCode/1.TwoSum.md)
     - [2.AddTwoNumbers](./LeetCode/2.AddTwoNumbers.md)
+    - [7.ReverseInteger](./LeetCode/7.ReverseInteger.md)
     - [8.StringtoInteger(atoi)](./LeetCode/8.StringtoInteger(atoi).md)
     - [11.ContainerWithMostWater](./LeetCode/11.ContainerWithMostWater.md)
     - [15.3Sum](./LeetCode/15.3Sum.md)
