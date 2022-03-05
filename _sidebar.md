@@ -68,6 +68,7 @@
     - [11.ContainerWithMostWater](./LeetCode/11.ContainerWithMostWater.md)
     - [15.3Sum](./LeetCode/15.3Sum.md)
     - [19.RemoveNthNodeFromEndofList](./LeetCode/19.RemoveNthNodeFromEndofList.md)
+    - [20.ValidParentheses](./LeetCode/20.ValidParentheses.md)
     - [21.MergeTwoSortedLists](./LeetCode/21.MergeTwoSortedLists.md)
     - [23.MergekSortedLists](./LeetCode/23.MergekSortedLists.md)
     - [24.SwapNodesinPairs](./LeetCode/24.SwapNodesinPairs.md)

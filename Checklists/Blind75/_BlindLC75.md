@@ -143,7 +143,7 @@
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [ ] [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) 
 - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) 
 - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
