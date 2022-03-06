@@ -41,3 +41,24 @@ if result > (math.MaxInt32 - digit) / 10
 // to check underflow, just change it to
 if result < (math.MinInt32 - digit) / 10	// here digit is negative (num % 10)
 ```
+
+For example, solution for [LC 7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) :
+
+```go
+func reverse(x int) int {
+    result := 0
+    for x != 0 {
+        digit := x % 10
+        x /= 10
+        if result > (math.MaxInt32 - digit) / 10 {
+            return 0
+        }
+        if result < (math.MinInt32 - digit) / 10 {
+            return 0
+        }
+        result = result * 10 + digit
+    }
+    return result
+}
+```
+
