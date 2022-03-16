@@ -117,6 +117,7 @@
     - [191.Numberof1Bits](./LeetCode/191.Numberof1Bits.md)
     - [206.ReverseLinkedList](./LeetCode/206.ReverseLinkedList.md)
     - [208.ImplementTrie(PrefixTree)](./LeetCode/208.ImplementTrie(PrefixTree).md)
+    - [211.DesignAddandSearchWordsDataStructure](./LeetCode/211.DesignAddandSearchWordsDataStructure.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [226.InvertBinaryTree](./LeetCode/226.InvertBinaryTree.md)
     - [230.KthSmallestElementinaBST](./LeetCode/230.KthSmallestElementinaBST.md)
