@@ -139,7 +139,7 @@
 
 ## String
 
-- [ ] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
+- [x] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Sliding Window)
 - [ ] [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Sliding Window)
