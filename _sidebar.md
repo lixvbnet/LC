@@ -66,6 +66,7 @@
     - [1.TwoSum](./LeetCode/1.TwoSum.md)
     - [2.AddTwoNumbers](./LeetCode/2.AddTwoNumbers.md)
     - [3.LongestSubstringWithoutRepeatingCharacters](./LeetCode/3.LongestSubstringWithoutRepeatingCharacters.md)
+    - [5.LongestPalindromicSubstring](./LeetCode/5.LongestPalindromicSubstring.md)
     - [7.ReverseInteger](./LeetCode/7.ReverseInteger.md)
     - [8.StringtoInteger(atoi)](./LeetCode/8.StringtoInteger(atoi).md)
     - [11.ContainerWithMostWater](./LeetCode/11.ContainerWithMostWater.md)

@@ -150,7 +150,7 @@
 - [ ] [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) 
 - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) 
 - [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) 
 - [x] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (DFA)
