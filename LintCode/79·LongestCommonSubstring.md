@@ -125,4 +125,3 @@ func max(x, y int) int {
 ```
 
 **Possible further improvement**: When calculating M(i, j), we only need to reference M(i-1, j-1). So if we fill the `dp`  table in diagonal order, we can reduce memory usage to $O(1)$ .
-
