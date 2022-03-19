@@ -146,6 +146,9 @@
     - [889.ConstructBinaryTreefromPreorderandPostorderTraversal](./LeetCode/889.ConstructBinaryTreefromPreorderandPostorderTraversal.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
 
+* LintCode
+    - [79·LongestCommonSubstring](./LintCode/79·LongestCommonSubstring.md)
+
 * Playground
     - [Basics](./Playground/Basics.md)
     - [BinarySearch](./Playground/BinarySearch.md)
