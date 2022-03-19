@@ -140,7 +140,7 @@
 ## String
 
 - [x] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
-- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [x] [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Sliding Window)
 - [ ] [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Sliding Window)
 - [ ] [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Sliding Window)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -150,7 +150,7 @@
 - [ ] [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) 
 - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) 
 - [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [ ] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) 
 - [x] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (DFA)
