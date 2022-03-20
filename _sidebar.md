@@ -86,6 +86,7 @@
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
+    - [76.MinimumWindowSubstring](./LeetCode/76.MinimumWindowSubstring.md)
     - [94.BinaryTreeInorderTraversal](./LeetCode/94.BinaryTreeInorderTraversal.md)
     - [95.UniqueBinarySearchTreesII](./LeetCode/95.UniqueBinarySearchTreesII.md)
     - [96.UniqueBinarySearchTrees](./LeetCode/96.UniqueBinarySearchTrees.md)

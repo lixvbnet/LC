@@ -141,7 +141,7 @@
 
 - [x] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
 - [x] [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Sliding Window)
-- [ ] [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Sliding Window)
+- [x] [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Sliding Window)
 - [ ] [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Sliding Window)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
