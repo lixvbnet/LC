@@ -172,3 +172,6 @@ func max(x, y int) int {
 }
 ```
 
+Illustration:
+
+![](_image/2022-03-20-12-45-50.jpg)
