@@ -56,13 +56,15 @@ O(n x m) time and memory.
 
 ## Solution
 
-- Dynamic Programming	$Time: O(n*m), Space: O(n*m)$ or $O(m)$ or $O(1)$ ?
+- Dynamic Programming	$Time: O(n*m), Space: O(n*m)$ or $O(m)$ or $O(1)$ 
+
+> We will reduce the space complexity to $O(1)$ step by step.
 
 ```go
 // M(i, j): Length of Longest Common Substring that ends with index i-1 in A and j-1 in B
 // If A[i-1]==B[j-1], then M(i, j) = 1 + M(i-1, j-1), else M(i, j) = 0
 // M(0, j) = M(i, 0) = 0
-func longestCommonSubstring (A string, B string) int {
+func longestCommonSubstring(A string, B string) int {
     n, m := len(A), len(B)
     dp := make([][]int, n+1)
     for i := range dp {
@@ -91,13 +93,13 @@ func max(x, y int) int {
 }
 ```
 
-Since the calculation only depends only values in last row, we can reduce memory usage by storing only one row. ⚠️ **Note: the inner loop should be in reverse order**.
+Since the calculation only depends on values in last row, we can reduce memory usage by storing only one row. ⚠️ **Note: the inner loop should be in reverse order so that `dp[j-1]` still holds value in last row when calculating `dp[j]`.**
 
 ```go
 // M(i, j): Length of Longest Common Substring that ends with index i-1 in A and j-1 in B
 // If A[i-1]==B[j-1], then M(i, j) = 1 + M(i-1, j-1), else M(i, j) = 0
 // M(0, j) = M(i, 0) = 0
-func longestCommonSubstring (A string, B string) int {
+func longestCommonSubstring(A string, B string) int {
     n, m := len(A), len(B)
     dp := make([]int, m+1)
 
@@ -124,4 +126,49 @@ func max(x, y int) int {
 }
 ```
 
-**Possible further improvement**: When calculating M(i, j), we only need to reference M(i-1, j-1). So if we fill the `dp`  table in diagonal order, we can reduce memory usage to $O(1)$ .
+**Further improvement**: When calculating M(i, j), we only need to reference M(i-1, j-1). So if we fill the `dp`  table in **diagonal order**, we can reduce memory usage to $O(1)$.
+
+```go
+// M(i, j): Length of Longest Common Substring that ends with index i-1 in A and j-1 in B
+// If A[i-1]==B[j-1], then M(i, j) = 1 + M(i-1, j-1), else M(i, j) = 0
+// M(0, j) = M(i, 0) = 0
+func longestCommonSubstring(A string, B string) int {
+    n, m := len(A), len(B)
+    result := 0
+
+    // left half of the dp table
+    for row := 1; row <= n; row++ {
+        count := 0
+        for i, j := row, 1; i <= n && j <= m; i, j = i+1, j+1 {
+            if A[i-1] == B[j-1] {
+                count = 1 + count
+            } else {
+                count = 0
+            }
+            result = max(result, count)
+        }
+    }
+
+    // right half of the dp table
+    for col := 2; col <= m; col++ {
+        count := 0
+        for i, j := 1, col; i <= n && j <= m; i, j = i+1, j+1 {
+            if A[i-1] == B[j-1] {
+                count = 1 + count
+            } else {
+                count = 0
+            }
+            result = max(result, count)
+        }
+    }
+    return result
+}
+
+func max(x, y int) int {
+    if x > y {
+        return x
+    }
+    return y
+}
+```
+
