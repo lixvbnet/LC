@@ -200,9 +200,22 @@
 
 ---
 
+## Recursion
+
+- [ ] [46. Permutations](https://leetcode.com/problems/permutations/) 
+- [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
+- [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
+- [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 
+- [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
+- [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
+
+---
+
 ## Matrix
 
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [ ] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
+- [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
