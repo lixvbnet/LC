@@ -139,6 +139,7 @@
     - [449.SerializeandDeserializeBST](./LeetCode/449.SerializeandDeserializeBST.md)
     - [450.DeleteNodeinaBST](./LeetCode/450.DeleteNodeinaBST.md)
     - [543.DiameterofBinaryTree](./LeetCode/543.DiameterofBinaryTree.md)
+    - [567.PermutationinString](./LeetCode/567.PermutationinString.md)
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
