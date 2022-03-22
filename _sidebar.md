@@ -74,6 +74,7 @@
     - [19.RemoveNthNodeFromEndofList](./LeetCode/19.RemoveNthNodeFromEndofList.md)
     - [20.ValidParentheses](./LeetCode/20.ValidParentheses.md)
     - [21.MergeTwoSortedLists](./LeetCode/21.MergeTwoSortedLists.md)
+    - [22.GenerateParentheses](./LeetCode/22.GenerateParentheses.md)
     - [23.MergekSortedLists](./LeetCode/23.MergekSortedLists.md)
     - [24.SwapNodesinPairs](./LeetCode/24.SwapNodesinPairs.md)
     - [25.ReverseNodesink-Group](./LeetCode/25.ReverseNodesink-Group.md)
