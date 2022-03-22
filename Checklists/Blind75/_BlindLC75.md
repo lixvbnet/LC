@@ -147,7 +147,7 @@
 - [x] [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Sliding Window: supply & consume)
 - [x] [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Sliding Window: supply & consume)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [ ] [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) 
+- [x] [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) 
 - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) 
 - [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)

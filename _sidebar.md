@@ -142,6 +142,7 @@
     - [567.PermutationinString](./LeetCode/567.PermutationinString.md)
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
+    - [678.ValidParenthesisString](./LeetCode/678.ValidParenthesisString.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
     - [876.MiddleoftheLinkedList](./LeetCode/876.MiddleoftheLinkedList.md)
