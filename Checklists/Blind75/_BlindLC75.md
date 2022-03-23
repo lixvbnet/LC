@@ -152,7 +152,7 @@
 - [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) (expand from center)
 - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) (expand from center)
-- [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) ([LintCode 659](https://www.lintcode.com/problem/659/))
+- [x] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) ([LintCode 659](https://www.lintcode.com/problem/659/))
 - [x] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (DFA)
 - [ ] [65. Valid Number](https://leetcode.com/problems/valid-number/) (DFA)
 - [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) (DFA)
@@ -161,7 +161,7 @@
 - [ ] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) (DFA)
 - [ ] [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) (DFA)
 - [x] [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) (KMP Algorithm)
-- [ ] [1392. Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) 
+- [x] [1392. Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) 
 
 ---
 

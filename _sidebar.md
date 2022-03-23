@@ -149,10 +149,12 @@
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
     - [876.MiddleoftheLinkedList](./LeetCode/876.MiddleoftheLinkedList.md)
     - [889.ConstructBinaryTreefromPreorderandPostorderTraversal](./LeetCode/889.ConstructBinaryTreefromPreorderandPostorderTraversal.md)
+    - [1392.LongestHappyPrefix](./LeetCode/1392.LongestHappyPrefix.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
 
 * LintCode
     - [79·LongestCommonSubstring](./LintCode/79·LongestCommonSubstring.md)
+    - [659·EncodeandDecodeStrings](./LintCode/659·EncodeandDecodeStrings.md)
 
 * Playground
     - [Basics](./Playground/Basics.md)
