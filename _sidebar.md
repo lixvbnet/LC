@@ -142,6 +142,7 @@
     - [543.DiameterofBinaryTree](./LeetCode/543.DiameterofBinaryTree.md)
     - [567.PermutationinString](./LeetCode/567.PermutationinString.md)
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
+    - [647.PalindromicSubstrings](./LeetCode/647.PalindromicSubstrings.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
     - [678.ValidParenthesisString](./LeetCode/678.ValidParenthesisString.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
