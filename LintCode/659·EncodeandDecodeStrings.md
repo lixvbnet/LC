@@ -63,9 +63,46 @@ func decode(str string) []string {
 
 - Approach 2: Escape
 
-> Choose a delimiter, say `#`, escape `#` in strings with `\#` and escape `\` with `\\`.
+> Choose a delimiter, say `#`, escape `#` in strings with `/#` and escape `/` with `//`.
 
 ```go
+// # -> /#
+// / -> //
+func encode(strs []string) string {
+	n := len(strs)
+	var sb strings.Builder
+	for i, s := range strs {
+		for _, c := range s {
+			if c == '#' || c == '/' {
+				sb.WriteByte('/')
+			}
+			sb.WriteRune(c)
+		}
+		if i < n-1 {
+			sb.WriteByte('#')
+		}
+	}
+	return sb.String()
+}
+
+func decode(str string) []string {
+	var result []string
+	var sb strings.Builder
+	for i := 0; i < len(str); i++ {
+		if str[i] == '#' {
+			result = append(result, sb.String())
+			sb.Reset()
+			continue
+		}
+
+		if str[i] == '/' {
+			i++
+		}
+		sb.WriteByte(str[i])
+	}
+	result = append(result, sb.String())
+	return result
+}
 ```
 
 
