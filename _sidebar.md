@@ -87,6 +87,7 @@
     - [42.TrappingRainWater](./LeetCode/42.TrappingRainWater.md)
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
+    - [65.ValidNumber](./LeetCode/65.ValidNumber.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [76.MinimumWindowSubstring](./LeetCode/76.MinimumWindowSubstring.md)
     - [94.BinaryTreeInorderTraversal](./LeetCode/94.BinaryTreeInorderTraversal.md)
