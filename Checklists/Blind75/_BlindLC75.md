@@ -200,6 +200,8 @@
 
 - [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
 - [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
+- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
+- [ ] [2165. Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/) 
 
 ---
 
