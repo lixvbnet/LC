@@ -114,7 +114,7 @@
 
 - [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [x] [211. Add and Search Word](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [ ] [Skip for now] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
 ---
 
@@ -157,14 +157,14 @@
 - [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) (expand from center)
 - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) (expand from center)
 - [ ] [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) 
+- [x] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) 
 - [x] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) ([LintCode 659](https://www.lintcode.com/problem/659/))
 - [x] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (DFA)
 - [x] [65. Valid Number](https://leetcode.com/problems/valid-number/) (DFA)
-- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) (DFA)
-- [ ] [520. Detect Capital](https://leetcode.com/problems/detect-capital/) (DFA)
-- [ ] [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) (DFA)
-- [ ] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) (DFA)
-- [ ] [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) (DFA)
+- [ ] [Skip for now] [520. Detect Capital](https://leetcode.com/problems/detect-capital/) (DFA)
+- [ ] [Skip for now] [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) (DFA)
+- [ ] [Skip for now] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) (DFA)
+- [ ] [Skip for now] [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) (DFA)
 - [x] [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) (KMP Algorithm)
 - [x] [1392. Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) 
 
@@ -173,10 +173,10 @@
 ## Stack
 
 - [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
-- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
-- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
-- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
+- [ ] [Skip for now] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
+- [ ] [Skip for now] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
+- [ ] [Skip for now] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
+- [ ] [Skip for now] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
 
 ---
 
@@ -204,7 +204,6 @@
 - [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
 - [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
 - [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
-- [ ] [2165. Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/) 
 
 ---
 
