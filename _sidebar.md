@@ -67,6 +67,7 @@
     - [2.AddTwoNumbers](./LeetCode/2.AddTwoNumbers.md)
     - [3.LongestSubstringWithoutRepeatingCharacters](./LeetCode/3.LongestSubstringWithoutRepeatingCharacters.md)
     - [5.LongestPalindromicSubstring](./LeetCode/5.LongestPalindromicSubstring.md)
+    - [6.ZigzagConversion](./LeetCode/6.ZigzagConversion.md)
     - [7.ReverseInteger](./LeetCode/7.ReverseInteger.md)
     - [8.StringtoInteger(atoi)](./LeetCode/8.StringtoInteger(atoi).md)
     - [9.PalindromeNumber](./LeetCode/9.PalindromeNumber.md)
