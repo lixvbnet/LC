@@ -17,7 +17,7 @@
 >
 > `Search` uses binary search to find and return the smallest index i in [0, n) at which f(i) is true, assuming that on the range [0, n), f(i) == true implies f(i+1) == true. That is, `Search` requires that `f` is false for some (possibly empty) prefix of the input range [0, n) and then true for the (possibly empty) remainder; **Search returns the first true index**. If there is no such index, `Search` returns n.
 >
-> - `func SearchInts(a []int, x int) int` 
+> - `func SearchInts(a []int, target int) int` 
 >
 > ```go
 > func SearchInts(nums []int, target int) int {
