@@ -43,7 +43,7 @@
 - [x] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) 
 - [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
 - [x] [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) (Search a Window)
-- [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
+- [x] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
 
 ---
 
