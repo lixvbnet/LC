@@ -1,80 +1,10 @@
 # Binary Search
 
-> [Binary Search Templates](https://leetcode.com/explore/learn/card/binary-search/) ***modified here.***
+> [704. Binary Search](https://leetcode.com/problems/binary-search/) 
 
 
 
-## 🍺 1. Basic Template
-
-> Template #1 is used to search for an element or condition which can be determined by *==accessing a single index==* in the array.
-
-**Key Attributes:** 
-
-> - Most basic and elementary form of Binary Search
->
-> - Search Condition can be determined **without** comparing to the element's neighbors (or use specific elements around it)
-> - No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found
-
-**Distinguishing Syntax:** 
-
-> - Initial Condition: ` left = 0, right = n-1` 
-> - Loop Condition: `left <= right` 
-> - Termination: `left > right`
-> - Searching Left: `right = mid-1`
-> - Searching Right: `left = mid+1` 
-> - Post-processing: Not required
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	nums := []int{2, 3, 5, 8, 10, 12, 15}
-	for _, v := range nums {
-		fmt.Printf("index of %2d: %2d\n", v, binarySearch(nums, v))
-	}
-	for _, v := range []int{-2, 9, 20} {
-		fmt.Printf("index of %2d: %2d\n", v, binarySearch(nums, v))
-	}
-}
-
-func binarySearch(nums []int, target int) int {
-	l, r := 0, len(nums)-1
-	for l <= r {
-		// Prevent (l + r) overflow
-		m := l + (r - l) / 2
-		if nums[m] == target {
-			return m
-		} else if nums[m] > target {
-            r = m - 1
-		} else {
-			l = m + 1
-		}
-	}
-	// End Condition: l > r
-	return -1
-}
-```
-
-Output
-
-```
-index of  2:  0
-index of  3:  1
-index of  5:  2
-index of  8:  3
-index of 10:  4
-index of 12:  5
-index of 15:  6
-index of -2: -1
-index of  9: -1
-index of 20: -1
-```
-
-
-
-## 🍺 2. Search Template - Find first xxx
+## 🍺 Search Template - Find first xxx
 
 ==This abstraction covers almost ALL binary search problems==. Search result is 5 in following example.
 
@@ -104,6 +34,12 @@ func search(n int, f func(int) bool) int {
 	l, r := 0, n
 	for l < r {
 		m := l + (r - l) / 2
+        
+        // (optional) return result if condition is met
+        //if some_condition {
+        //    return xxx
+        //}
+        
 		if f(m) {
 			r = m
 		} else {
@@ -114,23 +50,6 @@ func search(n int, f func(int) bool) int {
 }
 ```
 
-> It can also be written as following code. It also works but can hardly make sense in problem logic.
->
-> ```go
-> func search(n int, f func(int) bool) int {
-> 	l, r := 0, n-1
-> 	for l <= r {
-> 		m := l + (r - l) / 2
-> 		if f(m) {
-> 			r = m - 1
-> 		} else {
-> 			l = m + 1
-> 		}
-> 	}
-> 	return l
-> }
-> ```
-
 
 
 
@@ -138,6 +57,31 @@ func search(n int, f func(int) bool) int {
 ---
 
 # Applications
+
+## Binary Search
+
+```go
+func search(nums []int, target int) int {
+    l, r := 0, len(nums)
+    for l < r {
+        // Prevent (l + r) overflow
+        m := l + (r - l) / 2
+        if nums[m] == target {
+            return m
+        }
+        
+        if nums[m] > target {
+            r = m
+        } else {
+            l = m + 1
+        }
+    }
+    // End Condition: l > r
+    return -1	// return l if want insert position
+}
+```
+
+
 
 ## FindFirstPosition / FindInsertPosition
 
@@ -175,22 +119,3 @@ func findFirstPosition(nums []int, target int) int {
 	return l
 }
 ```
-
-> It can also be written as following code. It also works but can hardly make sense in problem logic.
->
-> ```go
-> func findFirstPosition(nums []int, target int) int {
-> 	l, r := 0, len(nums)-1
-> 	for l <= r {
-> 		m := l + (r - l) / 2
-> 		if nums[m] >= target {
-> 			r = m - 1
-> 		} else {
-> 			l = m + 1
-> 		}
-> 	}
-> 	return l
-> }
-> ```
-
-
