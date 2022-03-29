@@ -4,7 +4,7 @@
 
 
 
-## Basic Template
+## 🍺 1. Basic Template
 
 > Template #1 is used to search for an element or condition which can be determined by *==accessing a single index==* in the array.
 
@@ -74,7 +74,7 @@ index of 20: -1
 
 
 
-## 🍺 Search Template - Find first xxx
+## 🍺 2. Search Template - Find first xxx
 
 ==This abstraction covers almost ALL binary search problems==. Search result is 5 in following example.
 
@@ -133,6 +133,12 @@ func search(n int, f func(int) bool) int {
 
 
 
+
+
+---
+
+# Applications
+
 ## FindFirstPosition / FindInsertPosition
 
 The following function searches sorted array `nums` and returns first position (leftmost) of `target` (or insert position if not found).
@@ -186,8 +192,5 @@ func findFirstPosition(nums []int, target int) int {
 > 	return l
 > }
 > ```
-
-
-
 
 
