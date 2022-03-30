@@ -31,6 +31,19 @@
 - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
 
+---
+
+## Matrix
+
+- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [ ] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
+- [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
+- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [ ] [Word Search](https://leetcode.com/problems/word-search/)
+
+---
+
 ## Binary Search
 
 - [x] [704. Binary Search](https://leetcode.com/problems/binary-search/) 
@@ -170,16 +183,6 @@
 
 ---
 
-## Stack
-
-- [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [Skip for now] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
-- [ ] [Skip for now] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
-- [ ] [Skip for now] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
-- [ ] [Skip for now] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
-
----
-
 ## Dynamic Programming
 
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
@@ -199,11 +202,13 @@
 
 ---
 
-## Math
+## Stack
 
-- [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
-- [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
-- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
+- [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
+- [ ] [Skip for now] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
+- [ ] [Skip for now] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
+- [ ] [Skip for now] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
+- [ ] [Skip for now] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
 
 ---
 
@@ -218,14 +223,11 @@
 
 ---
 
-## Matrix
+## Math
 
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [ ] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
-- [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
-- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [ ] [Word Search](https://leetcode.com/problems/word-search/)
+- [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+- [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
+- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
 
 ---
 
