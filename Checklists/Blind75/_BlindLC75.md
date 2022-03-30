@@ -227,7 +227,7 @@
 
 - [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
 - [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
-- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
+- [x] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
 
 ---
 
