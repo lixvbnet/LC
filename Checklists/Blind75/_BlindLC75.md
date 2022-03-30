@@ -158,7 +158,7 @@
 - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) (expand from center)
 - [x] [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) 
 - [x] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) 
-- [ ] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) 
+- [x] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) 
 - [x] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) ([LintCode 659](https://www.lintcode.com/problem/659/))
 - [x] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (DFA)
 - [x] [65. Valid Number](https://leetcode.com/problems/valid-number/) (DFA)
