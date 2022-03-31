@@ -95,6 +95,7 @@
     - [65.ValidNumber](./LeetCode/65.ValidNumber.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [73.SetMatrixZeroes](./LeetCode/73.SetMatrixZeroes.md)
+    - [74.Searcha2DMatrix](./LeetCode/74.Searcha2DMatrix.md)
     - [76.MinimumWindowSubstring](./LeetCode/76.MinimumWindowSubstring.md)
     - [94.BinaryTreeInorderTraversal](./LeetCode/94.BinaryTreeInorderTraversal.md)
     - [95.UniqueBinarySearchTreesII](./LeetCode/95.UniqueBinarySearchTreesII.md)
