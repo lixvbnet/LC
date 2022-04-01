@@ -39,6 +39,7 @@
 - [x] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
 - [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 
@@ -67,6 +68,7 @@
 - [x] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [x] [2166. Design Bitset](https://leetcode.com/problems/design-bitset/) 
+- [ ] [67. Add Binary](https://leetcode.com/problems/add-binary/) 
 
 ---
 
@@ -196,6 +198,7 @@
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
 - [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 - [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
@@ -203,6 +206,8 @@
 ---
 
 ## Stack
+
+- [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
 
 - [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 - [ ] [Skip for now] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
@@ -212,14 +217,17 @@
 
 ---
 
-## Recursion
+## Backtracking
 
 - [ ] [46. Permutations](https://leetcode.com/problems/permutations/) 
 - [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
 - [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
+- [ ] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
 - [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 
 - [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
 - [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
+- [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
+- [ ] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
 
 ---
 
