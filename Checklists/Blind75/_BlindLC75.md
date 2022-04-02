@@ -39,7 +39,7 @@
 - [x] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
 - [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
 - [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [ ] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
+- [x] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 
