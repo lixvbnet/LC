@@ -158,6 +158,8 @@
 
 ## String
 
+- [x] [344. Reverse String](https://leetcode.com/problems/reverse-string/) 
+
 - [x] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
 - [x] [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Sliding Window)
 - [x] [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Sliding Window)
