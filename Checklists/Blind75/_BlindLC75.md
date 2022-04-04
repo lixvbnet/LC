@@ -41,7 +41,7 @@
 - [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [x] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
 - [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [ ] [Word Search](https://leetcode.com/problems/word-search/)
+- [x] [Word Search](https://leetcode.com/problems/word-search/)
 
 ---
 
