@@ -139,7 +139,7 @@
 
 - [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [x] [211. Add and Search Word](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-- [ ] [Skip for now] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [x] [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
 ---
 
