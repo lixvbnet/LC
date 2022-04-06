@@ -199,7 +199,7 @@
 
 ## Dynamic Programming
 
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [x] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
@@ -248,6 +248,7 @@
 - [x] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
 - [x] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
 - [x] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
+- [x] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
 
 ---
 

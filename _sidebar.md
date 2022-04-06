@@ -97,6 +97,7 @@
     - [61.RotateList](./LeetCode/61.RotateList.md)
     - [65.ValidNumber](./LeetCode/65.ValidNumber.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
+    - [70.ClimbingStairs](./LeetCode/70.ClimbingStairs.md)
     - [73.SetMatrixZeroes](./LeetCode/73.SetMatrixZeroes.md)
     - [74.Searcha2DMatrix](./LeetCode/74.Searcha2DMatrix.md)
     - [76.MinimumWindowSubstring](./LeetCode/76.MinimumWindowSubstring.md)
@@ -169,6 +170,7 @@
     - [876.MiddleoftheLinkedList](./LeetCode/876.MiddleoftheLinkedList.md)
     - [889.ConstructBinaryTreefromPreorderandPostorderTraversal](./LeetCode/889.ConstructBinaryTreefromPreorderandPostorderTraversal.md)
     - [1392.LongestHappyPrefix](./LeetCode/1392.LongestHappyPrefix.md)
+    - [1979.FindGreatestCommonDivisorofArray](./LeetCode/1979.FindGreatestCommonDivisorofArray.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
 
 * LintCode
