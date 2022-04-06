@@ -169,7 +169,6 @@
 ## String
 
 - [x] [344. Reverse String](https://leetcode.com/problems/reverse-string/) 
-
 - [x] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
 - [x] [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Sliding Window)
 - [x] [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Sliding Window)
@@ -220,7 +219,6 @@
 ## Stack
 
 - [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
-
 - [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 - [ ] [Skip for now] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
 - [ ] [Skip for now] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
