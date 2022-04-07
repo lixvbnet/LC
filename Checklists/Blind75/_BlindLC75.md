@@ -199,7 +199,7 @@
 ## Dynamic Programming
 
 - [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
+- [x] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [x] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
