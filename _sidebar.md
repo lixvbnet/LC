@@ -151,6 +151,7 @@
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
     - [297.SerializeandDeserializeBinaryTree](./LeetCode/297.SerializeandDeserializeBinaryTree.md)
+    - [300.LongestIncreasingSubsequence](./LeetCode/300.LongestIncreasingSubsequence.md)
     - [322.CoinChange](./LeetCode/322.CoinChange.md)
     - [338.CountingBits](./LeetCode/338.CountingBits.md)
     - [344.ReverseString](./LeetCode/344.ReverseString.md)
