@@ -167,6 +167,7 @@
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
     - [647.PalindromicSubstrings](./LeetCode/647.PalindromicSubstrings.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
+    - [673.NumberofLongestIncreasingSubsequence](./LeetCode/673.NumberofLongestIncreasingSubsequence.md)
     - [678.ValidParenthesisString](./LeetCode/678.ValidParenthesisString.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
