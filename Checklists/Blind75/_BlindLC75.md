@@ -204,7 +204,7 @@
 - [x] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
 - [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [x] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) 
-- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
 - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/)
