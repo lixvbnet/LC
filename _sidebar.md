@@ -95,6 +95,7 @@
     - [54.SpiralMatrix](./LeetCode/54.SpiralMatrix.md)
     - [59.SpiralMatrixII](./LeetCode/59.SpiralMatrixII.md)
     - [61.RotateList](./LeetCode/61.RotateList.md)
+    - [62.UniquePaths](./LeetCode/62.UniquePaths.md)
     - [65.ValidNumber](./LeetCode/65.ValidNumber.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [70.ClimbingStairs](./LeetCode/70.ClimbingStairs.md)
