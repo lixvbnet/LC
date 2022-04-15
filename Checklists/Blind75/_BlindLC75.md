@@ -216,7 +216,7 @@
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
-- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
+- [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 - [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
 
