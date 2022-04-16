@@ -217,7 +217,8 @@
 - [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
 - [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+- [x] [55. Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
 - [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
 
 ---
@@ -244,6 +245,7 @@
 - [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
 - [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
 - [ ] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
+- [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
 
 ---
 

@@ -93,6 +93,7 @@
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [54.SpiralMatrix](./LeetCode/54.SpiralMatrix.md)
+    - [55.JumpGame](./LeetCode/55.JumpGame.md)
     - [59.SpiralMatrixII](./LeetCode/59.SpiralMatrixII.md)
     - [61.RotateList](./LeetCode/61.RotateList.md)
     - [62.UniquePaths](./LeetCode/62.UniquePaths.md)
