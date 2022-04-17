@@ -218,7 +218,7 @@
 - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
 - [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [x] [55. Jump Game](https://leetcode.com/problems/jump-game/)
-- [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
+- [x] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
 - [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
 
 ---

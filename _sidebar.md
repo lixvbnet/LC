@@ -89,6 +89,7 @@
     - [41.FirstMissingPositive](./LeetCode/41.FirstMissingPositive.md)
     - [42.TrappingRainWater](./LeetCode/42.TrappingRainWater.md)
     - [44.WildcardMatching](./LeetCode/44.WildcardMatching.md)
+    - [45.JumpGameII](./LeetCode/45.JumpGameII.md)
     - [48.RotateImage](./LeetCode/48.RotateImage.md)
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
