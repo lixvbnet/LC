@@ -211,7 +211,7 @@
 - [x] [House Robber](https://leetcode.com/problems/house-robber/)
 - [x] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [x] [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) 
-- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
 - [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
