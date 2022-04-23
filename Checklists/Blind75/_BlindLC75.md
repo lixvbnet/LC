@@ -163,6 +163,7 @@
 - [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
 - [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 - [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) (Minimum Spanning Tree, Prim's Algorithm)
+- [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) 
 
 ---
 
@@ -217,7 +218,7 @@
 - [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
 - [x] [55. Jump Game](https://leetcode.com/problems/jump-game/)
 - [x] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
-- [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
+- [x] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
 
 ---
 
