@@ -78,7 +78,7 @@
 - [x] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [x] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [x] [2166. Design Bitset](https://leetcode.com/problems/design-bitset/) 
-- [ ] [67. Add Binary](https://leetcode.com/problems/add-binary/) 
+- [x] [67. Add Binary](https://leetcode.com/problems/add-binary/) 
 
 ---
 

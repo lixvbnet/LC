@@ -101,6 +101,7 @@
     - [63.UniquePathsII](./LeetCode/63.UniquePathsII.md)
     - [64.MinimumPathSum](./LeetCode/64.MinimumPathSum.md)
     - [65.ValidNumber](./LeetCode/65.ValidNumber.md)
+    - [67.AddBinary](./LeetCode/67.AddBinary.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [70.ClimbingStairs](./LeetCode/70.ClimbingStairs.md)
     - [73.SetMatrixZeroes](./LeetCode/73.SetMatrixZeroes.md)
