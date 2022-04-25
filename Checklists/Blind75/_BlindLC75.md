@@ -236,7 +236,7 @@
 ## Backtracking
 
 - [x] [46. Permutations](https://leetcode.com/problems/permutations/) 
-- [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
+- [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
 - [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
 - [ ] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
 - [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 

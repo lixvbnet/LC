@@ -91,6 +91,7 @@
     - [44.WildcardMatching](./LeetCode/44.WildcardMatching.md)
     - [45.JumpGameII](./LeetCode/45.JumpGameII.md)
     - [46.Permutations](./LeetCode/46.Permutations.md)
+    - [47.PermutationsII](./LeetCode/47.PermutationsII.md)
     - [48.RotateImage](./LeetCode/48.RotateImage.md)
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
