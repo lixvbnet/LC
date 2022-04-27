@@ -99,6 +99,7 @@
     - [54.SpiralMatrix](./LeetCode/54.SpiralMatrix.md)
     - [55.JumpGame](./LeetCode/55.JumpGame.md)
     - [59.SpiralMatrixII](./LeetCode/59.SpiralMatrixII.md)
+    - [60.PermutationSequence](./LeetCode/60.PermutationSequence.md)
     - [61.RotateList](./LeetCode/61.RotateList.md)
     - [62.UniquePaths](./LeetCode/62.UniquePaths.md)
     - [63.UniquePathsII](./LeetCode/63.UniquePathsII.md)
