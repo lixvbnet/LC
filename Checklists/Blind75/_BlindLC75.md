@@ -241,7 +241,7 @@
 - [x] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
 - [x] [77. Combinations](https://leetcode.com/problems/combinations/) 
 - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 
-- [ ] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
+- [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
 - [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
 - [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
 - [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
