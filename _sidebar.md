@@ -156,6 +156,7 @@
     - [211.DesignAddandSearchWordsDataStructure](./LeetCode/211.DesignAddandSearchWordsDataStructure.md)
     - [212.WordSearchII](./LeetCode/212.WordSearchII.md)
     - [213.HouseRobberII](./LeetCode/213.HouseRobberII.md)
+    - [216.CombinationSumIII](./LeetCode/216.CombinationSumIII.md)
     - [217.ContainsDuplicate](./LeetCode/217.ContainsDuplicate.md)
     - [226.InvertBinaryTree](./LeetCode/226.InvertBinaryTree.md)
     - [230.KthSmallestElementinaBST](./LeetCode/230.KthSmallestElementinaBST.md)

@@ -242,7 +242,7 @@
 - [x] [77. Combinations](https://leetcode.com/problems/combinations/) 
 - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 
 - [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
-- [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
+- [x] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
 - [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
 - [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
 - [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
