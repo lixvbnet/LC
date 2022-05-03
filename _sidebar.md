@@ -87,6 +87,7 @@
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [34.FindFirstandLastPositionofElementinSortedArray](./LeetCode/34.FindFirstandLastPositionofElementinSortedArray.md)
     - [35.SearchInsertPosition](./LeetCode/35.SearchInsertPosition.md)
+    - [36.ValidSudoku](./LeetCode/36.ValidSudoku.md)
     - [39.CombinationSum](./LeetCode/39.CombinationSum.md)
     - [40.CombinationSumII](./LeetCode/40.CombinationSumII.md)
     - [41.FirstMissingPositive](./LeetCode/41.FirstMissingPositive.md)

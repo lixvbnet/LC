@@ -42,6 +42,8 @@
 - [x] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
 - [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [x] [Word Search](https://leetcode.com/problems/word-search/)
+- [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) 
+- [ ] [Skip for now] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 
 ---
 
