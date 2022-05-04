@@ -30,3 +30,8 @@ case $input in
 		echo "Cancelled"
        		;;
 esac
+
+if [ -n "$TMUX" ]; then
+  echo
+  read -n 1 -s -r -p "Press any key to continue..."
+fi
