@@ -99,6 +99,7 @@
     - [47.PermutationsII](./LeetCode/47.PermutationsII.md)
     - [48.RotateImage](./LeetCode/48.RotateImage.md)
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
+    - [51.N-Queens](./LeetCode/51.N-Queens.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
     - [54.SpiralMatrix](./LeetCode/54.SpiralMatrix.md)
     - [55.JumpGame](./LeetCode/55.JumpGame.md)
