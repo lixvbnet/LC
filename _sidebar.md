@@ -202,6 +202,7 @@
     - [876.MiddleoftheLinkedList](./LeetCode/876.MiddleoftheLinkedList.md)
     - [889.ConstructBinaryTreefromPreorderandPostorderTraversal](./LeetCode/889.ConstructBinaryTreefromPreorderandPostorderTraversal.md)
     - [1143.LongestCommonSubsequence](./LeetCode/1143.LongestCommonSubsequence.md)
+    - [1306.JumpGameIII](./LeetCode/1306.JumpGameIII.md)
     - [1392.LongestHappyPrefix](./LeetCode/1392.LongestHappyPrefix.md)
     - [1979.FindGreatestCommonDivisorofArray](./LeetCode/1979.FindGreatestCommonDivisorofArray.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)

@@ -250,7 +250,7 @@
 - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
 - [x] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
 - [x] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
-- [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
+- [x] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
 
 ---
 
