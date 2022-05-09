@@ -116,6 +116,7 @@
     - [70.ClimbingStairs](./LeetCode/70.ClimbingStairs.md)
     - [73.SetMatrixZeroes](./LeetCode/73.SetMatrixZeroes.md)
     - [74.Searcha2DMatrix](./LeetCode/74.Searcha2DMatrix.md)
+    - [75.SortColors](./LeetCode/75.SortColors.md)
     - [76.MinimumWindowSubstring](./LeetCode/76.MinimumWindowSubstring.md)
     - [77.Combinations](./LeetCode/77.Combinations.md)
     - [78.Subsets](./LeetCode/78.Subsets.md)
