@@ -15,6 +15,7 @@
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
 - [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 - [x] [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
