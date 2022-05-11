@@ -51,7 +51,7 @@
 ## Sorting
 
 - [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
-- [ ] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
+- [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
 - [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
 - [ ] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
 - [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
