@@ -113,3 +113,6 @@ func getKthElement(nums []int, k int) int {
 }
 ```
 
+Time Complexity:
+
+$n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$ 
