@@ -15,7 +15,6 @@
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
 - [x] [3Sum](https://leetcode.com/problems/3sum/)
-- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 - [x] [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
@@ -52,7 +51,8 @@
 
 - [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
 - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
-- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
+- [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
+- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
 - [ ] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
 - [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
 
@@ -149,7 +149,7 @@
 ## Heap
 
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
