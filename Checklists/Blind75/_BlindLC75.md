@@ -228,7 +228,7 @@
 ## Stack
 
 - [x] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
-- [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
+- [x] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
 - [x] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 - [ ] [Skip for now] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
 - [ ] [Skip for now] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )

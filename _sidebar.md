@@ -114,6 +114,7 @@
     - [67.AddBinary](./LeetCode/67.AddBinary.md)
     - [69.Sqrt(x)](./LeetCode/69.Sqrt(x).md)
     - [70.ClimbingStairs](./LeetCode/70.ClimbingStairs.md)
+    - [71.SimplifyPath](./LeetCode/71.SimplifyPath.md)
     - [73.SetMatrixZeroes](./LeetCode/73.SetMatrixZeroes.md)
     - [74.Searcha2DMatrix](./LeetCode/74.Searcha2DMatrix.md)
     - [75.SortColors](./LeetCode/75.SortColors.md)
