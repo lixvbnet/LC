@@ -159,15 +159,16 @@
 
 - [x] [Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
-- [ ] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
+- [x] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)
-- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
+- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/) ([LintCode 892](https://www.lintcode.com/problem/892/))
+- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/) ([LintCode 178](https://www.lintcode.com/problem/178/))
 - [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 - [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) (Minimum Spanning Tree, Prim's Algorithm)
 - [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) 
+- [ ] [127. Word Ladder](https://leetcode.com/problems/word-ladder/) 
 
 ---
 
