@@ -1,12 +1,8 @@
 * [**Home**](/)
 
 * Checklists
-
-    * Blind75
-        - [_BlindLC75](./Checklists/Blind75/_BlindLC75.md)
-
-    * Cspiration426
-        - [_Cspiration426](./Checklists/Cspiration426/_Cspiration426.md)
+    - [BlindLC75](./Checklists/BlindLC75.md)
+    - [Cspiration426](./Checklists/Cspiration426.md)
 
 * LeetCode
     - [1.TwoSum](./LeetCode/1.TwoSum.md)
