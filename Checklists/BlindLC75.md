@@ -8,22 +8,25 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time.*** 
+***Updated with time. (currently 230+)***
 
 
 
 ## Array
 
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
-- [ ] [3Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
+- [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
+- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 - [ ] [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
-- [ ] [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/)
+- [ ] [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) (General form of "Stock Buy and Sell Problem")
 - [ ] [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)
+- [ ] [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
 - [ ] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
@@ -241,9 +244,9 @@
 - [ ] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) 
-- [ ] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
-- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [ ] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) 
+- [ ] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [ ] [139. Word Break](https://leetcode.com/problems/word-break/)
 - [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
