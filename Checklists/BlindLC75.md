@@ -23,21 +23,50 @@
 - [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
 - [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
-- [ ] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) 
-- [ ] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
 - [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
 - [ ] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
+- [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
+- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+
+***Monotonic Stack*** 
+
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
+- [ ] ~~[Won't do] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)~~ 
+- [ ] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
+- [ ] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
+- [ ] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
+- [ ] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
+
+***Buy & Sell Stock Series*** 
+
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 
 - [ ] [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) 
 - [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) (General form of "Stock Buy and Sell Problem")
 - [ ] [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) 
 - [ ] [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) 
+
+---
+
+## Backtracking
+
+- [ ] [46. Permutations](https://leetcode.com/problems/permutations/) 
+- [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
+- [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
+- [ ] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
+- [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 
+- [ ] [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 
+- [ ] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
+- [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
+- [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
+- [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
+- [ ] [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
+- [ ] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
+- [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
 
 ---
 
@@ -285,32 +314,11 @@
 - [ ] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
 - [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
 - [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 - [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
 - [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
 - [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
 - [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
 - [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
-
----
-
-## Backtracking
-
-- [ ] [46. Permutations](https://leetcode.com/problems/permutations/) 
-- [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
-- [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
-- [ ] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
-- [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 
-- [ ] [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 
-- [ ] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
-- [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
-- [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
-- [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
-- [ ] [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-- [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
-- [ ] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
-- [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
 
 ---
 
