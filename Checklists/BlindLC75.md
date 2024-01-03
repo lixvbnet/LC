@@ -14,35 +14,35 @@
 
 ## Array
 
-- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
-- [x] [3Sum](https://leetcode.com/problems/3sum/)
-- [x] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
-- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
-- [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
-- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-- [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-- [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
+- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [ ] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
+- [ ] [3Sum](https://leetcode.com/problems/3sum/)
+- [ ] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
+- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+- [ ] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
+- [ ] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
+- [ ] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
+- [ ] [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
 - [ ] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
-- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+- [ ] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
 
 ***Monotonic Stack*** 
 
-- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
-- [ ] ~~[Won't do] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)~~ 
-- [x] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
+- [ ] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
+- [ ] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) 
+- [ ] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
 - [ ] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
 - [ ] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
 - [ ] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
 
 ***Buy & Sell Stock Series*** 
 
-- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
-- [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 
+- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
+- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 
 - [ ] [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) 
 - [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) (General form of "Stock Buy and Sell Problem")
 - [ ] [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) 
