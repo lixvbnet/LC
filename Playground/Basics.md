@@ -1,4 +1,10 @@
-## `strings.Split` 
+## References
+
+- https://vbnetvbnet.github.io/LeetCode/#/./%E4%B8%93%E9%A2%98%E6%80%BB%E7%BB%93/Basics
+
+
+
+## strings.Split` 
 
 > ⚠️ Note: `strings.Split("")` results in array with 1 elem `[""]` 
 >
