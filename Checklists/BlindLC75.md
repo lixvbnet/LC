@@ -14,11 +14,11 @@
 
 ## Array
 
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
-- [ ] [3Sum](https://leetcode.com/problems/3sum/)
-- [ ] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
+- [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
 - [ ] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
 - [ ] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
