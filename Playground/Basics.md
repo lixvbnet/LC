@@ -4,9 +4,9 @@
 
 
 
-## strings.Split` 
+## strings.Split 
 
-> ⚠️ Note: `strings.Split("")` results in array with 1 elem `[""]` 
+> ⚠️ Note: `strings.Split("")` results in array with 1 element `[""]` 
 >
 > ```go
 > A := strings.Split("", ",")
