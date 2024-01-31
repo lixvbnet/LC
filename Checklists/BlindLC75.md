@@ -50,25 +50,119 @@
 
 ---
 
-## Backtracking
+## Stack
 
-- [ ] [46. Permutations](https://leetcode.com/problems/permutations/) 
-- [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
-- [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
-- [ ] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
-- [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 
-- [ ] [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 
-- [ ] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
-- [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
-- [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
-- [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
-- [ ] [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-- [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
-- [ ] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
-- [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
+- [ ] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) 
+- [ ] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
+- [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
+- [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
+- [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
+- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
+- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
+- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
+- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
 
----
+------
+
+
+
+## Heap / Priority Queue
+
+- [ ] [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+- [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
+- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+- [ ] [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/)
+- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
+- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+------
+
+## Graph
+
+- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
+- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [ ] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
+- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+- [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+- [ ] [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+- [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] [Walls And Gates (Leetcode Premium)](https://leetcode.com/problems/walls-and-gates/)
+- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/) ([LintCode 892](https://www.lintcode.com/problem/892/))
+- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/) ([LintCode 178](https://www.lintcode.com/problem/178/))
+- [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [ ] [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) (Minimum Spanning Tree, Prim's Algorithm)
+- [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) 
+- [ ] [127. Word Ladder](https://leetcode.com/problems/word-ladder/) 
+- [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- [ ] [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
+- [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+
+------
+
+
+
+## Dynamic Programming
+
+- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
+- [ ] [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) 
+- [ ] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [ ] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) 
+- [ ] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
+- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [ ] [139. Word Break](https://leetcode.com/problems/word-break/)
+- [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+- [ ] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+- [ ] [House Robber](https://leetcode.com/problems/house-robber/)
+- [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [ ] [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) 
+- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- [ ] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
+- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
+- [ ] [55. Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
+- [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
+- [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [ ] [Target Sum](https://leetcode.com/problems/target-sum/)
+- [ ] [Interleaving String](https://leetcode.com/problems/interleaving-string/)
+- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
+- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [ ] [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+
+------
+
+## Greedy
+
+- [ ] [Gas Station](https://leetcode.com/problems/gas-station/)
+- [ ] [Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
+- [ ] [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
+- [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/)
+
+------
+
+
+
+## Math
+
+- [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+- [ ] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
+- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
+- [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
+- [ ] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [ ] [Plus One](https://leetcode.com/problems/plus-one/)
+- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
+- [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
+
+------
 
 ## Matrix
 
@@ -83,6 +177,8 @@
 - [ ] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) 
 
 ---
+
+
 
 ## Sorting
 
@@ -112,6 +208,8 @@
 - [ ] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
 
 ---
+
+
 
 ## String
 
@@ -143,6 +241,8 @@
 
 ---
 
+
+
 ## Bit Manipulation
 
 - [ ] [Single Number](https://leetcode.com/problems/single-number/)
@@ -154,6 +254,8 @@
 - [ ] [67. Add Binary](https://leetcode.com/problems/add-binary/) 
 
 ---
+
+
 
 ## Linked List
 
@@ -178,6 +280,28 @@
 - [ ] [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) 
 
 ---
+
+
+
+## Backtracking
+
+- [ ] [46. Permutations](https://leetcode.com/problems/permutations/) 
+- [ ] [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
+- [ ] [31. Next Permutation](https://leetcode.com/problems/next-permutation/) 
+- [ ] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) 
+- [ ] [77. Combinations](https://leetcode.com/problems/combinations/) 
+- [ ] [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 
+- [ ] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) 
+- [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
+- [ ] [78. Subsets](https://leetcode.com/problems/subsets/) 
+- [ ] [90. Subsets II](https://leetcode.com/problems/subsets-ii/) 
+- [ ] [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [ ] [51. N-Queens](https://leetcode.com/problems/n-queens/) 
+- [ ] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) 
+- [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
+
+------
 
 ## Tree
 
@@ -229,112 +353,7 @@
 
 ---
 
-## Heap / Priority Queue
 
-- [ ] [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-- [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
-- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
-- [ ] [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-- [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/)
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-
----
-
-## Graph
-
-- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
-- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
-- [ ] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
-- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-- [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [ ] [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
-- [ ] [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-- [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-- [ ] [Walls And Gates (Leetcode Premium)](https://leetcode.com/problems/walls-and-gates/)
-- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/) ([LintCode 892](https://www.lintcode.com/problem/892/))
-- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/) ([LintCode 178](https://www.lintcode.com/problem/178/))
-- [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [ ] [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
-- [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) (Minimum Spanning Tree, Prim's Algorithm)
-- [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) 
-- [ ] [127. Word Ladder](https://leetcode.com/problems/word-ladder/) 
-- [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
-- [ ] [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
-- [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-
----
-
-## Dynamic Programming
-
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [ ] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
-- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
-- [ ] [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) 
-- [ ] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [ ] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) 
-- [ ] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
-- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [ ] [139. Word Break](https://leetcode.com/problems/word-break/)
-- [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-- [ ] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-- [ ] [House Robber](https://leetcode.com/problems/house-robber/)
-- [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- [ ] [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) 
-- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-- [ ] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-- [ ] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 
-- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) 
-- [ ] [55. Jump Game](https://leetcode.com/problems/jump-game/)
-- [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) 
-- [ ] [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) 
-- [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
-- [ ] [Target Sum](https://leetcode.com/problems/target-sum/)
-- [ ] [Interleaving String](https://leetcode.com/problems/interleaving-string/)
-- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
-- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
-- [ ] [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
-
----
-
-## Greedy
-
-- [ ] [Gas Station](https://leetcode.com/problems/gas-station/)
-- [ ] [Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
-- [ ] [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
-- [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/)
-
----
-
-## Stack
-
-- [ ] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
-- [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
-- [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
-- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
-- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
-- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
-- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
-
----
-
-## Math
-
-- [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
-- [ ] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
-- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
-- [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
-- [ ] [Happy Number](https://leetcode.com/problems/happy-number/)
-- [ ] [Plus One](https://leetcode.com/problems/plus-one/)
-- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
-- [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
-- [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
-
----
 
 ## Interval
 
