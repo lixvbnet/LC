@@ -53,7 +53,7 @@
 ## Stack
 
 - [x] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) 
-- [ ] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
+- [x] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
 - [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
 - [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 - [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
