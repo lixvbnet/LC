@@ -4,6 +4,19 @@
 
 
 
+## 2-D Slice
+
+Create an `m * n` slice.
+
+```go
+arr := make([][]int, m)
+for i := range arr {
+  arr[i] = make([]int, n)
+}
+```
+
+
+
 ## strings.Split 
 
 > ⚠️ Note: `strings.Split("")` results in array with 1 element `[""]` 

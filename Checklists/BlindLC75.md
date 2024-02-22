@@ -109,6 +109,7 @@
 
 ## Dynamic Programming
 
+- [x] [72. Edit Distance](https://leetcode.com/problems/edit-distance/) 
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
@@ -133,8 +134,7 @@
 - [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [ ] [Target Sum](https://leetcode.com/problems/target-sum/)
 - [ ] [Interleaving String](https://leetcode.com/problems/interleaving-string/)
-- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
-- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) 
 - [ ] [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
 
 ------
