@@ -26,7 +26,7 @@
 - [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
-- [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [ ] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
 - [ ] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
 

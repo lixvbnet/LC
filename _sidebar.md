@@ -87,6 +87,7 @@
     - [123.BestTimetoBuyandSellStockIII](./LeetCode/123.BestTimetoBuyandSellStockIII.md)
     - [124.BinaryTreeMaximumPathSum](./LeetCode/124.BinaryTreeMaximumPathSum.md)
     - [125.ValidPalindrome](./LeetCode/125.ValidPalindrome.md)
+    - [128.LongestConsecutiveSequence](./LeetCode/128.LongestConsecutiveSequence.md)
     - [133.CloneGraph](./LeetCode/133.CloneGraph.md)
     - [139.WordBreak](./LeetCode/139.WordBreak.md)
     - [141.LinkedListCycle](./LeetCode/141.LinkedListCycle.md)
