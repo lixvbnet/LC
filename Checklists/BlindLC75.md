@@ -8,7 +8,11 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time. (currently 230+)***
+***Updated with time. (currently 230+)*** 
+
+```shell
+cat Checklists/BlindLC75.md | grep "\\- \[.*\]" | wc -l
+```
 
 
 
@@ -26,8 +30,7 @@
 - [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
-- [ ] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
+- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
 - [ ] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
 
 ***Monotonic Stack*** 
@@ -50,6 +53,26 @@
 
 ---
 
+
+
+## Heap / Priority Queue
+
+- [ ] [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+- [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
+- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+- [ ] [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
+- [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/)
+- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
+- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+------
+
+
+
 ## Stack
 
 - [x] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) 
@@ -65,21 +88,6 @@
 ------
 
 
-
-## Heap / Priority Queue
-
-- [ ] [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-- [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
-- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
-- [ ] [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-- [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/)
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-
-------
 
 ## Graph
 
