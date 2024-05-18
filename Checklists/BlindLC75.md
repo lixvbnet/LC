@@ -31,12 +31,11 @@ cat Checklists/BlindLC75.md | grep "\\- \[.*\]" | wc -l
 - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
 - [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-- [ ] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
 
 ***Monotonic Stack*** 
 
-- [ ] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
-- [ ] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) 
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
 - [ ] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
 - [ ] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
 - [ ] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
