@@ -28,6 +28,26 @@ for i := range arr {
 
 
 
+## Extend a slice
+
+Add a `0` at both sides of the slice `heights` 
+
+```go
+heights = append(append([]int{0}, heights...), 0)
+```
+
+> This is equivalent to following code:
+>
+> ```go
+> newHeights := make([]int, len(heights)+2)
+> for i := range heights {
+>     newHeights[i+1] = heights[i]
+> }
+> heights = newHeights
+> ```
+
+
+
 ## Pointer as Function Parameter
 
 ```go
