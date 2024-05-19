@@ -36,7 +36,7 @@ cat Checklists/BlindLC75.md | grep "\\- \[.*\]" | wc -l
 ***Monotonic Stack*** 
 
 - [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
-- [ ] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
+- [x] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
 - [ ] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
 - [ ] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
 - [ ] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 

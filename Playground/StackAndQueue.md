@@ -108,7 +108,8 @@ Output
 
 ```go
 func main() {
-	var stack Stack = []int{0,1,2,3,4,5}
+  var stack Stack													// Create an Empty Stack
+	//var stack Stack = []int{0,1,2,3,4,5}	// Create a Stack with initial values
 	stack.Push(7)
 	stack.Push(8)
 	stack.Push(9)
@@ -121,7 +122,8 @@ func main() {
 	fmt.Println("-----------------------")
 }
 
-// stack type definition
+
+// Stack type definition
 type Stack []int
 
 func (s *Stack) Push(x int) {
@@ -139,6 +141,7 @@ func (s *Stack) Peek() int {
 	n := len(*s)
 	return (*s)[n-1]
 }
+
 
 /* ----- optional methods ----- */
 func (s *Stack) Size() int {
