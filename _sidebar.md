@@ -155,6 +155,7 @@
     - [678.ValidParenthesisString](./LeetCode/678.ValidParenthesisString.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
+    - [739.DailyTemperatures](./LeetCode/739.DailyTemperatures.md)
     - [876.MiddleoftheLinkedList](./LeetCode/876.MiddleoftheLinkedList.md)
     - [889.ConstructBinaryTreefromPreorderandPostorderTraversal](./LeetCode/889.ConstructBinaryTreefromPreorderandPostorderTraversal.md)
     - [1143.LongestCommonSubsequence](./LeetCode/1143.LongestCommonSubsequence.md)

@@ -137,7 +137,7 @@ func (s *Stack) Pop() int {
 	return top
 }
 
-func (s *Stack) Peek() int {
+func (s *Stack) Top() int {
 	n := len(*s)
 	return (*s)[n-1]
 }
