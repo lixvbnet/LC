@@ -8,10 +8,10 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time. (currently 230+)*** 
+***Updated with time. (currently 240+)*** 
 
 ```shell
-cat Checklists/BlindLC75.md | grep "\\- \[.*\]" | wc -l
+cat Checklists/BlindLC75.md | grep "\- \[.*\]" | wc -l
 ```
 
 
