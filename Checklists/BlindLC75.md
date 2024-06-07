@@ -40,7 +40,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
 - [x] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
 - [x] [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 
-- [ ] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
+- [x] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
 
 ***Buy & Sell Stock Series*** 
 
