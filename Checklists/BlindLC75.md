@@ -11,7 +11,7 @@
 ***Updated with time. (currently 240+)*** 
 
 ```shell
-cat Checklists/BlindLC75.md | grep "\- \[.*\]" | wc -l
+cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ```
 
 
@@ -40,7 +40,6 @@ cat Checklists/BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
 - [x] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
 - [x] [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 
-- [ ] [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) 
 - [ ] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
 
 ***Buy & Sell Stock Series*** 
@@ -166,7 +165,8 @@ cat Checklists/BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
 - [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
 - [ ] [Happy Number](https://leetcode.com/problems/happy-number/)
-- [ ] [Plus One](https://leetcode.com/problems/plus-one/)
+- [ ] [Plus One](https://leetcode.com/problems/plus-one/) 
+- [ ] [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) 
 - [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 - [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
