@@ -73,6 +73,26 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
+## UnionFind
+
+- [ ] [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
+- [ ] [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
+- [ ] [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 
+
+---
+
+
+
+## Trie
+
+- [ ] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+
+---
+
+
+
 ## Stack
 
 - [x] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) 
@@ -342,22 +362,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Count Good Nodes In Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
 - [ ] [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) 
-
----
-
-## Trie
-
-- [ ] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
-
----
-
-## UnionFind
-
-- [ ] 261 [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)
-- [ ] 323 [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/)
-- [ ] 305 [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/description/)
 
 ---
 
