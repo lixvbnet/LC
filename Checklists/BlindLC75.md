@@ -75,37 +75,19 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## UnionFind
 
-- [ ] [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
+- [ ] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) 
+- [ ] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
+- [ ] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
 - [ ] [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
+- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 
+- [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) 
 - [ ] [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 
+- [ ] [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
+- [ ] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
+- [ ] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
+- [ ] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) 
 
 ---
-
-
-
-## Trie
-
-- [ ] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
-
----
-
-
-
-## Stack
-
-- [x] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) 
-- [x] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
-- [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
-- [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
-- [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
-- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
-- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
-- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
-- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
-
-------
 
 
 
@@ -130,6 +112,32 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 - [ ] [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 - [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+
+------
+
+
+
+## Trie
+
+- [ ] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+
+---
+
+
+
+## Stack
+
+- [x] [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) 
+- [x] [155. Min Stack](https://leetcode.com/problems/min-stack/) 
+- [ ] [71. Simplify Path](https://leetcode.com/problems/simplify-path/) 
+- [ ] [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
+- [ ] [Car Fleet](https://leetcode.com/problems/car-fleet/)
+- [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) ( `+ - ()` )
+- [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ( `+ - * /` )
+- [ ] [772. Basic Calculator III (Leetcode Premium)](https://leetcode.com/problems/basic-calculator-iii/)  ( `+ - * / ()` ) ([LintCode 849](https://www.lintcode.com/problem/849/)) 
+- [ ] [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) 
 
 ------
 
