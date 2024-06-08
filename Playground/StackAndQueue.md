@@ -8,7 +8,7 @@ func main() {
 }
 
 func stack_test() {
-	stack := []int{}
+	var stack []int
 	// push
 	stack = append(stack, 3)
 	stack = append(stack, 5)
@@ -26,16 +26,16 @@ func stack_test() {
 }
 
 func queue_test() {
-	queue := []int{}
+	var queue []int
 
-	// enqueue
+	// offer
 	queue = append(queue, 3)
 	queue = append(queue, 5)
 	queue = append(queue, 6)
 	queue = append(queue, 10)
 	fmt.Println(queue)
 
-	// dequeue
+	// poll
 	for len(queue) > 0 {
 		x := queue[0]
 		queue = queue[1:]
@@ -65,60 +65,21 @@ queue is empty
 
 
 
-## Stack helper functions
-
-```go
-func main() {
-	stack := []int{0,1,2,3,4,5}
-	stackPush(&stack, 7)
-	stackPush(&stack, 8)
-	stackPush(&stack, 9)
-	fmt.Println(stack)
-	fmt.Println("-----------------------")
-	
-	stackPop(&stack)
-	stackPop(&stack)
-	fmt.Println(stack)
-}
-
-// stack helper functions
-func stackPush(stack *[]int, x int) {
-	*stack = append(*stack, x)
-}
-
-func stackPop(stack *[]int) int {
-	n := len(*stack)
-	top := (*stack)[n-1]
-	*stack = (*stack)[:n-1]
-	return top
-}
-```
-
-Output
-
-```
-[0 1 2 3 4 5 7 8 9]
------------------------
-[0 1 2 3 4 5 7]
-```
-
-
-
 ## Stack type definition
 
 ```go
 func main() {
-  var stack Stack													// Create an Empty Stack
-	//var stack Stack = []int{0,1,2,3,4,5}	// Create a Stack with initial values
-	stack.Push(7)
-	stack.Push(8)
-	stack.Push(9)
-	fmt.Println(stack, "size:", len(stack))
+  var s Stack													// Create an Empty Stack
+	//s := Stack{0,1,2,3,4,5}						// Create a Stack with initial values
+	s.Push(7)
+	s.Push(8)
+	s.Push(9)
+	fmt.Println(s, "size:", len(stack))
 	fmt.Println("-----------------------")
 
-	stack.Pop()
-	stack.Pop()
-	fmt.Println(stack, "size:", len(stack))
+	s.Pop()
+	s.Pop()
+	fmt.Println(s, "size:", len(s))
 	fmt.Println("-----------------------")
 }
 
@@ -150,6 +111,46 @@ func (s *Stack) Size() int {
 
 func (s *Stack) Empty() bool {
 	return len(*s) == 0
+}
+```
+
+
+
+## Queue type definition
+
+```go
+func main() {
+	var q Queue														// Create an Empty Queue
+	// q := Queue{0,1,2,3,4,5}						// Create a Queue with initial values
+	q.Offer(3)
+	q.Offer(5)
+	q.Offer(6)
+	q.Offer(10)
+	fmt.Println(q, "size:", len(q))
+	fmt.Println("-----------------------")
+
+	q.Poll()
+	q.Poll()
+	fmt.Println(q, "size:", len(q))
+	fmt.Println("-----------------------")
+}
+
+
+// Queue type definition
+type Queue []int
+
+func (q *Queue) Offer(x int) {
+	*q = append(*q, x)
+}
+
+func (q *Queue) Poll() int {
+	x := (*q)[0]
+	*q = (*q)[1:]
+	return x
+}
+
+func (q *Queue) Peek() int {
+	return (*q)[0]
 }
 ```
 
