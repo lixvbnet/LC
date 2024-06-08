@@ -121,12 +121,49 @@ func (h *Heap) siftDown(index int) {
 
 
 
+
+
 ## Min-Heap using `container/heap` library
 
-> ⚠️ Its API is confusing. Use the top-level functions `heap.Push/Pop` instead of `h.Push/Pop` !!!
+> ⚠️ Use the top-level functions `heap.Init/Push/Pop` instead of `h.Push/Pop` !!!
 >
-> - `Len/Less/Swap` are interface methods defined in `sort` 
+> - `Len/Less/Swap` are interface methods defined in `sort` .
 > - `Push/Pop` are interface methods definied in `container/heap` 
+>
+> ⚠️ To make it a Max-Heap (or PriorityQueue), simply override the `Less` function.
+
+
+
+🍺 For basic item types such as `int`, we can embed `sort.IntSlice` into our Heap struct, so that its `Len/Less/Swap` functions are automatically included.
+
+```go
+func main() {
+  h := &Heap{[]int{50, 60, 30, 90, 20}}
+  // ...
+}
+
+
+// Heap type definition
+type Heap struct {
+	sort.IntSlice
+}
+
+// Push and Pop must use "any" to conform with the interface defined in container/heap.
+func (h *Heap) Push(x any) {
+	h.IntSlice = append(h.IntSlice, x.(int))
+}
+
+func (h *Heap) Pop() any {
+	a := h.IntSlice
+	x := a[len(a)-1]
+	h.IntSlice = a[:len(a)-1]
+	return x
+}
+```
+
+
+
+🍺 For complex item types, we need to implemente all the methods.
 
 ```go
 package main
@@ -137,105 +174,53 @@ import (
 )
 
 func main() {
-	h := &IntHeap{50, 60, 30, 90, 20}
-	heap.Init(h)
+	values := []int{50, 60, 30, 90, 20}
+	h := &Heap{}
+	for _, v := range values {
+		*h = append(*h, &Item{v})
+	}
+	heap.Init(h)	// O(n)
 	fmt.Println(h, "size:", h.Len())
 
-  // Note: Use the top-level `heap.Push/Pop` functions instead of `h.Push/Pop` !!!
-	heap.Push(h,5)
-	heap.Push(h,6)
-	heap.Push(h,3)
-	heap.Push(h,9)
-	heap.Push(h,2)
+	// Note: Use the top-level `heap.Push/Pop` functions instead of `h.Push/Pop` !!!
+	nums := []int{5, 6, 3, 9, 2}
+	for _, v := range nums {
+		heap.Push(h, &Item{v})
+	}
 	fmt.Println(h, "size:", h.Len())
 
-	fmt.Println("Pop", heap.Pop(h).(int))
-	fmt.Println("Pop", heap.Pop(h).(int))
-	fmt.Println("Pop", heap.Pop(h).(int))
+	fmt.Println("Pop", heap.Pop(h).(*Item))
+	fmt.Println("Pop", heap.Pop(h).(*Item))
+	fmt.Println("Pop", heap.Pop(h).(*Item))
 	fmt.Println(h, "size:", h.Len())
 }
-
-
-// IntHeap type definition
-type IntHeap []int
-
-func (h IntHeap) Len() int           { return len(h) }
-func (h IntHeap) Less(i, j int) bool { return h[i] < h[j] }
-func (h IntHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
-
-// Push and Pop use pointer receivers because they modify the slice's length, not just its contents.
-// Note: the type must be "any" to conform with the interface defined in container/heap.
-func (h *IntHeap) Push(x any) {
-	*h = append(*h, x.(int))
-}
-
-func (h *IntHeap) Pop() any {
-	n := len(*h)
-	x := (*h)[n-1]
-	*h = (*h)[:n-1]
-	return x
-}
-```
-
-
-
-## Max-Heap / PriorityQueue using `container/heap` library
-
-> A `PriorityQueue` is just a `Max-Heap`.
-
-A less efficient approach for [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) , but useful to demonstrate how to use Heap/PriorityQueue in Go.
-
-```go
-import "container/heap"
-
-func topKFrequent(nums []int, k int) []int {
-	count := make(map[int]int)
-	for _, num := range nums {
-		count[num]++
-	}
-
-	q := new(PriorityQueue)
-	for num, c := range count {
-		*q = append(*q, &Item{num, c})
-	}
-	heap.Init(q)	// O(n)
-
-	var result []int
-	for i := 0; i < k; i++ {
-		top := heap.Pop(q).(*Item)
-		result = append(result, top.num)
-	}
-	return result
-}
-
 
 type Item struct {
-	num		int
-	count	int
+	v int
+	// (any other fields...)
 }
 
-// A PriorityQueue implements heap.Interface and holds Items.
-type PriorityQueue []*Item
-
-func (q PriorityQueue) Len() int {
-	return len(q)
-}
-func (q PriorityQueue) Less(i, j int) bool {
-	return q[i].count > q[j].count	// making it a MaxHeap for count
-}
-func (q PriorityQueue) Swap(i, j int) {
-	q[i], q[j] = q[j], q[i]
+// String method is optional here.
+func (i Item) String() string {
+	return fmt.Sprintf("%d", i.v)
 }
 
-func (q *PriorityQueue) Push(x any) {
-	item := x.(*Item)
-	*q = append(*q, item)
+// Heap type definition
+type Heap []*Item
+
+func (h Heap) Len() int           { return len(h) }
+func (h Heap) Less(i, j int) bool { return h[i].v < h[j].v }
+func (h Heap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+
+// Push and Pop must use "any" to conform with the interface defined in container/heap.
+func (h *Heap) Push(x any) {
+	*h = append(*h, x.(*Item))
 }
 
-func (q *PriorityQueue) Pop() any {
-	n := len(*q)
-	item := (*q)[n-1]
-	*q = (*q)[:n-1]
+func (h *Heap) Pop() any {
+	n := len(*h)
+	item := (*h)[n-1]
+	*h = (*h)[:n-1]
 	return item
 }
 ```

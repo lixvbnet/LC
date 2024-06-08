@@ -175,7 +175,7 @@
     - [Basics](./Playground/Basics.md)
     - [BinarySearch](./Playground/BinarySearch.md)
     - [BinaryTreeTraversal](./Playground/BinaryTreeTraversal.md)
-    - [HeapAndPriorityQueue](./Playground/HeapAndPriorityQueue.md)
+    - [Heap](./Playground/Heap.md)
     - [Quicksort](./Playground/Quicksort.md)
     - [Sorting](./Playground/Sorting.md)
     - [StackAndQueue](./Playground/StackAndQueue.md)

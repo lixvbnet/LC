@@ -70,7 +70,7 @@ queue is empty
 ```go
 func main() {
   var s Stack													// Create an Empty Stack
-	//s := Stack{0,1,2,3,4,5}						// Create a Stack with initial values
+	//var s Stack = []int{0,1,2,3,4,5}	// Create a Stack with initial values
 	s.Push(7)
 	s.Push(8)
 	s.Push(9)
@@ -121,7 +121,7 @@ func (s *Stack) Empty() bool {
 ```go
 func main() {
 	var q Queue														// Create an Empty Queue
-	// q := Queue{0,1,2,3,4,5}						// Create a Queue with initial values
+	//var q Queue = []int{0,1,2,3,4,5}		// Create a Queue with initial values
 	q.Offer(3)
 	q.Offer(5)
 	q.Offer(6)
