@@ -57,7 +57,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Heap / Priority Queue
 
-- [ ] [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+- [x] [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 - [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 - [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 - [ ] [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
