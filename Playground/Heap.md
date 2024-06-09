@@ -7,19 +7,28 @@
 
 ## Major Operations
 
-| Operation       | Description                                                  |
-| :-------------- | :----------------------------------------------------------- |
-| add/offer/push  | Add to the last, then siftUp⬆︎                                |
-| remove/poll/pop | Remove the first element, move the last to first, then siftDown⬇︎ |
-| build a heap    | For every non-leaf node (from last to first), siftDown⬇︎      |
+| Operation       | Description                                                  | Comment   |
+| :-------------- | :----------------------------------------------------------- | --------- |
+| add/offer/push  | Add to the last, then siftUp⬆︎                                | $O(logN)$ |
+| peek/top        | Peek the root element                                        | $O(1)$    |
+| remove/poll/pop | Remove the first element, move the last to first, then siftDown⬇︎ | $O(logN)$ |
+| build a heap    | For every non-leaf node (from last to first), siftDown⬇︎      | $O(N)$    |
 
 > The last non-leaf node is the parent of last element. The last element is at index `n-1`, and its parent `(n-1-1)/2` = `(n/2)-1`.
 
 
 
-## Visualization
+## Heap Indices
 
-![heap](_image/heap.jpg)
+![heap-index](_image/heap-index.jpg)
+
+(Image from [HackerRank video](https://www.youtube.com/watch?v=t0Cq6tVNRBA) , with corrections on the parent index.)
+
+
+
+## Heap Operations
+
+![heap-operations](_image/heap-operations.jpg)
 
 Also, visit [An online visualization site by Dr. David Galles](https://www.cs.usfca.edu/~galles/visualization/Heap.html).
 
