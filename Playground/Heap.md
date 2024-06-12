@@ -251,7 +251,7 @@ func HeapSort(nums []int) {
 	var h Heap = nums
 	h.Init()
 	for i := n-1; i > 0; i-- {
-		// swap A[i] with A[0], cut off A[i], and then siftDown A[0]
+    // swap A[i] with A[0], cut off A[i], and then fix the heap: siftDown A[0]
 		h[i], h[0] = h[0], h[i]
 		h = h[:i]
 		h.siftDown(0)
@@ -265,5 +265,5 @@ func HeapSort(nums []int) {
 }
 ```
 
-Alternatively, we can build a Max-Heap, and we won't need to reverse the array at last.
+It would be better to build a Max-Heap instead, and we won't need to reverse the array at last.
 
