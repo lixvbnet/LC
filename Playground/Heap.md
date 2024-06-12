@@ -234,3 +234,36 @@ func (h *Heap) Pop() any {
 }
 ```
 
+
+
+# HeapSort
+
+```go
+func main() {
+	nums := []int{50, 60, 30, 90, 20}
+	HeapSort(nums)
+	fmt.Println(nums)
+}
+
+// HeapSort sorts the array in place
+func HeapSort(nums []int) {
+	n := len(nums)
+	var h Heap = nums
+	h.Init()
+	for i := n-1; i > 0; i-- {
+		// swap A[i] with A[0], cut off A[i], and then siftDown A[0]
+		h[i], h[0] = h[0], h[i]
+		h = h[:i]
+		h.siftDown(0)
+	}
+	// reverse the array
+	i, j := 0, n-1
+	for i < j {
+		nums[i], nums[j] = nums[j], nums[i]
+		i++; j--
+	}
+}
+```
+
+Alternatively, we can build a Max-Heap, and we won't need to reverse the array at last.
+

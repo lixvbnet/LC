@@ -219,6 +219,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Sorting
 
+- [ ] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
 - [ ] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
 - [ ] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
 - [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
