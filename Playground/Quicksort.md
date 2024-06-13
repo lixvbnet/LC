@@ -221,6 +221,8 @@ func partition(nums []int, low, high int) int {
 
 ## getKthElement using Hoare Partitioning
 
+First try..
+
 ```go
 func getKthElement(nums []int, k int) int {
     k = k-1         // Why???
@@ -256,35 +258,37 @@ func partition(nums []int, low, high int) int {
 }
 ```
 
-> Yet another implementation
->
-> ```go
-> func getKthElement(nums []int, k int) int {
->     n := len(nums)
->     return quickselect(nums, k, 0, n-1)
-> }
-> 
-> func quickselect(nums []int, k, l, r int) int {
->     if l == r{
->         return nums[k]
->     }
-> 
->     pivot := nums[l]
->     i := l-1
->     j := r+1
->     for i < j {
->         i++; j--
->         for nums[i] < pivot { i++ }
->         for nums[j] > pivot { j-- }
->         if i < j {
->             nums[i], nums[j] = nums[j], nums[i]
->         }
->     }
->     if k <= j {
->         return quickselect(nums, k, l, j)
->     } else {
->         return quickselect(nums, k, j+1, r)
->     }
-> }
-> ```
->
+Another implementation is better (Refer to [QuickSelect with Hoare partition scheme](https://stackoverflow.com/questions/58331986/quickselect-with-hoare-partition-scheme))
+
+```go
+func getKthElement(nums []int, k int) int {
+		n := len(nums)
+		return quickselect(nums, k, 0, n-1)
+}
+
+func quickselect(nums []int, k, l, r int) int {
+    if l == r {
+        return nums[l]
+    }
+
+    pivot := nums[l]
+    i := l-1
+    j := r+1
+    for i < j {
+        i++; j--
+        for nums[i] < pivot { i++ }
+        for nums[j] > pivot { j-- }
+        if i >= j {
+            break
+        }
+        nums[i], nums[j] = nums[j], nums[i]
+
+    }
+    if k <= j {
+        return quickselect(nums, k, l, j)
+    } else {
+        return quickselect(nums, k, j+1, r)
+    }
+}
+```
+
