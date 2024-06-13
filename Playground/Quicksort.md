@@ -135,7 +135,6 @@ func getKthElement(nums []int, k int) int {
 		if r == k {
 			return nums[r]
 		}
-
 		if r > k {
 			high = r
 		} else {
@@ -169,35 +168,123 @@ func partition(nums []int, p, q int) int {
 
 
 
-Yet another implementation
+
+
+---
+
+
+
+## Quicksort using Hoare Partitioning
 
 ```go
-func findKthLargest(nums []int, k int) int {
-    n := len(nums)
-    return quickselect(nums, n-k, 0, n-1)
+package main
+
+import "fmt"
+
+func main() {
+	nums := []int{3, 2, 6, 8, 3, 1, 5}
+	quicksort(nums)
+	fmt.Println(nums)
 }
 
-func quickselect(nums []int, k, l, r int) int {
-    if l == r{
-        return nums[k]
-    }
 
-    pivot := nums[l]
-    i := l-1
-    j := r+1
-    for i < j {
+func quicksort(nums []int) {
+	qsort(nums, 0, len(nums)-1)
+}
+
+func qsort(nums []int, low, high int) {
+    if low < high {
+        r := partition(nums, low, high)
+        qsort(nums, low, r)
+        qsort(nums, r+1, high)
+    }
+}
+
+func partition(nums []int, low, high int) int {
+    i := low-1
+    j := high+1
+    pivot := nums[low]
+
+    for {
         i++; j--
         for nums[i] < pivot { i++ }
         for nums[j] > pivot { j-- }
-        if i < j {
-            nums[i], nums[j] = nums[j], nums[i]
+        if i >= j {
+            return j
         }
-    }
-    if k <= j {
-        return quickselect(nums, k, l, j)
-    } else {
-        return quickselect(nums, k, j+1, r)
+        nums[i], nums[j] = nums[j], nums[i]
     }
 }
 ```
 
+
+
+## getKthElement using Hoare Partitioning
+
+```go
+func getKthElement(nums []int, k int) int {
+    k = k-1         // Why???
+    i, j := 0, len(nums)-1
+    for i <= j {
+        if i == j {
+            return nums[j]
+        }
+        r := partition(nums, i, j)
+        if r > k {
+            j = r
+        } else {
+            i = r+1
+        }
+    }
+    return -1
+}
+
+func partition(nums []int, low, high int) int {
+    i := low-1
+    j := high+1
+    pivot := nums[low]
+
+    for {
+        i++; j--
+        for nums[i] < pivot { i++ }
+        for nums[j] > pivot { j-- }
+        if i >= j {
+            return j
+        }
+        nums[i], nums[j] = nums[j], nums[i]
+    }
+}
+```
+
+> Yet another implementation
+>
+> ```go
+> func getKthElement(nums []int, k int) int {
+>     n := len(nums)
+>     return quickselect(nums, k, 0, n-1)
+> }
+> 
+> func quickselect(nums []int, k, l, r int) int {
+>     if l == r{
+>         return nums[k]
+>     }
+> 
+>     pivot := nums[l]
+>     i := l-1
+>     j := r+1
+>     for i < j {
+>         i++; j--
+>         for nums[i] < pivot { i++ }
+>         for nums[j] > pivot { j-- }
+>         if i < j {
+>             nums[i], nums[j] = nums[j], nums[i]
+>         }
+>     }
+>     if k <= j {
+>         return quickselect(nums, k, l, j)
+>     } else {
+>         return quickselect(nums, k, j+1, r)
+>     }
+> }
+> ```
+>
