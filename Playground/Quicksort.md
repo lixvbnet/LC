@@ -2,129 +2,98 @@
 
 First partition `nums` into two parts, then sort them by recursive calls.
 
-Most textbooks are using this appoach as it is easy to understand and implement. But this partition function gets the worst time complexity $O(n^2)$ when there are many **duplicate** numbers.
-
-![2018-12-27-20-26-11](_image/2018-12-27-20-26-11.jpg)
+Most textbooks are using following appoach, as it is easy to understand and implement. But this partition function gets the worst time complexity $O(n^2)$ when there are many **duplicate** numbers.
 
 `partition` function:
 
-![2018-12-27-20-44-29](_image/2018-12-27-20-44-29.jpg)
+- A[p..m) always contains elements that are <= pivot
+- Start with m = p, if A[i] <= pivot, then swap A[i] with A[m] and extend the window by incrementing m
+- Lastly, swap pivot to its right position m
 
 ```go
+package main
+
+import "fmt"
+
 func main() {
 	nums := []int{3,1,2,7,0}
-	quicksort(nums)
+	quicksort(nums, 0, len(nums)-1)
 	fmt.Println(nums)
 }
 
-func quicksort(nums []int) {
-	qsort(nums, 0, len(nums)-1)
-}
-
-func qsort(nums []int, low, high int) {
-  if low < high {
-    r := partition(nums, low, high)
-    qsort(nums, low, r-1)
-    qsort(nums, r+1, high)
+func quicksort(nums []int, p, q int) {
+  if p < q {
+    m := partition(nums, p, q)
+    quicksort(nums, p, m-1)
+    quicksort(nums, m+1, q)
   }
 }
 
-// A[p..r) always contains elements that are <= pivot
-// Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
-// Lastly, swap pivot to its right position r
 func partition(nums []int, p, q int) int {
-	r := p
-	pivot := nums[q]	// here choose last element as pivot
+	pivot := nums[q]
+	m := p
 	for i := p; i < q; i++ {
 		if nums[i] <= pivot {
-			nums[i], nums[r] = nums[r], nums[i]
-			r++
+			nums[i], nums[m] = nums[m], nums[i]
+			m++
 		}
 	}
-	// swap pivot to right position 'r'
-	nums[q], nums[r] = nums[r], nums[q]
-	return r
+	// swap pivot to right position 'm'
+	nums[q], nums[m] = nums[m], nums[q]
+	return m
 }
 ```
 
 
 
-## getKthElement
+## Quickselect
 
 Get kth smallest element of `nums`. (k is 0-based)
 
 > Make use of partition function.
 
 ```go
-func getKthElement(nums []int, k int) int {
-	// A[low..high)
-	low, high := 0, len(nums)
-	for low < high {
-		r := partition(nums, low, high-1)
-		if r == k {
-			return nums[r]
+func quickselect(nums []int, k int) int {
+	p, q := 0, len(nums)-1
+	for p <= q {
+		m := partition(nums, p, q)
+		if m == k {
+			return nums[m]
 		}
-
-		if r > k {
-			high = r
+		if m > k {
+			q = m
 		} else {
-			low = r + 1
+			p = m+1
 		}
 	}
 	return -1
 }
 ```
 
-Average Time Complexity:
-
-$n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$ 
+Average Time Complexity: $n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$ 
 
 Worst Time Complexity: $O(n^2)$ 
 
-> We can choose random pivot each time:
->
-> ```go
-> func getKthElement(nums []int, k int) int {
-> 	// initialize rand
-> 	rand.Seed(time.Now().UnixNano())
-> 
-> 	// A[low..high)
-> 	low, high := 0, len(nums)
-> 	for low < high {
-> 		r := partition(nums, low, high-1)
-> 		if r == k {
-> 			return nums[r]
-> 		}
-> 		if r > k {
-> 			high = r
-> 		} else {
-> 			low = r + 1
-> 		}
-> 	}
-> 	return -1
-> }
-> 
-> // A[p..r) always contains elements that are <= pivot
-> // Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
-> // Lastly, swap pivot to position r
-> func partition(nums []int, p, q int) int {
-> 	// choose a random location and swap to last
-> 	i := p + rand.Intn(q-p+1)
-> 	nums[i], nums[q] = nums[q], nums[i]
-> 
-> 	r := p
-> 	pivot := nums[q]	// here choose last element as pivot
-> 	for i := p; i < q; i++ {
-> 		if nums[i] <= pivot {
-> 			nums[i], nums[r] = nums[r], nums[i]
-> 			r++
-> 		}
-> 	}
-> 	// swap pivot to its right position 'r'
-> 	nums[q], nums[r] = nums[r], nums[q]
-> 	return r
-> }
-> ```
+We can choose random pivot each time:
+
+```go
+func quickselect(nums []int, k int) int {
+	// initialize rand
+	rand.Seed(time.Now().UnixNano())
+
+	// ...
+}
+
+func partition(nums []int, p, q int) int {
+	// choose a random location and swap to last
+	i := p + rand.Intn(q-p+1)
+	nums[i], nums[q] = nums[q], nums[i]
+
+	// ...
+}
+```
+
+But we will still hit worst case $O(n^2)$ if there are multiple duplicates.
 
 
 
@@ -145,61 +114,55 @@ import "fmt"
 
 func main() {
 	nums := []int{3, 2, 6, 8, 3, 1, 5}
-	quicksort(nums)
+	quicksort(nums, 0, len(nums)-1)
 	fmt.Println(nums)
 }
 
-
-func quicksort(nums []int) {
-	qsort(nums, 0, len(nums)-1)
+func quicksort(nums []int, p, q int) {
+	if p < q {
+		m := partition(nums, p, q)
+		quicksort(nums, p, m)
+		quicksort(nums, m+1, q)
+	}
 }
 
-func qsort(nums []int, low, high int) {
-    if low < high {
-        r := partition(nums, low, high)
-        qsort(nums, low, r)
-        qsort(nums, r+1, high)
-    }
-}
-
-func partition(nums []int, low, high int) int {
-    i := low-1
-    j := high+1
-    pivot := nums[low]
-
-    for {
-        i++; j--
-        for nums[i] < pivot { i++ }
-        for nums[j] > pivot { j-- }
-        if i >= j {
-            return j
-        }
-        nums[i], nums[j] = nums[j], nums[i]
-    }
+func partition(nums []int, p, q int) int {
+	pivot := nums[p]
+	i := p-1
+	j := q+1
+	for {
+		i++; j--
+		for nums[i] < pivot { i++ }
+		for nums[j] > pivot { j-- }
+		if i >= j {
+			return j
+		}
+		nums[i], nums[j] = nums[j], nums[i]
+	}
 }
 ```
 
 
 
-## getKthElement using Hoare Partition
+## Quickselect using Hoare Partition
 
 > Refer to [QuickSelect with Hoare partition scheme](https://stackoverflow.com/questions/58331986/quickselect-with-hoare-partition-scheme) 
 
 ```go
-func getKthElement(nums []int, k int) int {
-    i, j := 0, len(nums)-1
-    for i <= j {
-        if i == j {
-            return nums[j]
-        }
-        r := partition(nums, i, j)
-        if r >= k {
-            j = r
-        } else {
-            i = r+1
-        }
-    }
-    return -1
+func quickselect(nums []int, k int) int {
+	p, q := 0, len(nums)-1
+	for p <= q {
+		m := partition(nums, p, q)
+		if p == q {
+			return nums[q]
+		}
+		if m >= k {
+			q = m
+		} else {
+			p = m+1
+		}
+	}
+	return -1
 }
 ```
 
