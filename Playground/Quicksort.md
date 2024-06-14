@@ -53,45 +53,7 @@ func partition(nums []int, p, q int) int {
 
 Get kth smallest element of `nums`. (k is 0-based)
 
-> Make use of partition function, then use binary search.
-
-- Recusive
-
-```go
-func getKthElement(nums []int, k int) int {
-	return helper(nums, k, 0, len(nums)-1)
-}
-
-func helper(nums []int, k int, p, q int) int {
-	r := partition(nums, p, q)
-	if r == k {
-		return nums[r]
-	} else if r > k {
-		return helper(nums, k, p, r-1)
-	} else {
-		return helper(nums, k, r+1, q)
-	}
-}
-
-// A[p..r) always contains elements that are <= pivot
-// Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
-// Lastly, swap pivot to position r
-func partition(nums []int, p, q int) int {
-	r := p
-	pivot := nums[q]	// here choose last element as pivot
-	for i := p; i < q; i++ {
-		if nums[i] <= pivot {
-			nums[i], nums[r] = nums[r], nums[i]
-			r++
-		}
-	}
-	// swap pivot to its right position 'r'
-	nums[q], nums[r] = nums[r], nums[q]
-	return r
-}
-```
-
-- Iterative
+> Make use of partition function.
 
 ```go
 func getKthElement(nums []int, k int) int {
@@ -110,6 +72,23 @@ func getKthElement(nums []int, k int) int {
 		}
 	}
 	return -1
+}
+
+// A[p..r) always contains elements that are <= pivot
+// Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
+// Lastly, swap pivot to position r
+func partition(nums []int, p, q int) int {
+	r := p
+	pivot := nums[q]	// here choose last element as pivot
+	for i := p; i < q; i++ {
+		if nums[i] <= pivot {
+			nums[i], nums[r] = nums[r], nums[i]
+			r++
+		}
+	}
+	// swap pivot to its right position 'r'
+	nums[q], nums[r] = nums[r], nums[q]
+	return r
 }
 ```
 
@@ -119,52 +98,50 @@ $n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$
 
 Worst Time Complexity: $O(n^2)$ 
 
-
-
-We can choose random pivot each time:
-
-```go
-func getKthElement(nums []int, k int) int {
-	// initialize rand
-	rand.Seed(time.Now().UnixNano())
-
-	// A[low..high)
-	low, high := 0, len(nums)
-	for low < high {
-		r := partition(nums, low, high-1)
-		if r == k {
-			return nums[r]
-		}
-		if r > k {
-			high = r
-		} else {
-			low = r + 1
-		}
-	}
-	return -1
-}
-
-// A[p..r) always contains elements that are <= pivot
-// Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
-// Lastly, swap pivot to position r
-func partition(nums []int, p, q int) int {
-	// choose a random location and swap to last
-	i := p + rand.Intn(q-p+1)
-	nums[i], nums[q] = nums[q], nums[i]
-
-	r := p
-	pivot := nums[q]	// here choose last element as pivot
-	for i := p; i < q; i++ {
-		if nums[i] <= pivot {
-			nums[i], nums[r] = nums[r], nums[i]
-			r++
-		}
-	}
-	// swap pivot to its right position 'r'
-	nums[q], nums[r] = nums[r], nums[q]
-	return r
-}
-```
+> We can choose random pivot each time:
+>
+> ```go
+> func getKthElement(nums []int, k int) int {
+> 	// initialize rand
+> 	rand.Seed(time.Now().UnixNano())
+> 
+> 	// A[low..high)
+> 	low, high := 0, len(nums)
+> 	for low < high {
+> 		r := partition(nums, low, high-1)
+> 		if r == k {
+> 			return nums[r]
+> 		}
+> 		if r > k {
+> 			high = r
+> 		} else {
+> 			low = r + 1
+> 		}
+> 	}
+> 	return -1
+> }
+> 
+> // A[p..r) always contains elements that are <= pivot
+> // Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
+> // Lastly, swap pivot to position r
+> func partition(nums []int, p, q int) int {
+> 	// choose a random location and swap to last
+> 	i := p + rand.Intn(q-p+1)
+> 	nums[i], nums[q] = nums[q], nums[i]
+> 
+> 	r := p
+> 	pivot := nums[q]	// here choose last element as pivot
+> 	for i := p; i < q; i++ {
+> 		if nums[i] <= pivot {
+> 			nums[i], nums[r] = nums[r], nums[i]
+> 			r++
+> 		}
+> 	}
+> 	// swap pivot to its right position 'r'
+> 	nums[q], nums[r] = nums[r], nums[q]
+> 	return r
+> }
+> ```
 
 
 
@@ -229,7 +206,7 @@ func getKthElement(nums []int, k int) int {
             return nums[j]
         }
         r := partition(nums, i, j)
-        if k <= r {
+        if r >= k {
             j = r
         } else {
             i = r+1

@@ -35,10 +35,10 @@ func search(n int, f func(int) bool) int {
 	for l < r {
 		m := l + (r - l) / 2
         
-        // (optional) return result if condition is met
-        //if some_condition {
-        //    return xxx
-        //}
+    // (optional) return result if condition is met
+    //if some_condition {
+    //    return xxx
+    //}
         
 		if f(m) {
 			r = m
@@ -69,7 +69,6 @@ func search(nums []int, target int) int {
         if nums[m] == target {
             return m
         }
-        
         if nums[m] > target {
             r = m
         } else {
