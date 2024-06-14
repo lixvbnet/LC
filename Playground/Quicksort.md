@@ -74,25 +74,6 @@ Average Time Complexity: $n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$
 
 Worst Time Complexity: $O(n^2)$ 
 
-We can choose random pivot each time:
-
-```go
-func quickselect(nums []int, k int) int {
-	// initialize rand
-	rand.Seed(time.Now().UnixNano())
-
-	// ...
-}
-
-func partition(nums []int, p, q int) int {
-	// choose a random location and swap to last
-	i := p + rand.Intn(q-p+1)
-	nums[i], nums[q] = nums[q], nums[i]
-
-	// ...
-}
-```
-
 But we will still hit worst case $O(n^2)$ if there are multiple duplicates.
 
 
@@ -139,6 +120,27 @@ func partition(nums []int, p, q int) int {
 		}
 		nums[i], nums[j] = nums[j], nums[i]
 	}
+}
+```
+
+Choosing number in the middle as pivot would make it better, i.e. `pivot := nums[(p+q)/2]` .
+
+Or even better, we can choose pivot randomly:
+
+```go
+func quickselect(nums []int, k int) int {
+	// initialize rand
+	rand.Seed(time.Now().UnixNano())
+
+	// ...
+}
+
+func partition(nums []int, p, q int) int {
+	// choose a random location and swap to last
+	r := p + rand.Intn(q-p+1)
+	nums[r], nums[q] = nums[q], nums[r]
+
+	// ...
 }
 ```
 

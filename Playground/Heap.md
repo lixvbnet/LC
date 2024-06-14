@@ -281,8 +281,8 @@ func HeapSort(nums []int) {
 	n := len(nums)
 	var h Heap = nums
 	h.Init()
+  // keep swapping first to last and cut off last, then siftDown(0)
 	for i := n-1; i > 0; i-- {
-    // swap A[i] with A[0], cut off A[i], and then fix the heap: siftDown A[0]
 		h[i], h[0] = h[0], h[i]
 		h = h[:i]
 		h.siftDown(0)
