@@ -74,7 +74,7 @@ Average Time Complexity: $n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$
 
 Worst Time Complexity: $O(n^2)$ 
 
-But we will still hit worst case $O(n^2)$ if there are multiple duplicates.
+When there are many **duplicates** in the array, we will unavoidably hit worst case $O(n^2)$  -- Choosing pivot randomly won't help.
 
 
 
