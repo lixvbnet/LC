@@ -221,18 +221,15 @@ func partition(nums []int, low, high int) int {
 
 ## getKthElement using Hoare Partitioning
 
-First try..
-
 ```go
 func getKthElement(nums []int, k int) int {
-    k = k-1         // Why???
     i, j := 0, len(nums)-1
     for i <= j {
         if i == j {
             return nums[j]
         }
         r := partition(nums, i, j)
-        if r > k {
+        if k <= r {
             j = r
         } else {
             i = r+1
@@ -258,7 +255,7 @@ func partition(nums []int, low, high int) int {
 }
 ```
 
-Another implementation is better (Refer to [QuickSelect with Hoare partition scheme](https://stackoverflow.com/questions/58331986/quickselect-with-hoare-partition-scheme))
+Another implementation (Refer to [QuickSelect with Hoare partition scheme](https://stackoverflow.com/questions/58331986/quickselect-with-hoare-partition-scheme))
 
 ```go
 func getKthElement(nums []int, k int) int {
