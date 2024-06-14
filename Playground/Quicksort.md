@@ -2,6 +2,8 @@
 
 First partition `nums` into two parts, then sort them by recursive calls.
 
+Most textbooks are using this appoach as it is easy to understand and implement. But this partition function gets the worst time complexity $O(n^2)$ when there are many **duplicate** numbers.
+
 ![2018-12-27-20-26-11](_image/2018-12-27-20-26-11.jpg)
 
 `partition` function:
@@ -19,19 +21,17 @@ func quicksort(nums []int) {
 	qsort(nums, 0, len(nums)-1)
 }
 
-func qsort(nums []int, p, q int) {
-	if p >= q {
-		return
-	}
-
-	r := partition(nums, p, q)
-	qsort(nums, p, r-1)
-	qsort(nums, r+1, q)
+func qsort(nums []int, low, high int) {
+  if low < high {
+    r := partition(nums, low, high)
+    qsort(nums, low, r-1)
+    qsort(nums, r+1, high)
+  }
 }
 
 // A[p..r) always contains elements that are <= pivot
 // Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
-// Lastly, swap pivot to position r
+// Lastly, swap pivot to its right position r
 func partition(nums []int, p, q int) int {
 	r := p
 	pivot := nums[q]	// here choose last element as pivot
@@ -73,26 +73,9 @@ func getKthElement(nums []int, k int) int {
 	}
 	return -1
 }
-
-// A[p..r) always contains elements that are <= pivot
-// Start with r = p, if A[i] <= pivot, then swap A[i] with A[r] and increment r
-// Lastly, swap pivot to position r
-func partition(nums []int, p, q int) int {
-	r := p
-	pivot := nums[q]	// here choose last element as pivot
-	for i := p; i < q; i++ {
-		if nums[i] <= pivot {
-			nums[i], nums[r] = nums[r], nums[i]
-			r++
-		}
-	}
-	// swap pivot to its right position 'r'
-	nums[q], nums[r] = nums[r], nums[q]
-	return r
-}
 ```
 
-Time Complexity:
+Average Time Complexity:
 
 $n + n/2 + n/4 + ... + n/n = 2n-1 = O(n)$ 
 
@@ -151,7 +134,9 @@ Worst Time Complexity: $O(n^2)$
 
 
 
-## Quicksort using Hoare Partitioning
+## Quicksort using Hoare Partition
+
+Hoare partition works best in most cases. Even when there are many **duplicate** numbers, it can still partition the numbers evenly. But it is much harder to understand and implement.
 
 ```go
 package main
@@ -196,7 +181,9 @@ func partition(nums []int, low, high int) int {
 
 
 
-## getKthElement using Hoare Partitioning
+## getKthElement using Hoare Partition
+
+> Refer to [QuickSelect with Hoare partition scheme](https://stackoverflow.com/questions/58331986/quickselect-with-hoare-partition-scheme) 
 
 ```go
 func getKthElement(nums []int, k int) int {
@@ -214,55 +201,6 @@ func getKthElement(nums []int, k int) int {
     }
     return -1
 }
-
-func partition(nums []int, low, high int) int {
-    i := low-1
-    j := high+1
-    pivot := nums[low]
-
-    for {
-        i++; j--
-        for nums[i] < pivot { i++ }
-        for nums[j] > pivot { j-- }
-        if i >= j {
-            return j
-        }
-        nums[i], nums[j] = nums[j], nums[i]
-    }
-}
 ```
 
-Another implementation (Refer to [QuickSelect with Hoare partition scheme](https://stackoverflow.com/questions/58331986/quickselect-with-hoare-partition-scheme))
-
-```go
-func getKthElement(nums []int, k int) int {
-		n := len(nums)
-		return quickselect(nums, k, 0, n-1)
-}
-
-func quickselect(nums []int, k, l, r int) int {
-    if l == r {
-        return nums[l]
-    }
-
-    pivot := nums[l]
-    i := l-1
-    j := r+1
-    for i < j {
-        i++; j--
-        for nums[i] < pivot { i++ }
-        for nums[j] > pivot { j-- }
-        if i >= j {
-            break
-        }
-        nums[i], nums[j] = nums[j], nums[i]
-
-    }
-    if k <= j {
-        return quickselect(nums, k, l, j)
-    } else {
-        return quickselect(nums, k, j+1, r)
-    }
-}
-```
 
