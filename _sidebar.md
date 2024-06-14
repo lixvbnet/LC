@@ -141,6 +141,7 @@
     - [371.SumofTwoIntegers](./LeetCode/371.SumofTwoIntegers.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)
     - [377.CombinationSumIV](./LeetCode/377.CombinationSumIV.md)
+    - [414.ThirdMaximumNumber](./LeetCode/414.ThirdMaximumNumber.md)
     - [424.LongestRepeatingCharacterReplacement](./LeetCode/424.LongestRepeatingCharacterReplacement.md)
     - [438.FindAllAnagramsinaString](./LeetCode/438.FindAllAnagramsinaString.md)
     - [449.SerializeandDeserializeBST](./LeetCode/449.SerializeandDeserializeBST.md)
