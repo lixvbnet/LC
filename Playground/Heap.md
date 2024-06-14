@@ -139,16 +139,33 @@ func (h *Heap) siftDown(index int) {
 > - `Len/Less/Swap` are interface methods defined in `sort` .
 > - `Push/Pop` are interface methods definied in `container/heap` 
 >
-> ⚠️ To make it a Max-Heap (or PriorityQueue), simply override the `Less` function.
 
 
 
 🍺 For basic item types such as `int`, we can embed `sort.IntSlice` into our Heap struct, so that its `Len/Less/Swap` functions are automatically included.
 
 ```go
+package main
+
+import (
+	"container/heap"
+	"fmt"
+	"sort"
+)
+
 func main() {
-  h := &Heap{[]int{50, 60, 30, 90, 20}}
-  // ...
+	h := &Heap{[]int{50, 60, 30, 90, 20}}
+	heap.Init(h)	// O(n)
+	fmt.Println(h, "size:", h.Len())
+
+	heap.Push(h, 3)
+	heap.Push(h, 5)
+	fmt.Println(h, "size:", h.Len())
+
+	fmt.Println(heap.Pop(h).(int))
+	fmt.Println(heap.Pop(h).(int))
+	fmt.Println(heap.Pop(h).(int))
+	fmt.Println(h, "size:", h.Len())
 }
 
 
@@ -169,6 +186,14 @@ func (h *Heap) Pop() any {
 	return x
 }
 ```
+
+> To make it a Max-Heap (PriorityQueue), simply override the `Less` function.
+>
+> ```go
+> func (h Heap) Less(i, j int) bool {
+> 	return h.IntSlice[i] > h.IntSlice[j]
+> }
+> ```
 
 
 
@@ -233,6 +258,12 @@ func (h *Heap) Pop() any {
 	return item
 }
 ```
+
+> To make it a Max-Heap (PriorityQueue), simply override the `Less` function.
+>
+> ```go
+> func (h Heap) Less(i, j int) bool		{ return h[i].v > h[j].v }
+> ```
 
 
 

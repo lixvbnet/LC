@@ -57,11 +57,11 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Heap / Priority Queue
 
+- [x] [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) 
 - [x] [703. Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) 
 - [x] [215. Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
 - [x] [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) 
-- [ ] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
-- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) 
+- [ ] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)  
 - [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/)
