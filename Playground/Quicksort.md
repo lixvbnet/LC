@@ -136,9 +136,9 @@ func quickselect(nums []int, k int) int {
 }
 
 func partition(nums []int, p, q int) int {
-	// choose a random location and swap to last
+	// choose a random location and swap to first
 	r := p + rand.Intn(q-p+1)
-	nums[r], nums[q] = nums[q], nums[r]
+	nums[r], nums[p] = nums[p], nums[r]
 
 	// ...
 }
