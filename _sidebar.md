@@ -180,6 +180,7 @@
     - [BinarySearch](./Playground/BinarySearch.md)
     - [BinaryTreeTraversal](./Playground/BinaryTreeTraversal.md)
     - [Heap](./Playground/Heap.md)
+    - [MergeSort](./Playground/MergeSort.md)
     - [Quicksort](./Playground/Quicksort.md)
     - [Sorting](./Playground/Sorting.md)
     - [StackAndQueue](./Playground/StackAndQueue.md)
