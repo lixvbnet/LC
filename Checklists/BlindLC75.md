@@ -92,6 +92,19 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
+## Binary Indexed Tree & Segment Tree
+
+- [ ] [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) 
+- [ ] [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) 
+- [ ] [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) 
+- [ ] [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) 
+- [ ] [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) 
+- [ ] [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) 
+
+---
+
+
+
 ## Graph
 
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
@@ -189,6 +202,9 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Math
 
+- [ ] [231. Power of Two](https://leetcode.com/problems/power-of-two/) 
+- [ ] [326. Power of Three](https://leetcode.com/problems/power-of-three/) 
+- [ ] [342. Power of Four](https://leetcode.com/problems/power-of-four/) 
 - [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
 - [ ] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
 - [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
