@@ -23,6 +23,7 @@ type UnionFind struct {
 	count int
 }
 
+// Init
 func (u *UnionFind) Init(n int) {
 	u.count = n
 	u.rank = make([]int, n)

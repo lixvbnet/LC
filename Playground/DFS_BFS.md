@@ -148,26 +148,38 @@ func levelOrder(root *TreeNode) [][]int {
         return result
     }
 
-    queue := []*TreeNode{root}
-    for len(queue) > 0 {
-        levelSize := len(queue)
+		var q Queue
+  	q.Offer(root)
+    for len(q) > 0 {
+        levelSize := len(q)
         lst := make([]int, 0, levelSize)
         for i := 0; i < levelSize; i++ {
-            // poll
-            node := queue[0]
-            queue = queue[1:]
+            node := q.Poll()
             lst = append(lst, node.Val)
             // offer
             if node.Left != nil {
-                queue = append(queue, node.Left)
+                q.Offer(node.Left)
             }
             if node.Right != nil {
-                queue = append(queue, node.Right)
+                q.Offer(node.Right)
             }
         }
         result = append(result, lst)
     }
     return result
+}
+
+
+type Queue []*TreeNode
+
+func (q *Queue) Offer(x *TreeNode) {
+    *q = append(*q, x)
+}
+
+func (q *Queue) Poll() *TreeNode {
+    x := (*q)[0]
+    *q = (*q)[1:]
+    return x
 }
 ```
 
