@@ -179,7 +179,7 @@
 * Playground
     - [Basics](./Playground/Basics.md)
     - [BinarySearch](./Playground/BinarySearch.md)
-    - [BinaryTreeTraversal](./Playground/BinaryTreeTraversal.md)
+    - [DFS_BFS](./Playground/DFS_BFS.md)
     - [Heap](./Playground/Heap.md)
     - [MergeSort](./Playground/MergeSort.md)
     - [Quicksort](./Playground/Quicksort.md)

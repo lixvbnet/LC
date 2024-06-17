@@ -1,6 +1,6 @@
 # Binary Tree Traversal
 
-Two traversal methods: **Depth-First Search (DFS)** and **Breadth-First Search (BFS)** . And Depth-First Search includes `Preorder` Traversal, `Inorder` Traversal, and `Postorder` Traversal.
+Two traversal methods: **Depth-First Search (DFS)** and **Breadth-First Search (BFS)** . And DFS includes `Preorder`, `Inorder`, and `Postorder` Traversal.
 
 
 
