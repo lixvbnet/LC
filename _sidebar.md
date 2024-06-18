@@ -172,6 +172,7 @@
     - [1971.FindifPathExistsinGraph](./LeetCode/1971.FindifPathExistsinGraph.md)
     - [1979.FindGreatestCommonDivisorofArray](./LeetCode/1979.FindGreatestCommonDivisorofArray.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
+    - [2316.CountUnreachablePairsofNodesinanUndirectedGraph](./LeetCode/2316.CountUnreachablePairsofNodesinanUndirectedGraph.md)
 
 * LintCode
     - [79·LongestCommonSubstring](./LintCode/79·LongestCommonSubstring.md)
