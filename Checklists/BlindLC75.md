@@ -77,7 +77,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ## UnionFind
 
 - [x] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) 
-- [ ] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
+- [x] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
 - [ ] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
 - [ ] [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
 - [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 

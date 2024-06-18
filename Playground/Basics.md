@@ -17,6 +17,21 @@ for i := range arr {
 
 
 
+## Graph: edges to adjacency list
+
+> Each `edges[i] = [ui, vi]` denotes a bi-directional edge between vertex `ui` and vertex `vi`.
+
+```go
+adj := make([][]int, n)
+for _, edge := range edges {
+  x, y := edge[0], edge[1]
+  adj[x] = append(adj[x], y)
+  adj[y] = append(adj[y], x)  // Don't forget!
+}
+```
+
+
+
 ## strings.Split 
 
 > ⚠️ Note: `strings.Split("")` results in array with 1 element `[""]` 
