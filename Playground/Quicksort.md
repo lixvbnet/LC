@@ -109,8 +109,7 @@ func quicksort(nums []int, p, q int) {
 
 func partition(nums []int, p, q int) int {
 	pivot := nums[p]
-	i := p-1
-	j := q+1
+	i, j := p-1, q+1
 	for {
 		i++; j--
 		for nums[i] < pivot { i++ }
@@ -128,7 +127,7 @@ Choosing number in the middle as pivot would make it better, i.e. `pivot := nums
 Or even better, we can choose pivot randomly:
 
 ```go
-func quickselect(nums []int, k int) int {
+func quicksort(nums []int, k int) int {
 	// initialize rand
 	rand.Seed(time.Now().UnixNano())
 
@@ -138,7 +137,7 @@ func quickselect(nums []int, k int) int {
 func partition(nums []int, p, q int) int {
 	// choose a random location and swap to first
 	r := p + rand.Intn(q-p+1)
-	nums[r], nums[p] = nums[p], nums[r]
+	nums[p], nums[r] = nums[r], nums[p]
 
 	// ...
 }
