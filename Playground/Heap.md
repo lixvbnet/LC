@@ -298,3 +298,27 @@ func HeapSort(nums []int) {
 
 It would be better to build a Max-Heap instead, and we won't need to reverse the array at last.
 
+
+
+## k-sized MinHeap
+
+For calculating kth largest number or k largest numbers.
+
+**Idea:** 
+
+Maintain a **Min-Heap of size k**. For every call to `add()`:
+
+- First, push `val` into `heap`.
+- Next, check if `heap.length > k`. If so, pop (min value) from the heap.
+- Finally, return the smallest value from the heap, which we can get in O(1) time.
+
+```go
+func (h *Heap) Add(val int) int {
+    heap.Push(h, val)
+    if h.Len() > h.k {
+        heap.Pop(h)		// pop min value
+    }
+    return h.IntSlice[0]
+}
+```
+
