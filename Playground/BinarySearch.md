@@ -34,12 +34,10 @@ func search(n int, f func(int) bool) int {
 	l, r := 0, n
 	for l < r {
 		m := l + (r - l) / 2
-        
     // (optional) return result if condition is met
     //if some_condition {
     //    return xxx
-    //}
-        
+    //}  
 		if f(m) {
 			r = m
 		} else {
@@ -75,7 +73,7 @@ func search(nums []int, target int) int {
             l = m + 1
         }
     }
-    // End Condition: l > r
+    // End Condition: l >= r
     return -1	// return l if want insert position
 }
 ```
