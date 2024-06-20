@@ -63,14 +63,24 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) 
 - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)  
 - [x] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
-- [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-- [ ] [Design Twitter](https://leetcode.com/problems/design-twitter/)
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) 
+- [ ] [355. Design Twitter](https://leetcode.com/problems/design-twitter/) 
+- [ ] [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) 
+- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
 - [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [ ] [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) 
 
 ------
+
+## Sorting
+
+- [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
+- [ ] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
+- [ ] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
+- [ ] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
+- [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
+
+---
 
 
 
@@ -233,18 +243,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
-## Sorting
-
-- [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
-- [ ] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
-- [ ] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
-- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
-- [ ] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
-- [ ] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
-- [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
-
----
-
 ## Binary Search
 
 - [ ] [704. Binary Search](https://leetcode.com/problems/binary-search/) 
@@ -356,6 +354,8 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) 
 
 ------
+
+
 
 ## Tree
 
