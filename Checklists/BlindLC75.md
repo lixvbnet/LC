@@ -63,7 +63,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) 
 - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)  
 - [x] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
-- [ ] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) 
+- [x] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) 
 - [ ] [355. Design Twitter](https://leetcode.com/problems/design-twitter/) 
 - [ ] [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) 
 - [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 

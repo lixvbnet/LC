@@ -154,6 +154,7 @@
     - [547.NumberofProvinces](./LeetCode/547.NumberofProvinces.md)
     - [567.PermutationinString](./LeetCode/567.PermutationinString.md)
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
+    - [621.TaskScheduler](./LeetCode/621.TaskScheduler.md)
     - [647.PalindromicSubstrings](./LeetCode/647.PalindromicSubstrings.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
     - [673.NumberofLongestIncreasingSubsequence](./LeetCode/673.NumberofLongestIncreasingSubsequence.md)
