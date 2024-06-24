@@ -143,9 +143,20 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Trie
 
-- [ ] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
+- [ ] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) 
+- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
+- [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
+- [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
+- [ ] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
+- [ ] [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) 
+- [ ] [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 
+- [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) 
+- [ ] [676. Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) 
+- [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) 
+- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
+- [ ] [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) 
+- [ ] [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) 
 
 ---
 
