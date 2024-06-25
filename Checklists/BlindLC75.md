@@ -145,8 +145,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 - [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
 - [x] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
-- [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
-- [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
 - [ ] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
 - [ ] [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) 
 - [ ] [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 
@@ -245,7 +243,8 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [ ] [Word Search](https://leetcode.com/problems/word-search/)
+- [ ] [79. Word Search](https://leetcode.com/problems/word-search/) 
+- [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
 - [ ] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) 
 - [ ] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) 
 
