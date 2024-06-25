@@ -186,7 +186,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) 
 - [ ] (LintCode) [79 · Longest Common Substring](https://www.lintcode.com/problem/79/) 
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [ ] [139. Word Break](https://leetcode.com/problems/word-break/)
+- [x] [139. Word Break](https://leetcode.com/problems/word-break/) 
 - [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
 - [ ] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/)
