@@ -8,7 +8,7 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time. (currently 240+)*** 
+***Updated with time. (currently 260+)*** 
 
 ```shell
 cat BlindLC75.md | grep "\- \[.*\]" | wc -l
@@ -151,7 +151,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) 
 - [ ] [676. Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) 
 - [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) 
-- [ ] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
 - [ ] [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) 
 - [ ] [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) 
 
