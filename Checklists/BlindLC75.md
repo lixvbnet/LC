@@ -144,8 +144,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ## Trie
 
 - [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
-- [ ] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) 
-- [ ] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
+- [x] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
 - [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/) 
 - [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
 - [ ] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
@@ -276,6 +275,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## String
 
+- [x] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) 
 - [ ] [344. Reverse String](https://leetcode.com/problems/reverse-string/) 
 - [ ] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Sliding Window)
 - [ ] [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Sliding Window)
