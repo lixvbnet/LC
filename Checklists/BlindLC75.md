@@ -75,7 +75,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ## Sorting
 
 - [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
-- [ ] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
+- [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
 - [ ] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
 - [ ] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
 - [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
