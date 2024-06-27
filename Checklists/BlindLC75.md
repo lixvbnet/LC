@@ -306,11 +306,11 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Bit Manipulation
 
-- [ ] [Single Number](https://leetcode.com/problems/single-number/)
-- [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+- [x] [136. Single Number](https://leetcode.com/problems/single-number/) 
+- [x] [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
+- [x] [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) 
+- [ ] [338. Counting Bits](https://leetcode.com/problems/counting-bits/) 
+- [ ] [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
 - [ ] [2166. Design Bitset](https://leetcode.com/problems/design-bitset/) 
 - [ ] [67. Add Binary](https://leetcode.com/problems/add-binary/) 
 

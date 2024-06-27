@@ -90,6 +90,7 @@
     - [125.ValidPalindrome](./LeetCode/125.ValidPalindrome.md)
     - [128.LongestConsecutiveSequence](./LeetCode/128.LongestConsecutiveSequence.md)
     - [133.CloneGraph](./LeetCode/133.CloneGraph.md)
+    - [136.SingleNumber](./LeetCode/136.SingleNumber.md)
     - [139.WordBreak](./LeetCode/139.WordBreak.md)
     - [140.WordBreakII](./LeetCode/140.WordBreakII.md)
     - [141.LinkedListCycle](./LeetCode/141.LinkedListCycle.md)
