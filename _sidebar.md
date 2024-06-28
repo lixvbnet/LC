@@ -187,9 +187,11 @@
 * Playground
     - [Basics](./Playground/Basics.md)
     - [BinarySearch](./Playground/BinarySearch.md)
+    - [Combinations](./Playground/Combinations.md)
     - [DFS_BFS](./Playground/DFS_BFS.md)
     - [Heap](./Playground/Heap.md)
     - [MergeSort](./Playground/MergeSort.md)
+    - [Permutations](./Playground/Permutations.md)
     - [Quicksort](./Playground/Quicksort.md)
     - [Sorting](./Playground/Sorting.md)
     - [StackAndQueue](./Playground/StackAndQueue.md)
