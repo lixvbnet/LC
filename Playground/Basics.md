@@ -63,6 +63,42 @@ heights = append(append([]int{0}, heights...), 0)
 
 
 
+## Slice Insert
+
+> https://stackoverflow.com/questions/46128016/insert-a-value-in-a-slice-at-a-given-index 
+
+Since Go 1.21 release, you can use `slices.Insert` 
+
+```go
+result = slices.Insert(slice, index, value)
+```
+
+To write our own version:
+
+```go
+func main() {
+	nums := []int{1, 2, 3}
+	nums = insert(nums, 1, 9)
+	fmt.Println(nums)
+}
+
+// 0 <= i <= len(a)
+func insert(a []int, i int, v int) []int {
+	if i == len(a) { // nil or empty slice or after last element
+		return append(a, v)
+	}
+	// copy all required elements to one index higher to make room for the new element
+	a = append(a[:i+1], a[i:]...) // i < len(a)
+	// set the element at the index, using a single assignment
+	a[i] = v
+	return a
+}
+```
+
+> Note: you may be tempted to use `A = append(append(A[:i], v), A[i:]...)` , but it is WRONG!! Because `append([:i], v)` would overwrite `A[i]` and so `A[i:]` woud be a "dirty" slice!!
+
+
+
 ## Check Int32 Overflow
 
 ```go
