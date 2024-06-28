@@ -65,13 +65,6 @@ func partition(nums []int, p, q int) int {
 > Choosing number in the middle as pivot would make it better, i.e. `pivot := nums[(p+q)/2]` . Or even better, we can choose pivot randomly:
 >
 > ```go
-> func quicksort(nums []int, k int) int {
-> 	// initialize rand
-> 	rand.Seed(time.Now().UnixNano())
-> 
-> 	// ...
-> }
-> 
 > func partition(nums []int, p, q int) int {
 > 	// choose a random location and swap to first
 > 	r := p + rand.Intn(q-p+1)
@@ -80,7 +73,13 @@ func partition(nums []int, p, q int) int {
 > 	// ...
 > }
 > ```
+> 
+
+> Starting from Go 1.20, calling `rand.Seed(time.Now().UnixNano())` is no longer needed.
 >
+> **The `math/rand` package now automatically seeds the global random number generator with a random value, and the top-level `Seed` function has been deprecated.** 
+
+
 
 
 
