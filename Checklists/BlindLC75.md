@@ -74,8 +74,8 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 - [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
 - [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
-- [ ] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
-- [ ] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
+- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
+- [x] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
 - [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
 
 ---
@@ -288,7 +288,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) 
 - [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) 
 - [ ] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) 
-- [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) ([LintCode 659](https://www.lintcode.com/problem/659/))
+- [ ] [271. Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) ([LintCode 659](https://www.lintcode.com/problem/659/))
 - [ ] [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (DFA)
 - [ ] [65. Valid Number](https://leetcode.com/problems/valid-number/) (DFA)
 - [ ] [520. Detect Capital](https://leetcode.com/problems/detect-capital/) (DFA)

@@ -185,6 +185,7 @@
 
 * LintCode
     - [79·LongestCommonSubstring](./LintCode/79·LongestCommonSubstring.md)
+    - [508·WiggleSort](./LintCode/508·WiggleSort.md)
     - [659·EncodeandDecodeStrings](./LintCode/659·EncodeandDecodeStrings.md)
 
 * Playground

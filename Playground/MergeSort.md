@@ -34,11 +34,9 @@ func merge(nums []int, p, m, q int) {
         }
     }
     // copy back
-    index = 0
-    for i := p; i <= q; i++ {
-        nums[i] = tmp[index]
-        index++
-    }
+    copy(nums[p:], tmp)
 }
 ```
+
+> Alternatively, we can do Reverse Merge, i.e., start the pointers from last elment and merge larger ones first.
 
