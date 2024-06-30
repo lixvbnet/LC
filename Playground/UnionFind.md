@@ -1,4 +1,4 @@
-## UnionFind
+## 🍺 UnionFind
 
 > UnionFind with path compression, and simple union function. -- **Good for quick implementation**
 
@@ -42,54 +42,46 @@ func (u *UnionFind) Union(x, y int) {
 
 
 
-## Union by rank
+## 🍺 Weighted UnionFind
 
-> "rank" is height of a tree. The goal is to make tree heights as small as possible.
+> From [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
 
 ```go
-// UnionFind type definition
 type UnionFind struct {
-	parent, rank []int
-	count int
+    parent []int
+    weight []float64
 }
 
-// Init
 func (u *UnionFind) Init(n int) {
-	u.count = n
-	u.rank = make([]int, n)
-	u.parent = make([]int, n)
-	for i := range u.parent {
-		u.parent[i] = i
-	}
+    u.weight = make([]float64, n)
+    u.parent = make([]int, n)
+    for i := range u.parent {
+        u.parent[i] = i
+        u.weight[i] = 1
+    }
 }
 
-// Find root
 func (u *UnionFind) Find(x int) int {
-	if u.parent[x] != x {
-		u.parent[x] = u.Find(u.parent[x])	// path compression
-	}
-	return u.parent[x]
+    if u.parent[x] != x {
+        root := u.Find(u.parent[x]) // do Find first! Important for this problem!
+        u.weight[x] *= u.weight[u.parent[x]]
+        u.parent[x] = root
+    }
+    return u.parent[x]
 }
 
-// Union two nodes
-func (u *UnionFind) Union(x, y int) {
-	xroot, yroot := u.Find(x), u.Find(y)
-	if xroot == yroot {
-		return
-	}
-	if u.rank[xroot] >= u.rank[yroot] {
-		u.parent[yroot] = xroot
-		if u.rank[xroot] == u.rank[yroot] {
-			u.rank[xroot]++
-		}
-	} else {
-		u.parent[xroot] = yroot
-	}
-	u.count--
+func (u *UnionFind) Union(x, y int, w float64) {
+    xroot, yroot := u.Find(x), u.Find(y)
+    u.weight[xroot] = w * u.weight[y] / u.weight[x]
+    u.parent[xroot] = yroot
 }
 ```
 
 
+
+
+
+---
 
 ## Union by size
 
@@ -148,4 +140,54 @@ func (u *UnionFind) Union(x, y int) {
     }
 }
 ```
+
+
+
+## Union by rank (Optional)
+
+> "rank" is height of a tree. The goal is to make tree heights as small as possible. (Optional when already applied path compression)
+
+```go
+// UnionFind type definition
+type UnionFind struct {
+	parent, rank []int
+	count int
+}
+
+// Init
+func (u *UnionFind) Init(n int) {
+	u.count = n
+	u.rank = make([]int, n)
+	u.parent = make([]int, n)
+	for i := range u.parent {
+		u.parent[i] = i
+	}
+}
+
+// Find root
+func (u *UnionFind) Find(x int) int {
+	if u.parent[x] != x {
+		u.parent[x] = u.Find(u.parent[x])	// path compression
+	}
+	return u.parent[x]
+}
+
+// Union two nodes
+func (u *UnionFind) Union(x, y int) {
+	xroot, yroot := u.Find(x), u.Find(y)
+	if xroot == yroot {
+		return
+	}
+	if u.rank[xroot] >= u.rank[yroot] {
+		u.parent[yroot] = xroot
+		if u.rank[xroot] == u.rank[yroot] {
+			u.rank[xroot]++
+		}
+	} else {
+		u.parent[xroot] = yroot
+	}
+	u.count--
+}
+```
+
 
