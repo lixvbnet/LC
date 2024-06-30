@@ -136,6 +136,7 @@
     - [242.ValidAnagram](./LeetCode/242.ValidAnagram.md)
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)
+    - [295.FindMedianfromDataStream](./LeetCode/295.FindMedianfromDataStream.md)
     - [297.SerializeandDeserializeBinaryTree](./LeetCode/297.SerializeandDeserializeBinaryTree.md)
     - [300.LongestIncreasingSubsequence](./LeetCode/300.LongestIncreasingSubsequence.md)
     - [316.RemoveDuplicateLetters](./LeetCode/316.RemoveDuplicateLetters.md)

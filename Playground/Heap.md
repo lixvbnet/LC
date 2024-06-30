@@ -1,7 +1,7 @@
 # Heap
 
-- `Min-Heap`: The value of every node is less than or equal to its children. (Then the root node is the smallest)
-- `Max-Heap`: The value of every node is greater than or equal to its children. (Then the root node is the largest)
+- `MinHeap`: The value of every node is less than or equal to its children. (Then the root node is the smallest)
+- `MaxHeap`: The value of every node is greater than or equal to its children. (Then the root node is the largest)
 
 
 
@@ -34,7 +34,7 @@ Also, visit [An online visualization site by Dr. David Galles](https://www.cs.us
 
 
 
-## Implement Min-Heap (from the ground up)
+## Implement MinHeap (from the ground up)
 
 ```go
 package main
@@ -132,7 +132,7 @@ func (h *Heap) siftDown(index int) {
 
 
 
-## Min-Heap using `container/heap` library
+## MinHeap & MaxHeap using `container/heap` library
 
 > ⚠️ Use the top-level functions `heap.Init/Push/Pop` instead of `h.Push/Pop` !!!
 >
@@ -185,15 +185,16 @@ func (h *Heap) Pop() any {
 	h.IntSlice = a[:len(a)-1]
 	return x
 }
-```
 
-> To make it a Max-Heap (PriorityQueue), simply override the `Less` function.
->
-> ```go
-> func (h Heap) Less(i, j int) bool {
-> 	return h.IntSlice[i] > h.IntSlice[j]
-> }
-> ```
+
+// MaxHeap
+type MaxHeap struct {
+    Heap
+}
+func (h MaxHeap) Less(i, j int) bool {
+    return h.IntSlice[i] > h.IntSlice[j]
+}
+```
 
 
 
@@ -257,13 +258,14 @@ func (h *Heap) Pop() any {
 	*h = (*h)[:n-1]
 	return item
 }
-```
 
-> To make it a Max-Heap (PriorityQueue), simply override the `Less` function.
->
-> ```go
-> func (h Heap) Less(i, j int) bool		{ return h[i].v > h[j].v }
-> ```
+
+// MaxHeap
+type MaxHeap struct {
+    Heap
+}
+func (h MaxHeap) Less(i, j int) bool { return h[i].v > h[j].v }
+```
 
 
 

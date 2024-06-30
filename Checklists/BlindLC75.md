@@ -66,19 +66,9 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) 
 - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
 - [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
-- [ ] [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) 
+- [x] [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) 
 
 ------
-
-## Sorting
-
-- [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
-- [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
-- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
-- [x] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
-- [ ] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
-
----
 
 
 
@@ -212,6 +202,18 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/)
 
 ------
+
+
+
+## Sorting
+
+- [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
+- [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
+- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
+- [x] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
+- [x] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
+
+---
 
 
 
