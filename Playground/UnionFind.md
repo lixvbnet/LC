@@ -35,6 +35,9 @@ func (u *UnionFind) Find(x int) int {
 
 func (u *UnionFind) Union(x, y int) {
     xroot, yroot := u.Find(x), u.Find(y)
+    if xroot == yroot {
+      return
+    }
     u.parent[xroot] = yroot
     u.count--
 }
@@ -72,6 +75,9 @@ func (u *UnionFind) Find(x int) int {
 
 func (u *UnionFind) Union(x, y int, w float64) {
     xroot, yroot := u.Find(x), u.Find(y)
+    if xroot == yroot {
+        return
+    }
     u.weight[xroot] = w * u.weight[y] / u.weight[x]
     u.parent[xroot] = yroot
 }
@@ -131,13 +137,8 @@ func (u *UnionFind) Union(x, y int) {
     if xroot == yroot {
         return
     }
-    if u.size[xroot] >= u.size[yroot] {
-        u.parent[yroot] = xroot
-        u.size[xroot] += u.size[yroot]
-    } else {
-        u.parent[xroot] = yroot
-        u.size[yroot] += u.size[xroot]
-    }
+    u.parent[xroot] = yroot
+    u.size[yroot] += u.size[xroot]
 }
 ```
 
