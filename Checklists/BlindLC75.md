@@ -79,7 +79,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
 - [x] [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) 
 - [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
-- [ ] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
+- [x] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
 - [ ] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) 
 - [ ] (SKIP) [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
 - [ ] (SKIP) [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 

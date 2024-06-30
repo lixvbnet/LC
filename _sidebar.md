@@ -168,6 +168,7 @@
     - [673.NumberofLongestIncreasingSubsequence](./LeetCode/673.NumberofLongestIncreasingSubsequence.md)
     - [674.LongestContinuousIncreasingSubsequence](./LeetCode/674.LongestContinuousIncreasingSubsequence.md)
     - [678.ValidParenthesisString](./LeetCode/678.ValidParenthesisString.md)
+    - [684.RedundantConnection](./LeetCode/684.RedundantConnection.md)
     - [692.TopKFrequentWords](./LeetCode/692.TopKFrequentWords.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
     - [703.KthLargestElementinaStream](./LeetCode/703.KthLargestElementinaStream.md)
