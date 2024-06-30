@@ -1,21 +1,52 @@
 ## UnionFind
 
+> UnionFind with path compression, and simple union function. -- **Good for quick implementation**
+
 ```go
-func countComponents(M [][]int) int {
-	n := len(M)
-	var uf UnionFind
-	uf.Init(n)
-	for i := 0; i < n; i++ {
-		for j := i+1; j < n; j++ {
-			if M[i][j] == 1 {
-				uf.Union(i, j)
-			}
-		}
-	}
-	return uf.count
+func main() {
+  n := 3
+  var uf UnionFind
+  uf.Init(n)
+  
+  uf.Union(0, 1)
+  uf.Union(1, 2)
 }
 
 
+type UnionFind struct {
+    parent []int
+    count int
+}
+
+func (u *UnionFind) Init(n int) {
+    u.count = n
+    u.parent = make([]int, n)
+    for i := range u.parent {
+        u.parent[i] = i
+    }
+}
+
+func (u *UnionFind) Find(x int) int {
+    if u.parent[x] != x {
+        u.parent[x] = u.Find(u.parent[x])	// path compression
+    }
+    return u.parent[x]
+}
+
+func (u *UnionFind) Union(x, y int) {
+    xroot, yroot := u.Find(x), u.Find(y)
+    u.parent[xroot] = yroot
+    u.count--
+}
+```
+
+
+
+## Union by rank
+
+> "rank" is height of a tree. The goal is to make tree heights as small as possible.
+
+```go
 // UnionFind type definition
 type UnionFind struct {
 	parent, rank []int
@@ -59,6 +90,10 @@ func (u *UnionFind) Union(x, y int) {
 ```
 
 
+
+## Union by size
+
+> With path compression, "Union by rank" and "Union by size" are very similar.
 
 If we need to get sizes of the components, use following variant instead:
 
