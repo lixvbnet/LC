@@ -16,78 +16,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
-## Array
-
-- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
-- [x] [3Sum](https://leetcode.com/problems/3sum/)
-- [x] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
-- [x] [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [x] [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
-- [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
-- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
-- [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
-- [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
-- [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
-- [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
-- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
-
-***Monotonic Stack*** 
-
-- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
-- [x] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
-- [x] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
-- [x] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
-- [x] [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 
-- [x] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
-
-***Buy & Sell Stock Series*** 
-
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
-- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 
-- [ ] [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) 
-- [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) (General form of "Stock Buy and Sell Problem")
-- [ ] [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) 
-- [ ] [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) 
-
----
-
-
-
-## Heap / Priority Queue
-
-- [x] [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) 
-- [x] [703. Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) 
-- [x] [215. Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
-- [x] [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) 
-- [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)  
-- [x] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
-- [x] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) 
-- [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
-- [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
-- [x] [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) 
-
-------
-
-
-
-## UnionFind
-
-- [x] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) 
-- [x] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
-- [x] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
-- [x] [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) 
-- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
-- [x] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
-- [ ] (SKIP) [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
-- [ ] (SKIP) [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 
-- [ ] (SKIP) [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
-
----
-
-
-
 ## Binary Indexed Tree & Segment Tree
 
 - [ ] [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) 
@@ -201,52 +129,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/)
 
 ------
-
-
-
-## Sorting
-
-- [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
-- [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
-- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
-- [x] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
-- [x] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
-
----
-
-
-
-## Math
-
-- [ ] [231. Power of Two](https://leetcode.com/problems/power-of-two/) 
-- [ ] [326. Power of Three](https://leetcode.com/problems/power-of-three/) 
-- [ ] [342. Power of Four](https://leetcode.com/problems/power-of-four/) 
-- [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
-- [ ] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
-- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
-- [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
-- [ ] [Happy Number](https://leetcode.com/problems/happy-number/)
-- [ ] [Plus One](https://leetcode.com/problems/plus-one/) 
-- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
-- [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
-- [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
-
-------
-
-## Matrix
-
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [ ] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
-- [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
-- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [ ] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
-- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [ ] [79. Word Search](https://leetcode.com/problems/word-search/) 
-- [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
-- [ ] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) 
-- [ ] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) 
-
----
 
 
 
@@ -402,6 +284,38 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
+## Math
+
+- [ ] [231. Power of Two](https://leetcode.com/problems/power-of-two/) 
+- [ ] [326. Power of Three](https://leetcode.com/problems/power-of-three/) 
+- [ ] [342. Power of Four](https://leetcode.com/problems/power-of-four/) 
+- [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
+- [ ] [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) 
+- [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
+- [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
+- [ ] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [ ] [Plus One](https://leetcode.com/problems/plus-one/) 
+- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
+- [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
+
+------
+
+## Matrix
+
+- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [ ] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
+- [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
+- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
+- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [ ] [79. Word Search](https://leetcode.com/problems/word-search/) 
+- [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
+- [ ] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) 
+- [ ] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) 
+
+---
+
 ## Interval
 
 - [ ] [Insert Interval](https://leetcode.com/problems/insert-interval/)
@@ -409,9 +323,96 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
 - [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
-- [ ] [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)
+- [ ] [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) 
 
 ---
 
+
+
+## Array
+
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) 
+- [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [4Sum](https://leetcode.com/problems/4sum/) (Only a very simple follow-up to 3Sum)
+- [x] [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+- [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) 
+- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) 
+- [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) 
+- [x] [268. Missing Number](https://leetcode.com/problems/missing-number/)
+- [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
+- [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
+- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
+- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+
+***Monotonic Stack*** 
+
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 
+- [x] [84. Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) 
+- [x] [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) 
+- [x] [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) 
+- [x] [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 
+- [x] [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) 
+
+***Buy & Sell Stock Series*** 
+
+- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
+- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 
+- [ ] [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) 
+- [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) (General form of "Stock Buy and Sell Problem")
+- [ ] [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) 
+- [ ] [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) 
+
+---
+
+
+
+## Sorting
+
+- [x] [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) 
+- [x] [75. Sort Colors](https://leetcode.com/problems/sort-colors/) 
+- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
+- [x] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
+- [x] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
+
+---
+
+
+
+## Heap / Priority Queue
+
+- [x] [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) 
+- [x] [703. Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) 
+- [x] [215. Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) 
+- [x] [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) 
+- [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)  
+- [x] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) 
+- [x] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) 
+- [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
+- [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
+- [x] [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) 
+
+------
+
+
+
+## UnionFind
+
+- [x] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) 
+- [x] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
+- [x] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
+- [x] [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) 
+- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
+- [x] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
+- [ ] (SKIP) [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
+- [ ] (SKIP) [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 
+- [ ] (SKIP) [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
+
+---
+
+
+
 ## Important Link:
+
 [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed) 
