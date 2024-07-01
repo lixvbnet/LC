@@ -8,7 +8,7 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time. (currently 260+)*** 
+***Updated with time. (currently 270+)*** 
 
 ```shell
 cat BlindLC75.md | grep "\- \[.*\]" | wc -l
@@ -16,12 +16,19 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
-## Binary Indexed Tree & Segment Tree
-
-***Prefix Sum*** 
+## Prefix Sum
 
 - [x] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) 
 - [ ] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)  
+- [ ] [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) 
+- [ ] [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) 
+- [ ] [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) 
+- [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) 
+
+---
+
+## Binary Indexed Tree & Segment Tree
+
 - [ ] [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) 
 - [ ] [308. Range Sum Query 2D - Mutable (LeetCode Premium)](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) ([LintCode 817](https://www.lintcode.com/problem/817/)) 
 - [ ] [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) 
