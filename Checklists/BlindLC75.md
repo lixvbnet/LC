@@ -19,7 +19,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ## Prefix Sum
 
 - [x] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) 
-- [ ] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)  
+- [x] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)  
 - [ ] [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) 
 - [ ] [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) 
 - [ ] [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) 

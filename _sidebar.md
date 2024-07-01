@@ -140,6 +140,7 @@
     - [297.SerializeandDeserializeBinaryTree](./LeetCode/297.SerializeandDeserializeBinaryTree.md)
     - [300.LongestIncreasingSubsequence](./LeetCode/300.LongestIncreasingSubsequence.md)
     - [303.RangeSumQuery-Immutable](./LeetCode/303.RangeSumQuery-Immutable.md)
+    - [304.RangeSumQuery2D-Immutable](./LeetCode/304.RangeSumQuery2D-Immutable.md)
     - [316.RemoveDuplicateLetters](./LeetCode/316.RemoveDuplicateLetters.md)
     - [322.CoinChange](./LeetCode/322.CoinChange.md)
     - [324.WiggleSortII](./LeetCode/324.WiggleSortII.md)
