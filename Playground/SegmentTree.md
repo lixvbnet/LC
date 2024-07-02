@@ -8,8 +8,10 @@
 >
 > For array `A` of size `n` , the segment tree `st` has `2n-1` non-empty nodes. But it is a **full binary tree** , the actual space we need:
 >
-> - if `n` is power of 2,           $S(n) = 2n-1$ 
-> - if `n` is NOT power of 2,  $S(n) = 2x-1$, where $x > n$ is next integer that is power of 2.
+> |                          | Actual space needed                                          | Tree height |
+> | ------------------------ | ------------------------------------------------------------ | ----------- |
+> | if `n` is power of 2     | $S(n) = 2n-1$                                                | $log_2 n$   |
+> | if `n` is NOT power of 2 | $S(n) = 2x-1$, where $x > n$ is <br />next integer that is power of 2. | $log_2 x$   |
 >
 > For example,
 >
