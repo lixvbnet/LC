@@ -1,8 +1,22 @@
 ## SegmentTree
 
+(Image from [Youtube video](https://www.youtube.com/watch?v=e_bK-dgPvfM&t=1732s)) 
+
 ![segment-tree](_image/segment-tree.jpg)
 
-(Image from [Youtube video](https://www.youtube.com/watch?v=e_bK-dgPvfM&t=1732s)) 
+> [Why does 4 * N space have to be allocated for a segment tree, where N is the size of the original array?](https://www.quora.com/Why-does-4-*-N-space-have-to-be-allocated-for-a-segment-tree-where-N-is-the-size-of-the-original-array) 
+>
+> For array `A` of size `n` , the segment tree `st` has `2n-1` non-empty nodes. But it is a **full binary tree** , the actual space we need:
+>
+> - if `n` is power of 2,           $S(n) = 2n-1$ 
+> - if `n` is NOT power of 2,  $S(n) = 2x-1$, where $x > n$ is next integer that is power of 2.
+>
+> For example,
+>
+> - if `n` is power of 2, `st` will have `2n-1` nodes (`n` leaf nodes and `n-1` internal nodes)
+> - if we increase only 1 element to `A` , `st` gets doubled. (`n` leaf nodes, `n-1` internal nodes, and `2(n-1)-2` nodes are unused. -- Close to `4n` (upper bound) nodes in total.)
+>
+> Conclusion without proof: ==4 is the smallest $k$ that it's safe to assume the space is sufficient for usage==.
 
 ```go
 package main
