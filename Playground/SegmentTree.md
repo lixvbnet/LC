@@ -26,14 +26,14 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{0,9,5,7,3}
+	nums := []int{1,3,5}
 	var s SegmentTree
 	s.Init(nums)
 	fmt.Println(s)
 
-	fmt.Println(s.SumRange(3,3))
-	// s.Update(1, 2)
-	// fmt.Println(s.SumRange(0,2))
+	fmt.Println(s.SumRange(0,2))
+	s.Update(1, 2)
+	fmt.Println(s.SumRange(0,2))
 }
 
 
