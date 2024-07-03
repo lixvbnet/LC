@@ -163,6 +163,7 @@
     - [503.NextGreaterElementII](./LeetCode/503.NextGreaterElementII.md)
     - [518.CoinChange2](./LeetCode/518.CoinChange2.md)
     - [523.ContinuousSubarraySum](./LeetCode/523.ContinuousSubarraySum.md)
+    - [525.ContiguousArray](./LeetCode/525.ContiguousArray.md)
     - [543.DiameterofBinaryTree](./LeetCode/543.DiameterofBinaryTree.md)
     - [547.NumberofProvinces](./LeetCode/547.NumberofProvinces.md)
     - [567.PermutationinString](./LeetCode/567.PermutationinString.md)
