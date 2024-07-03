@@ -39,21 +39,21 @@ func (b *BIT) Update(i, val int)  {
 }
 
 func (b *BIT) SumRange(L, R int) int {
-    return b.prefixSum(R+1) - b.prefixSum(L)
+    return b.sum(R+1) - b.sum(L)
 }
 
 func (b *BIT) add(i, val int) {
     for i < len(b.tree) {
         b.tree[i] += val
-        i += (i & -i)
+        i += (i & -i)		// add last '1' bit
     }
 }
 
-func (b *BIT) prefixSum(i int) int {
+func (b *BIT) sum(i int) int {
     sum := 0
     for i > 0 {
         sum += b.tree[i]
-        i &= i-1
+        i &= i-1				// remove last '1' bit, equivalent to i -= (i & -i)
     }
     return sum
 }
