@@ -1,8 +1,6 @@
 ## Binary Indexed Tree
 
-> aka. Fenwick Tree. It is 1-indexed. [YT tutorial](https://www.youtube.com/watch?v=uSFzHCZ4E-8) and [Another YT tutorial](https://www.youtube.com/watch?v=v_wj_mOAlig) that explains intuition:
-
-![BIT-idea](_image/BIT-idea.jpg)
+> aka. Fenwick Tree. It is 1-indexed. The position of last 1-bit determines the # of cells included.
 
 ```go
 package main
