@@ -8,63 +8,11 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time. (currently 270+)*** 
+***Updated with time. (currently 260+)*** 
 
 ```shell
 cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ```
-
-
-
-## Prefix Sum
-
-- [x] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) 
-- [x] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)  
-- [x] [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) (Sliding Window)
-- [x] [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) 
-- [x] [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) 
-- [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) 
-
----
-
-## Segment Tree & Binary Indexed Tree
-
-- [x] [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) 
-- [ ] [308. Range Sum Query 2D - Mutable (LeetCode Premium)](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) ([LintCode 817](https://www.lintcode.com/problem/817/)) 
-- [ ] [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) 
-- [ ] [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) 
-- [ ] [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) 
-- [ ] [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) 
-- [ ] [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) 
-
----
-
-
-
-## Graph
-
-- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
-- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
-- [ ] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
-- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-- [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 
-- [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) 
-- [ ] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) 
-- [ ] [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-- [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-- [ ] [Walls And Gates (Leetcode Premium)](https://leetcode.com/problems/walls-and-gates/)
-- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/) ([LintCode 892](https://www.lintcode.com/problem/892/))
-- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/) ([LintCode 178](https://www.lintcode.com/problem/178/))
-- [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [ ] [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
-- [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) (Minimum Spanning Tree, Prim's Algorithm)
-- [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) 
-- [ ] [127. Word Ladder](https://leetcode.com/problems/word-ladder/) 
-- [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
-- [ ] [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
-- [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-
-------
 
 
 
@@ -80,6 +28,44 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) 
 - [ ] [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) 
 - [ ] [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) 
+
+---
+
+
+
+## Graph
+
+- [ ] [133. Clone Graph](https://leetcode.com/problems/clone-graph/) 
+- [ ] [207. Course Schedule](https://leetcode.com/problems/course-schedule/) 
+- [ ] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) 
+- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
+- [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 
+- [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) 
+- [ ] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) 
+- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 
+- [ ] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) 
+- [ ] [Walls And Gates (Leetcode Premium)](https://leetcode.com/problems/walls-and-gates/) 
+- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/) ([LintCode 892](https://www.lintcode.com/problem/892/))
+- [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) (Minimum Spanning Tree, Prim's Algorithm)
+- [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) 
+- [ ] [127. Word Ladder](https://leetcode.com/problems/word-ladder/) 
+- [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- [ ] [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
+- [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+
+------
+
+## UnionFind
+
+- [x] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) 
+- [x] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
+- [x] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
+- [x] [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) 
+- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
+- [x] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
+- [ ] (SKIP) [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
+- [ ] (SKIP) [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 
+- [ ] (SKIP) [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
 
 ---
 
@@ -409,17 +395,26 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 
-## UnionFind
+## Prefix Sum
 
-- [x] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) 
-- [x] [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) 
-- [x] [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 
-- [x] [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) 
-- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) 
-- [x] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) 
-- [ ] (SKIP) [323. Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) 
-- [ ] (SKIP) [305. Number of Islands II (Leetcode Premium)](https://leetcode.com/problems/number-of-islands-ii/description/) 
-- [ ] (SKIP) [261. Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/description/) 
+- [x] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) 
+- [x] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)  
+- [x] [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) (Sliding Window)
+- [x] [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) 
+- [x] [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) 
+- [x] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) 
+
+---
+
+## Segment Tree & Binary Indexed Tree
+
+- [x] [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) 
+- [ ] [308. Range Sum Query 2D - Mutable (LeetCode Premium)](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) ([LintCode 817](https://www.lintcode.com/problem/817/)) 
+- [ ] [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) 
+- [ ] [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) 
+- [ ] [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) 
+- [ ] [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) 
+- [ ] [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) 
 
 ---
 
