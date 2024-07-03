@@ -1,6 +1,6 @@
 ## Binary Indexed Tree
 
-> aka. Fenwick Tree. It is 1-indexed. The position of last 1-bit determines the # of cells included.
+> aka. **Fenwick Tree**. ==It is 1-indexed==. The position of last 1-bit determines the # of cells included.
 
 ```go
 package main
@@ -8,14 +8,14 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{1,3,5}
-	var b BIT
+    nums := []int{1,3,5}
+    var b BIT
     b.Init(nums)
-	fmt.Println(b)
+    fmt.Println(b)
 
-	fmt.Println(b.SumRange(0,2))
-	b.Update(1, 2)
-	fmt.Println(b.SumRange(0,2))
+    fmt.Println(b.SumRange(0,2))
+    b.Update(1, 2)
+    fmt.Println(b.SumRange(0,2))
 }
 
 
@@ -62,17 +62,17 @@ func (b *BIT) sum(i int) int {
 > The `Init` function takes $O(nlogn)$ time, but it is possible to make it $O(n)$ 
 >
 > ```go
-> func (na *BIT) Init(nums []int) {
->     na.nums = nums
->     n := len(nums)
->     na.tree = make([]int, n+1)
->     copy(na.tree[1:], na.nums)
->     for i := 1; i <= n; i++ {
->         parent := i + (i & -i)
->         if parent <= n {
->             na.tree[parent] += na.tree[i]
->         }
->     }
+> func (b *BIT) Init(nums []int) {
+>        na.nums = nums
+>        n := len(nums)
+>        na.tree = make([]int, n+1)
+>        copy(na.tree[1:], na.nums)
+>        for i := 1; i <= n; i++ {
+>            parent := i + (i & -i)
+>            if parent <= n {
+>                na.tree[parent] += na.tree[i]
+>            }
+>        }
 > }
 > ```
 
