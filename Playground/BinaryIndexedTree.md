@@ -44,20 +44,18 @@ func (b *BIT) SumRange(L, R int) int {
     return b.sum(R+1) - b.sum(L)
 }
 
-// add val to A[i] of the 1-indexed array
 func (b *BIT) add(i, val int) {
     for i < len(b.tree) {
         b.tree[i] += val
-        i += (i & -i)		// add last '1' bit
+        i += (i & -i)		// add last 1-bit
     }
 }
 
-// sum A[1..i) of the 1-indexed array
 func (b *BIT) sum(i int) int {
     sum := 0
     for i > 0 {
         sum += b.tree[i]
-        i -= (i & -i)		// remove last '1' bit, equivalent to i &= i-1
+        i -= (i & -i)		// remove last 1-bit, equivalent to i &= i-1
     }
     return sum
 }
