@@ -200,6 +200,7 @@
     - [Basics](./Playground/Basics.md)
     - [BinaryIndexedTree](./Playground/BinaryIndexedTree.md)
     - [BinarySearch](./Playground/BinarySearch.md)
+    - [BitManipulation](./Playground/BitManipulation.md)
     - [Combinations](./Playground/Combinations.md)
     - [DFS_BFS](./Playground/DFS_BFS.md)
     - [Heap](./Playground/Heap.md)

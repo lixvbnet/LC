@@ -1,6 +1,8 @@
 ## Binary Indexed Tree
 
-> aka. Fenwick Tree
+> aka. Fenwick Tree. It is 1-indexed. [YT tutorial](https://www.youtube.com/watch?v=uSFzHCZ4E-8) and [Another YT tutorial](https://www.youtube.com/watch?v=v_wj_mOAlig) that explains intuition:
+
+![BIT-idea](_image/BIT-idea.jpg)
 
 ```go
 package main
@@ -42,6 +44,7 @@ func (b *BIT) SumRange(L, R int) int {
     return b.sum(R+1) - b.sum(L)
 }
 
+// add val to A[i] of the 1-indexed array
 func (b *BIT) add(i, val int) {
     for i < len(b.tree) {
         b.tree[i] += val
@@ -49,11 +52,12 @@ func (b *BIT) add(i, val int) {
     }
 }
 
+// sum A[1..i) of the 1-indexed array
 func (b *BIT) sum(i int) int {
     sum := 0
     for i > 0 {
         sum += b.tree[i]
-        i &= i-1				// remove last '1' bit, equivalent to i -= (i & -i)
+        i -= (i & -i)		// remove last '1' bit, equivalent to i &= i-1
     }
     return sum
 }
