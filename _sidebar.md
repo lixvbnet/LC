@@ -198,6 +198,7 @@
 
 * Playground
     - [Basics](./Playground/Basics.md)
+    - [BinaryIndexedTree](./Playground/BinaryIndexedTree.md)
     - [BinarySearch](./Playground/BinarySearch.md)
     - [Combinations](./Playground/Combinations.md)
     - [DFS_BFS](./Playground/DFS_BFS.md)

@@ -27,7 +27,7 @@ import "fmt"
 
 func main() {
 	nums := []int{1,3,5}
-	var s SegmentTree
+	var s ST
 	s.Init(nums)
 	fmt.Println(s)
 
@@ -37,14 +37,14 @@ func main() {
 }
 
 
-// SegmentTree type definition
-type SegmentTree struct {
+// ST type definition
+type ST struct {
 	nums []int
 	tree []int
 }
 
 // Init
-func (s *SegmentTree) Init(nums []int) {
+func (s *ST) Init(nums []int) {
 	n := len(nums)
 	s.nums = nums
 	s.tree = make([]int, n*4)
@@ -52,16 +52,16 @@ func (s *SegmentTree) Init(nums []int) {
 }
 
 // Update nums[i]
-func (s *SegmentTree) Update(i, val int) {
+func (s *ST) Update(i, val int) {
 	s.update(i, val, 0, 0, len(s.nums)-1)
 }
 
 // SumRange nums[L...R] inclusive
-func (s *SegmentTree) SumRange(L, R int) int {
+func (s *ST) SumRange(L, R int) int {
 	return s.sum(L, R, 0, 0, len(s.nums)-1)
 }
 
-func (s *SegmentTree) build(node, start, end int) {
+func (s *ST) build(node, start, end int) {
 	if start == end {
 		s.tree[node] = s.nums[start]
 		return
@@ -73,7 +73,7 @@ func (s *SegmentTree) build(node, start, end int) {
 	s.tree[node] = s.tree[leftNode] + s.tree[rightNode]
 }
 
-func (s *SegmentTree) update(i, val int, node, start, end int) {
+func (s *ST) update(i, val int, node, start, end int) {
 	if start == end {
 		s.nums[i] = val
 		s.tree[node] = val
@@ -89,7 +89,7 @@ func (s *SegmentTree) update(i, val int, node, start, end int) {
 	s.tree[node] = s.tree[leftNode] + s.tree[rightNode]
 }
 
-func (s *SegmentTree) sum(L, R int, node, start, end int) int {
+func (s *ST) sum(L, R int, node, start, end int) int {
 	if L == start && R == end {
 		return s.tree[node]
 	}
