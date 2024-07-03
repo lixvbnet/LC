@@ -59,3 +59,20 @@ func (b *BIT) sum(i int) int {
 }
 ```
 
+> The `Init` function takes $O(nlogn)$ time, but it is possible to make it $O(n)$ 
+>
+> ```go
+> func (na *BIT) Init(nums []int) {
+>     na.nums = nums
+>     n := len(nums)
+>     na.tree = make([]int, n+1)
+>     copy(na.tree[1:], na.nums)
+>     for i := 1; i <= n; i++ {
+>         parent := i + (i & -i)
+>         if parent <= n {
+>             na.tree[parent] += na.tree[i]
+>         }
+>     }
+> }
+> ```
+
