@@ -203,9 +203,9 @@
 * Playground
     - [Basics](./Playground/Basics.md)
     - [BinarySearch](./Playground/BinarySearch.md)
+    - [BinaryTreeTraversal](./Playground/BinaryTreeTraversal.md)
     - [BitManipulation](./Playground/BitManipulation.md)
     - [Combinations](./Playground/Combinations.md)
-    - [DFS_BFS](./Playground/DFS_BFS.md)
     - [Heap](./Playground/Heap.md)
     - [MergeSort](./Playground/MergeSort.md)
     - [Permutations](./Playground/Permutations.md)
