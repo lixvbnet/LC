@@ -20,15 +20,14 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ***Tree Traversal*** 
 
-- [ ] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
-- [ ] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
-- [ ] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
-- [ ] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
-- [ ] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-- [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [ ] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) 
-- [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
-- [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [x] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
+- [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
+- [x] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
+- [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
+- [x] [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) 
+- [x] [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [x] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) 
+- [x] [100. Same Tree](https://leetcode.com/problems/same-tree/) 
 - [ ] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
 - [ ] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)

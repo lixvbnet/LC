@@ -4,7 +4,54 @@ Two traversal methods: **Depth-First Search (DFS)** and **Breadth-First Search (
 
 
 
-## [Preorder](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
+## [94. Inorder](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
+
+Recusive approach is trivial:
+
+```go
+func inorderTraversal(root *TreeNode) []int {
+    var result []int
+    inorder(root, &result)
+    return result
+}
+
+func inorder(root *TreeNode, result *[]int) {
+    if root == nil {
+        return
+    }
+    inorder(root.Left, result)
+    *result = append(*result, root.Val)
+    inorder(root.Right, result)
+}
+```
+
+Iterative:
+
+```go
+func inorderTraversal(root *TreeNode) []int {
+    var result []int
+    var stack []*TreeNode
+    p := root
+    for p != nil || len(stack) > 0 {
+        if p != nil {
+            // push
+            stack = append(stack, p)
+            p = p.Left
+        } else {
+            // pop and visit
+            node := stack[len(stack)-1]
+            stack = stack[:len(stack)-1]
+            p = node.Right
+            result = append(result, node.Val)	// Add after all left children
+        }
+    }
+    return result
+}
+```
+
+
+
+## [144. Preorder](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
 
 > Let `p` start from `root`, if `p` is not nil, push to stack and move to `p.Left` ; otherwise pop a `node` from stack and move to `node.Right`.
 >
@@ -34,33 +81,7 @@ func preorderTraversal(root *TreeNode) []int {
 
 
 
-## [Inorder](https://leetcode.com/problems/binary-tree-inorder-traversal/) 
-
-```go
-func inorderTraversal(root *TreeNode) []int {
-    var result []int
-    var stack []*TreeNode
-    p := root
-    for p != nil || len(stack) > 0 {
-        if p != nil {
-            // push
-            stack = append(stack, p)
-            p = p.Left
-        } else {
-            // pop and visit
-            node := stack[len(stack)-1]
-            stack = stack[:len(stack)-1]
-            p = node.Right
-            result = append(result, node.Val)	// Add after all left children
-        }
-    }
-    return result
-}
-```
-
-
-
-## [Postorder](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
+## [145. Postorder](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
 
 > Postorder Traversal is ***more tricky*** to implement.
 >
@@ -131,7 +152,7 @@ func postorderTraversal(root *TreeNode) []int {
 
 
 
-## [BFS (Level Order Traversal)](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
+## [102. BFS (Level Order Traversal)](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
 
 ```go
 /**
@@ -147,16 +168,15 @@ func levelOrder(root *TreeNode) [][]int {
     if root == nil {
         return result
     }
-
-		var q Queue
-  	q.Offer(root)
+    var q Queue
+    q.Offer(root)
     for len(q) > 0 {
         levelSize := len(q)
-        lst := make([]int, 0, levelSize)
+        level := make([]int, levelSize)
+        result = append(result, level)
         for i := 0; i < levelSize; i++ {
             node := q.Poll()
-            lst = append(lst, node.Val)
-            // offer
+            level[i] = node.Val
             if node.Left != nil {
                 q.Offer(node.Left)
             }
@@ -164,11 +184,9 @@ func levelOrder(root *TreeNode) [][]int {
                 q.Offer(node.Right)
             }
         }
-        result = append(result, lst)
     }
     return result
 }
-
 
 type Queue []*TreeNode
 
@@ -177,9 +195,9 @@ func (q *Queue) Offer(x *TreeNode) {
 }
 
 func (q *Queue) Poll() *TreeNode {
-    x := (*q)[0]
+    v := (*q)[0]
     *q = (*q)[1:]
-    return x
+    return v
 }
 ```
 
