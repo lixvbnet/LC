@@ -202,7 +202,6 @@
 
 * Playground
     - [Basics](./Playground/Basics.md)
-    - [BinaryIndexedTree](./Playground/BinaryIndexedTree.md)
     - [BinarySearch](./Playground/BinarySearch.md)
     - [BitManipulation](./Playground/BitManipulation.md)
     - [Combinations](./Playground/Combinations.md)
@@ -211,7 +210,7 @@
     - [MergeSort](./Playground/MergeSort.md)
     - [Permutations](./Playground/Permutations.md)
     - [Quicksort](./Playground/Quicksort.md)
-    - [SegmentTree](./Playground/SegmentTree.md)
+    - [SegmentTreeAndBIT](./Playground/SegmentTreeAndBIT.md)
     - [Sorting](./Playground/Sorting.md)
     - [StackAndQueue](./Playground/StackAndQueue.md)
     - [Trie](./Playground/Trie.md)
