@@ -1,21 +1,23 @@
 ## Trie
 
+If only consists lower-case letters, we can use an array to store children map.
+
 ```go
 type Trie struct {
     isEnd bool
-    children map[rune]*Trie
+    children [26]*Trie
 }
 
-
-func Constructor() Trie {
-    return Trie{children: make(map[rune]*Trie)}
+func NewTrie() *Trie {
+    return &Trie{}
 }
 
 func (t *Trie) Insert(word string)  {
     cur := t
     for _, c := range word {
+        c -= 'a'
         if cur.children[c] == nil {
-            cur.children[c] = &Trie{children: make(map[rune]*Trie)}
+            cur.children[c] = NewTrie()
         }
         cur = cur.children[c]
     }
@@ -25,6 +27,7 @@ func (t *Trie) Insert(word string)  {
 func (t *Trie) Search(word string) bool {
     cur := t
     for _, c := range word {
+        c -= 'a'
         if cur.children[c] == nil {
             return false
         }
@@ -33,9 +36,11 @@ func (t *Trie) Search(word string) bool {
     return cur.isEnd
 }
 
+
 func (t *Trie) StartsWith(prefix string) bool {
     cur := t
     for _, c := range prefix {
+        c -= 'a'
         if cur.children[c] == nil {
             return false
         }
@@ -45,24 +50,25 @@ func (t *Trie) StartsWith(prefix string) bool {
 }
 ```
 
-We can use an array instead of hashmap:
+
+
+For more general scenarios, use a hashmap:
 
 ```go
 type Trie struct {
     isEnd bool
-    children [26]*Trie
+    children map[rune]*Trie
 }
 
-func Constructor() Trie {
-    return Trie{}
+func NewTrie() *Trie {
+    return &Trie{children: make(map[rune]*Trie)}
 }
 
 func (t *Trie) Insert(word string)  {
     cur := t
     for _, c := range word {
-        c -= 'a'
         if cur.children[c] == nil {
-            cur.children[c] = &Trie{}
+            cur.children[c] = NewTrie()
         }
         cur = cur.children[c]
     }
@@ -72,7 +78,6 @@ func (t *Trie) Insert(word string)  {
 func (t *Trie) Search(word string) bool {
     cur := t
     for _, c := range word {
-        c -= 'a'
         if cur.children[c] == nil {
             return false
         }
@@ -81,11 +86,9 @@ func (t *Trie) Search(word string) bool {
     return cur.isEnd
 }
 
-
 func (t *Trie) StartsWith(prefix string) bool {
     cur := t
     for _, c := range prefix {
-        c -= 'a'
         if cur.children[c] == nil {
             return false
         }

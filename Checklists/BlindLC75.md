@@ -24,6 +24,9 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
 - [x] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
 - [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
+
+***Basics*** 
+
 - [x] [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) 
 - [x] [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) 
@@ -57,7 +60,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 - [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
 - [x] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
-- [ ] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
+- [x] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
 - [ ] [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) 
 - [ ] [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 
 - [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) 

@@ -171,6 +171,7 @@
     - [572.SubtreeofAnotherTree](./LeetCode/572.SubtreeofAnotherTree.md)
     - [621.TaskScheduler](./LeetCode/621.TaskScheduler.md)
     - [647.PalindromicSubstrings](./LeetCode/647.PalindromicSubstrings.md)
+    - [648.ReplaceWords](./LeetCode/648.ReplaceWords.md)
     - [658.FindKClosestElements](./LeetCode/658.FindKClosestElements.md)
     - [673.NumberofLongestIncreasingSubsequence](./LeetCode/673.NumberofLongestIncreasingSubsequence.md)
     - [674.LongestContinuousIncreasingSubsequence](./LeetCode/674.LongestContinuousIncreasingSubsequence.md)
