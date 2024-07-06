@@ -8,7 +8,7 @@
 >
 > NeetCode Roadmap: [NeetCode 150 Roadmap](https://neetcode.io/roadmap) (***Merged into this list***)
 
-***Updated with time. (currently 260+)*** 
+***Updated with time. (currently 240+)*** 
 
 ```shell
 cat BlindLC75.md | grep "\- \[.*\]" | wc -l
@@ -51,22 +51,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [Count Good Nodes In Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
 - [ ] [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) 
-
----
-
-
-
-## Trie
-
-- [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
-- [x] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
-- [x] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
-- [ ] [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 
-- [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) 
-- [ ] [676. Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) 
-- [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) 
-- [ ] [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) 
-- [ ] [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) 
 
 ---
 
@@ -231,6 +215,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) 
 - [ ] [2166. Design Bitset](https://leetcode.com/problems/design-bitset/) 
 - [ ] [67. Add Binary](https://leetcode.com/problems/add-binary/) 
+- [x] [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 
 
 ---
 
@@ -395,11 +380,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) 
 - [x] [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) 
 
-***Optional*** 
-
-- [ ] (Optional) [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) 
-- [ ] (Optional) [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) 
-
 ------
 
 
@@ -419,12 +399,15 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 - [x] [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) 
 
-***Optional*** 
+---
 
-- [ ] (Optional) [308. Range Sum Query 2D - Mutable (LeetCode Premium)](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) ([LintCode 817](https://www.lintcode.com/problem/817/)) 
-- [ ] (Optional) [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) 
-- [ ] (Optional) [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) 
-- [ ] (Optional) [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) 
+
+
+## Trie
+
+- [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
+- [x] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
+- [x] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
 
 ---
 
