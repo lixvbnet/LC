@@ -39,7 +39,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 - [x] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
 - [x] [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 
-- [ ] [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) 
+- [x] [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) 
 - [ ] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 - [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
 - [ ] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
