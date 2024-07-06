@@ -33,7 +33,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [100. Same Tree](https://leetcode.com/problems/same-tree/) 
 - [x] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
 - [x] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
-- [ ] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
+- [x] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
 - [ ] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
 - [ ] [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 
 - [ ] [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) 
@@ -61,7 +61,6 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
 - [x] [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) 
 - [x] [648. Replace Words](https://leetcode.com/problems/replace-words/) 
-- [ ] [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) 
 - [ ] [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) 
 - [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) 
 - [ ] [676. Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) 
@@ -377,6 +376,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) 
 - [x] [280. Wiggle Sort (LeetCode Premium)](https://leetcode.com/problems/wiggle-sort/) ([LintCode 508](https://www.lintcode.com/problem/508/))
 - [x] [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) 
+- [x] [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) 
 
 ---
 
