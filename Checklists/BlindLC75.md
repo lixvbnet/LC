@@ -31,16 +31,19 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) 
 - [x] [100. Same Tree](https://leetcode.com/problems/same-tree/) 
-- [x] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
-- [x] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
 - [x] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
+
+***Tree Path*** 
+
+- [x] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
+- [x] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
+- [ ] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 
 ***Construct Binary Tree From Traversals*** 
 
 - [x] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
 - [x] [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 
 - [x] [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) 
-- [ ] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 - [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
 - [ ] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
 - [ ] [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) 
