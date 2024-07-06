@@ -34,8 +34,11 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) 
 - [x] [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) 
 - [x] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
-- [ ] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
-- [ ] [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 
+
+***Construct Binary Tree From Traversals*** 
+
+- [x] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
+- [x] [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 
 - [ ] [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) 
 - [ ] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 - [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
