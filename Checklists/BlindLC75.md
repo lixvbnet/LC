@@ -247,7 +247,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Linked List
 
-- [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [ ] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) 
 - [ ] [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [ ] [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) 
 - [ ] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) 
@@ -265,7 +265,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [148. Sort List](https://leetcode.com/problems/sort-list/) 
 - [ ] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) 
 - [ ] [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-- [ ] [146. LRU Cache](https://leetcode.com/problems/lru-cache/) 
+- [x] [146. LRU Cache](https://leetcode.com/problems/lru-cache/) 
 - [ ] [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) 
 
 ---
