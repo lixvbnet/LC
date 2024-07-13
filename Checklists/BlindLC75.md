@@ -358,10 +358,9 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
 - [x] [169. Majority Element](https://leetcode.com/problems/majority-element/) 
 - [x] [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) 
-- [ ] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) 
-- [ ] [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) 
-- [ ] [27. Remove Element](https://leetcode.com/problems/remove-element/) 
-- [ ] [189. Rotate Array](https://leetcode.com/problems/rotate-array/) 
+- [x] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) 
+- [x] [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) 
+- [x] [27. Remove Element](https://leetcode.com/problems/remove-element/) 
 - [ ] [274. H-Index](https://leetcode.com/problems/h-index/) 
 - [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
 
