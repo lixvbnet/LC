@@ -137,6 +137,7 @@
     - [226.InvertBinaryTree](./LeetCode/226.InvertBinaryTree.md)
     - [229.MajorityElementII](./LeetCode/229.MajorityElementII.md)
     - [230.KthSmallestElementinaBST](./LeetCode/230.KthSmallestElementinaBST.md)
+    - [231.PowerofTwo](./LeetCode/231.PowerofTwo.md)
     - [232.ImplementQueueusingStacks](./LeetCode/232.ImplementQueueusingStacks.md)
     - [234.PalindromeLinkedList](./LeetCode/234.PalindromeLinkedList.md)
     - [235.LowestCommonAncestorofaBinarySearchTree](./LeetCode/235.LowestCommonAncestorofaBinarySearchTree.md)

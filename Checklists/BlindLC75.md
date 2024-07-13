@@ -297,7 +297,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ## Math
 
 - [ ] [66. Plus One](https://leetcode.com/problems/plus-one/) 
-- [ ] [231. Power of Two](https://leetcode.com/problems/power-of-two/) 
+- [x] [231. Power of Two](https://leetcode.com/problems/power-of-two/) 
 - [ ] [326. Power of Three](https://leetcode.com/problems/power-of-three/) 
 - [ ] [342. Power of Four](https://leetcode.com/problems/power-of-four/) 
 - [ ] [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) 
