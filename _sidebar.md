@@ -172,6 +172,7 @@
     - [438.FindAllAnagramsinaString](./LeetCode/438.FindAllAnagramsinaString.md)
     - [449.SerializeandDeserializeBST](./LeetCode/449.SerializeandDeserializeBST.md)
     - [450.DeleteNodeinaBST](./LeetCode/450.DeleteNodeinaBST.md)
+    - [460.LFUCache](./LeetCode/460.LFUCache.md)
     - [496.NextGreaterElementI](./LeetCode/496.NextGreaterElementI.md)
     - [503.NextGreaterElementII](./LeetCode/503.NextGreaterElementII.md)
     - [518.CoinChange2](./LeetCode/518.CoinChange2.md)

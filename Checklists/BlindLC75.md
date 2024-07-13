@@ -266,7 +266,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) 
 - [ ] [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [x] [146. LRU Cache](https://leetcode.com/problems/lru-cache/) 
-- [ ] [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) 
+- [x] [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) 
 
 ---
 
