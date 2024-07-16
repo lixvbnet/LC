@@ -218,6 +218,8 @@
     - [79·LongestCommonSubstring](./LintCode/79·LongestCommonSubstring.md)
     - [508·WiggleSort](./LintCode/508·WiggleSort.md)
     - [659·EncodeandDecodeStrings](./LintCode/659·EncodeandDecodeStrings.md)
+    - [919·MeetingRoomsII](./LintCode/919·MeetingRoomsII.md)
+    - [920·MeetingRooms](./LintCode/920·MeetingRooms.md)
 
 * Playground
     - [Basics](./Playground/Basics.md)

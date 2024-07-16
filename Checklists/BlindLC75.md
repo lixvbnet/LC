@@ -333,9 +333,9 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) 
 - [x] [57. Insert Interval](https://leetcode.com/problems/insert-interval/) 
 - [x] [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
-- [ ] (SKIP) [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/) 
-- [ ] (SKIP) [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/) 
-- [ ] [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) 
+- [x] [252. Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/) ([LintCode 920](https://www.lintcode.com/problem/920/))
+- [x] [253. Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/) ([LintCode 919](https://www.lintcode.com/problem/919/))
+- [ ] [1851. Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) 
 
 ---
 
