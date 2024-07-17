@@ -83,7 +83,7 @@ Output:
 
 ## Follow-up
 
-If we change the problem to "Find all substrings that contains k '1's." , no necessarily starting with '1'.
+If we change the problem to "Find all substrings that contains k '1's." , not necessarily starting with '1'.
 
 - Sliding Window	$O(n^2)$ 
 
