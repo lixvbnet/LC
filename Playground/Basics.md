@@ -201,10 +201,20 @@ func reverse(x int) int {
 
 
 
-## Binary string => int
+## binary string => int
 
 ```go
 str := "11"
 val, _ := strconv.ParseInt(str, 2, 64)	// 3, nil
 ```
+
+> `ParseInt(**s string**, base int, bitSize int) (i int64, err error)` 
+
+## int => binary string
+
+```go
+strconv.FormatInt(n, 2)
+```
+
+> `func FormatInt(i int64, base int) string` 
 
