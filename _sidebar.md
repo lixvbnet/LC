@@ -160,6 +160,7 @@
     - [316.RemoveDuplicateLetters](./LeetCode/316.RemoveDuplicateLetters.md)
     - [322.CoinChange](./LeetCode/322.CoinChange.md)
     - [324.WiggleSortII](./LeetCode/324.WiggleSortII.md)
+    - [326.PowerofThree](./LeetCode/326.PowerofThree.md)
     - [337.HouseRobberIII](./LeetCode/337.HouseRobberIII.md)
     - [338.CountingBits](./LeetCode/338.CountingBits.md)
     - [344.ReverseString](./LeetCode/344.ReverseString.md)
