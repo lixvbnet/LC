@@ -199,3 +199,12 @@ func reverse(x int) int {
 }
 ```
 
+
+
+## Binary string => int
+
+```go
+str := "11"
+val, _ := strconv.ParseInt(str, 2, 64)	// 3, nil
+```
+

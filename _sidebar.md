@@ -213,6 +213,7 @@
     - [1979.FindGreatestCommonDivisorofArray](./LeetCode/1979.FindGreatestCommonDivisorofArray.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
     - [2316.CountUnreachablePairsofNodesinanUndirectedGraph](./LeetCode/2316.CountUnreachablePairsofNodesinanUndirectedGraph.md)
+    - [2904.ShortestandLexicographicallySmallestBeautifulString](./LeetCode/2904.ShortestandLexicographicallySmallestBeautifulString.md)
 
 * LintCode
     - [79·LongestCommonSubstring](./LintCode/79·LongestCommonSubstring.md)
@@ -236,6 +237,3 @@
     - [StackAndQueue](./Playground/StackAndQueue.md)
     - [Trie](./Playground/Trie.md)
     - [UnionFind](./Playground/UnionFind.md)
-
-* TempExperiment
-    - [kOnes](./TempExperiment/kOnes.md)
