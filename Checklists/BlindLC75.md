@@ -86,7 +86,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
 - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 
 - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) 
-- [ ] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) 
+- [x] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) 
 - [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) 
 - [ ] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) 
 - [ ] [Walls And Gates (Leetcode Premium)](https://leetcode.com/problems/walls-and-gates/) 

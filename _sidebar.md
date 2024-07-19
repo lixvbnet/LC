@@ -198,6 +198,7 @@
     - [678.ValidParenthesisString](./LeetCode/678.ValidParenthesisString.md)
     - [684.RedundantConnection](./LeetCode/684.RedundantConnection.md)
     - [692.TopKFrequentWords](./LeetCode/692.TopKFrequentWords.md)
+    - [695.MaxAreaofIsland](./LeetCode/695.MaxAreaofIsland.md)
     - [701.InsertintoaBinarySearchTree](./LeetCode/701.InsertintoaBinarySearchTree.md)
     - [703.KthLargestElementinaStream](./LeetCode/703.KthLargestElementinaStream.md)
     - [704.BinarySearch](./LeetCode/704.BinarySearch.md)
