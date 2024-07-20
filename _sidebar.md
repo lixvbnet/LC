@@ -81,6 +81,7 @@
     - [88.MergeSortedArray](./LeetCode/88.MergeSortedArray.md)
     - [90.SubsetsII](./LeetCode/90.SubsetsII.md)
     - [91.DecodeWays](./LeetCode/91.DecodeWays.md)
+    - [92.ReverseLinkedListII](./LeetCode/92.ReverseLinkedListII.md)
     - [94.BinaryTreeInorderTraversal](./LeetCode/94.BinaryTreeInorderTraversal.md)
     - [95.UniqueBinarySearchTreesII](./LeetCode/95.UniqueBinarySearchTreesII.md)
     - [96.UniqueBinarySearchTrees](./LeetCode/96.UniqueBinarySearchTrees.md)
