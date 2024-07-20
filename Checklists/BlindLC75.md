@@ -182,6 +182,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
 - [ ] [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 
 - [ ] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+- [ ] [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
 - [ ] [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) 
 - [ ] [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) 
 - [ ] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) 
@@ -196,6 +197,8 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 ## String
+
+- [x] [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) 
 
 ***Sliding window*** 
 
@@ -254,6 +257,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Linked List
 
+- [x] [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) 
 - [ ] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) 
 - [ ] [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [ ] [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) 
@@ -268,6 +272,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [143. Reorder List](https://leetcode.com/problems/reorder-list/) 
 - [ ] [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) 
 - [ ] [61. Rotate List](https://leetcode.com/problems/rotate-list/) 
+- [ ] [86. Partition List](https://leetcode.com/problems/partition-list/) 
 - [ ] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
 - [ ] [148. Sort List](https://leetcode.com/problems/sort-list/) 
 - [ ] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) 
@@ -303,7 +308,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Math
 
-- [ ] [66. Plus One](https://leetcode.com/problems/plus-one/) 
+- [x] [66. Plus One](https://leetcode.com/problems/plus-one/) 
 - [x] [231. Power of Two](https://leetcode.com/problems/power-of-two/) 
 - [x] [326. Power of Three](https://leetcode.com/problems/power-of-three/) 
 - [x] [342. Power of Four](https://leetcode.com/problems/power-of-four/) 
@@ -330,6 +335,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
 - [ ] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) 
 - [ ] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) 
+- [ ] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) 
 - [ ] [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) 
 - [ ] [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) 
 
