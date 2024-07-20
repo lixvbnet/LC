@@ -99,8 +99,7 @@ func (s *Stack) Pop() int {
 }
 
 func (s *Stack) Top() int {
-	n := len(*s)
-	return (*s)[n-1]
+    return (*s)[len(*s)-1]
 }
 
 

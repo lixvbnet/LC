@@ -30,6 +30,7 @@
     - [27.RemoveElement](./LeetCode/27.RemoveElement.md)
     - [28.ImplementstrStr()](./LeetCode/28.ImplementstrStr().md)
     - [31.NextPermutation](./LeetCode/31.NextPermutation.md)
+    - [32.LongestValidParentheses](./LeetCode/32.LongestValidParentheses.md)
     - [33.SearchinRotatedSortedArray](./LeetCode/33.SearchinRotatedSortedArray.md)
     - [34.FindFirstandLastPositionofElementinSortedArray](./LeetCode/34.FindFirstandLastPositionofElementinSortedArray.md)
     - [35.SearchInsertPosition](./LeetCode/35.SearchInsertPosition.md)
