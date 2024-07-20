@@ -272,7 +272,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [143. Reorder List](https://leetcode.com/problems/reorder-list/) 
 - [ ] [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) 
 - [ ] [61. Rotate List](https://leetcode.com/problems/rotate-list/) 
-- [ ] [86. Partition List](https://leetcode.com/problems/partition-list/) 
+- [x] [86. Partition List](https://leetcode.com/problems/partition-list/) 
 - [ ] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) 
 - [ ] [148. Sort List](https://leetcode.com/problems/sort-list/) 
 - [ ] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) 

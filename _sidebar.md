@@ -77,6 +77,7 @@
     - [80.RemoveDuplicatesfromSortedArrayII](./LeetCode/80.RemoveDuplicatesfromSortedArrayII.md)
     - [83.RemoveDuplicatesfromSortedList](./LeetCode/83.RemoveDuplicatesfromSortedList.md)
     - [84.LargestRectangleinHistogram](./LeetCode/84.LargestRectangleinHistogram.md)
+    - [86.PartitionList](./LeetCode/86.PartitionList.md)
     - [88.MergeSortedArray](./LeetCode/88.MergeSortedArray.md)
     - [90.SubsetsII](./LeetCode/90.SubsetsII.md)
     - [91.DecodeWays](./LeetCode/91.DecodeWays.md)
