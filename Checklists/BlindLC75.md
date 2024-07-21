@@ -318,7 +318,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [179. Largest Number](https://leetcode.com/problems/largest-number/) 
 - [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
 - [ ] [Happy Number](https://leetcode.com/problems/happy-number/) 
-- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [x] [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) 
 - [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 - [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
 

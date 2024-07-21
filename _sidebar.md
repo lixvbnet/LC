@@ -46,6 +46,7 @@
     - [47.PermutationsII](./LeetCode/47.PermutationsII.md)
     - [48.RotateImage](./LeetCode/48.RotateImage.md)
     - [49.GroupAnagrams](./LeetCode/49.GroupAnagrams.md)
+    - [50.Pow(x,n)](./LeetCode/50.Pow(x,n).md)
     - [51.N-Queens](./LeetCode/51.N-Queens.md)
     - [52.N-QueensII](./LeetCode/52.N-QueensII.md)
     - [53.MaximumSubarray](./LeetCode/53.MaximumSubarray.md)
