@@ -40,6 +40,7 @@
     - [40.CombinationSumII](./LeetCode/40.CombinationSumII.md)
     - [41.FirstMissingPositive](./LeetCode/41.FirstMissingPositive.md)
     - [42.TrappingRainWater](./LeetCode/42.TrappingRainWater.md)
+    - [43.MultiplyStrings](./LeetCode/43.MultiplyStrings.md)
     - [44.WildcardMatching](./LeetCode/44.WildcardMatching.md)
     - [45.JumpGameII](./LeetCode/45.JumpGameII.md)
     - [46.Permutations](./LeetCode/46.Permutations.md)

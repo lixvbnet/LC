@@ -319,7 +319,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [ ] [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) 
 - [x] [202. Happy Number](https://leetcode.com/problems/happy-number/) 
 - [x] [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) 
-- [ ] [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
+- [x] [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) 
 - [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
 
 ------
