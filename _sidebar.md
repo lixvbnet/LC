@@ -225,6 +225,7 @@
     - [1392.LongestHappyPrefix](./LeetCode/1392.LongestHappyPrefix.md)
     - [1971.FindifPathExistsinGraph](./LeetCode/1971.FindifPathExistsinGraph.md)
     - [1979.FindGreatestCommonDivisorofArray](./LeetCode/1979.FindGreatestCommonDivisorofArray.md)
+    - [2013.DetectSquares](./LeetCode/2013.DetectSquares.md)
     - [2166.DesignBitset](./LeetCode/2166.DesignBitset.md)
     - [2316.CountUnreachablePairsofNodesinanUndirectedGraph](./LeetCode/2316.CountUnreachablePairsofNodesinanUndirectedGraph.md)
     - [2904.ShortestandLexicographicallySmallestBeautifulString](./LeetCode/2904.ShortestandLexicographicallySmallestBeautifulString.md)

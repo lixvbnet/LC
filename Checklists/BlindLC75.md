@@ -320,7 +320,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [202. Happy Number](https://leetcode.com/problems/happy-number/) 
 - [x] [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) 
 - [x] [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) 
-- [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
+- [x] [2013. Detect Squares](https://leetcode.com/problems/detect-squares/) 
 
 ------
 
