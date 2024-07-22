@@ -166,7 +166,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Greedy
 
-- [ ] [Gas Station](https://leetcode.com/problems/gas-station/)
+- [ ] [134. Gas Station](https://leetcode.com/problems/gas-station/) 
 - [ ] [Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
 - [ ] [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
 - [ ] [Partition Labels](https://leetcode.com/problems/partition-labels/)
@@ -197,6 +197,8 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 
 ## String
+
+***Basics*** 
 
 - [x] [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) 
 
@@ -326,12 +328,12 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ## Matrix
 
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [ ] [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) 
 - [ ] [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) 
 - [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) 
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) 
-- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [ ] [48. Rotate Image](https://leetcode.com/problems/rotate-image/) 
 - [ ] [79. Word Search](https://leetcode.com/problems/word-search/) 
 - [ ] [212. Word Search II](https://leetcode.com/problems/word-search-ii/) 
 - [ ] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) 
