@@ -35,7 +35,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) 
 - [x] [100. Same Tree](https://leetcode.com/problems/same-tree/) 
 - [x] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
-- [ ] [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) 
+- [x] [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) 
 - [ ] [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) 
 - [ ] [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) 
 - [ ] [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) 

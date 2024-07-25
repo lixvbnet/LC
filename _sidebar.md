@@ -96,6 +96,7 @@
     - [106.ConstructBinaryTreefromInorderandPostorderTraversal](./LeetCode/106.ConstructBinaryTreefromInorderandPostorderTraversal.md)
     - [110.BalancedBinaryTree](./LeetCode/110.BalancedBinaryTree.md)
     - [111.MinimumDepthofBinaryTree](./LeetCode/111.MinimumDepthofBinaryTree.md)
+    - [114.FlattenBinaryTreetoLinkedList](./LeetCode/114.FlattenBinaryTreetoLinkedList.md)
     - [118.Pascal'sTriangle](./LeetCode/118.Pascal'sTriangle.md)
     - [119.Pascal'sTriangleII](./LeetCode/119.Pascal'sTriangleII.md)
     - [121.BestTimetoBuyandSellStock](./LeetCode/121.BestTimetoBuyandSellStock.md)
