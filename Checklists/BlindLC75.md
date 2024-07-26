@@ -24,9 +24,9 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
 - [x] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
 - [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
-- [ ] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) 
-- [ ] [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) 
-- [ ] [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) 
+- [x] [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) 
+- [x] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) 
+- [x] [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) 
 
 ***Basics*** 
 
