@@ -39,7 +39,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) 
 - [x] [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) 
 - [x] [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) 
-- [ ] [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) 
+- [x] [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) 
 
 ***Tree Path & Path Sum*** 
 
