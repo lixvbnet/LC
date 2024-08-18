@@ -163,6 +163,7 @@
     - [240.Searcha2DMatrixII](./LeetCode/240.Searcha2DMatrixII.md)
     - [241.DifferentWaystoAddParentheses](./LeetCode/241.DifferentWaystoAddParentheses.md)
     - [242.ValidAnagram](./LeetCode/242.ValidAnagram.md)
+    - [257.BinaryTreePaths](./LeetCode/257.BinaryTreePaths.md)
     - [268.MissingNumber](./LeetCode/268.MissingNumber.md)
     - [274.H-Index](./LeetCode/274.H-Index.md)
     - [278.FirstBadVersion](./LeetCode/278.FirstBadVersion.md)

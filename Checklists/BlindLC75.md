@@ -43,7 +43,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 
 ***Tree Path & Path Sum*** 
 
-- [ ] [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) 
+- [x] [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) 
 - [ ] [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) 
 - [ ] [112. Path Sum](https://leetcode.com/problems/path-sum/) 
 - [ ] [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) 
