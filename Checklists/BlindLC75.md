@@ -63,7 +63,7 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 - [x] [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
 - [x] [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) 
 - [x] [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) 
-- [ ] [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) 
+- [x] [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) 
 - [ ] [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
 - [ ] [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) 
 - [ ] [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) 
