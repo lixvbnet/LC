@@ -182,6 +182,7 @@
     - [338.CountingBits](./LeetCode/338.CountingBits.md)
     - [342.PowerofFour](./LeetCode/342.PowerofFour.md)
     - [344.ReverseString](./LeetCode/344.ReverseString.md)
+    - [345.ReverseVowelsofaString](./LeetCode/345.ReverseVowelsofaString.md)
     - [347.TopKFrequentElements](./LeetCode/347.TopKFrequentElements.md)
     - [371.SumofTwoIntegers](./LeetCode/371.SumofTwoIntegers.md)
     - [374.GuessNumberHigherorLower](./LeetCode/374.GuessNumberHigherorLower.md)

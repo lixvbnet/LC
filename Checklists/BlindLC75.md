@@ -213,7 +213,8 @@ cat BlindLC75.md | grep "\- \[.*\]" | wc -l
 ***Others*** 
 
 - [ ] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) 
-- [ ] [344. Reverse String](https://leetcode.com/problems/reverse-string/) 
+- [x] [344. Reverse String](https://leetcode.com/problems/reverse-string/) 
+- [ ] [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) 
 - [ ] [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) 
 - [ ] [38. Count and Say](https://leetcode.com/problems/count-and-say/) 
 - [ ] [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) 
