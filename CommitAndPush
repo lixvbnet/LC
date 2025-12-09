@@ -31,7 +31,7 @@ case $input in
        		;;
 esac
 
-if [ -n "$TMUX" ]; then
+# if [ -n "$TMUX" ]; then
   echo
   read -n 1 -s -r -p "Press any key to continue..."
-fi
+# fi
