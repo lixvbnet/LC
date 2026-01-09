@@ -11,7 +11,7 @@ if [ ! -z $input ]; then
 	exit
 fi
 
-python3 generateMenu.py
+python generateMenu.py
 echo
 
 git status
