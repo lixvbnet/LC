@@ -106,6 +106,12 @@ strconv.Atoi("3")	// string -> int ("Ascii to integer")
 > fmt.Printf("%q\n", A)		// [""]
 > ```
 
+`split` 操作的核心语义是：**N 个分隔符会产生 N+1 个结果**。
+
+- `"a,b".split(",")` → 1 个逗号 → 2 个元素 `["a", "b"]`
+- `"a".split(",")` → 0 个逗号 → 1 个元素 `["a"]`
+- `"".split(",")` → 0 个逗号 → **1 个元素** `[""]` 
+
 
 
 ## Extend a slice
@@ -160,7 +166,7 @@ func insert(a []int, i int, v int) []int {
 }
 ```
 
-> Note: you may be tempted to use `A = append(append(A[:i], v), A[i:]...)` , but it is WRONG!! Because `append([:i], v)` would overwrite `A[i]` and so `A[i:]` woud be a "dirty" slice!!
+> Note: you may be tempted to use `A = append(append(A[:i], v), A[i:]...)` , but it is WRONG!! Because `append([:i], v)` would overwrite `A[i]` and so `A[i:]` would be a "dirty" slice!!
 
 
 

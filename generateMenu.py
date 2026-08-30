@@ -10,8 +10,8 @@ IGNORED_MD_FILES = ['README', '_sidebar']     # do NOT include file extensions
 
 
 def removeSpaces(filepath):
-    if ' ' in filepath:
-        new_filepath = filepath.replace(' ', '')
+    if ' ' in filepath or '·' in filepath:
+        new_filepath = filepath.replace(' ', '').replace('·', '.')
         print("[removeSpaces] rename", filepath, "to", new_filepath)
         os.rename(filepath, new_filepath)
         return new_filepath
@@ -47,7 +47,8 @@ def walk(root, level):
         # fileList.sort()
         fileList = natsorted(fileList, alg=ns.PATH)
         for file in fileList:
-            filepath = os.path.join(root, file)
+            # filepath = os.path.join(root, file)
+            filepath = root + "/" + file
             walk(filepath, level+1)
     # isfile
     else:
@@ -63,7 +64,8 @@ def walkSubdirs(root, level):
     # fileList.sort()
     fileList = natsorted(fileList, alg=ns.PATH)
     for file in fileList:
-        filepath = os.path.join(root, file)
+        # filepath = os.path.join(root, file)
+        filepath = root + "/" + file
         if os.path.isdir(filepath):
             walk(filepath, level+1)
 
@@ -77,7 +79,7 @@ def generateMenu():
     global menu
     # print("---------- Menu --------------")   
     # print(menu)
-    with open(os.path.join(BASE_DIR, '_sidebar.md'), 'w') as f:
+    with open(BASE_DIR + '/_sidebar.md', 'w') as f:
         f.write(menu)
 
 
